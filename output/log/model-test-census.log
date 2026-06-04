@@ -1,0 +1,143 @@
+2024-07-08 15:23:53 - test.py[line:222] - INFO: Loading model.
+2026-05-26 17:02:17 - test.py[line:222] - INFO: Loading model.
+2026-05-26 17:16:05 - test.py[line:222] - INFO: Loading model.
+2026-05-26 18:35:03 - test.py[line:222] - INFO: Loading model.
+2026-05-26 18:35:03 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 18:41:52 - test.py[line:222] - INFO: Loading model.
+2026-05-26 18:41:52 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 18:41:53 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-26 18:41:53 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=58.63%
+2026-05-26 18:42:01 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-26 18:42:01 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-26 18:42:01 - test.py[line:205] - INFO: {'standard-sample': 5910, 'dt3ed': 931, 'dt1na': 873, 'dt2ra': 889, 'dt4ho': 860, 's0.01': 320, 's0.01r': 217}
+2026-05-26 18:42:01 - test.py[line:205] - INFO: {'standard-sample': 5910, 's0.01r': 1244, 's0.01': 1324, 'dt1na': 325, 'dt2ra': 394, 'dt4ho': 342, 'dt3ed': 461}
+2026-05-26 18:42:01 - test.py[line:205] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-26 18:42:01 - test.py[line:205] - INFO: {'dt4ho': 6563, 's0.01r': 1314, 's0.01': 1647, 'dt1na': 125, 'dt2ra': 105, 'dt3ed': 246}
+2026-05-26 18:42:01 - test.py[line:205] - INFO: {'s0.01r': 1381, 'dt3ed': 1422, 'dt1na': 1427, 'dt4ho': 1480, 's0.01': 1463, 'standard-sample': 1402, 'dt2ra': 1425}
+2026-05-26 18:42:01 - test.py[line:205] - INFO: {'standard-sample': 10000}
+2026-05-26 18:42:01 - test.py[line:205] - INFO: {'standard-sample': 5910, 's0.01': 1805, 's0.01r': 1553, 'dt1na': 157, 'dt3ed': 237, 'dt4ho': 147, 'dt2ra': 191}
+2026-05-26 18:42:01 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-26 18:42:01 - test.py[line:167] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-26 18:42:01 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-26 18:42:01 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=2.0193, 50%=1.1367, 90%=3.3333, 95%=6.0000, 99%=13.0000, max=50.0000
+2026-05-26 18:42:01 - test.py[line:296] - INFO: Avg Sample Time=0.96ms
+2026-05-26 18:42:01 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-26 18:42:01 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=1.0404, 50%=1.0000, 90%=1.0651, 95%=1.1299, 99%=1.4250, max=14.2857
+2026-05-26 18:42:01 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.41ms, Avg Sample Time=0.80ms
+2026-05-26 18:42:01 - test.py[line:302] - INFO: Avg Sample Ratio=0.0231
+2026-05-26 18:42:01 - test.py[line:391] - INFO: opt=0.52, large=0.47, wrong=0.01
+2026-05-26 19:11:41 - test.py[line:222] - INFO: Loading model.
+2026-05-26 19:11:41 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 19:11:41 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-26 19:11:42 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=58.63%
+2026-05-26 19:11:49 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-26 19:11:49 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-26 19:11:49 - test.py[line:205] - INFO: {'dt4ho': 973, 'standard-sample': 5380, 'dt1na': 943, 'dt3ed': 1111, 's0.01': 284, 'dt2ra': 1020, 's0.01r': 289}
+2026-05-26 19:11:49 - test.py[line:205] - INFO: {'s0.01r': 1578, 'standard-sample': 5380, 'dt4ho': 491, 's0.01': 1122, 'dt3ed': 510, 'dt1na': 422, 'dt2ra': 497}
+2026-05-26 19:11:49 - test.py[line:205] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-26 19:11:49 - test.py[line:205] - INFO: {'dt4ho': 6407, 's0.01': 1623, 's0.01r': 1332, 'dt2ra': 146, 'dt3ed': 371, 'dt1na': 121}
+2026-05-26 19:11:49 - test.py[line:205] - INFO: {'dt3ed': 1454, 'dt2ra': 1424, 's0.01r': 1427, 'dt4ho': 1424, 'dt1na': 1423, 's0.01': 1371, 'standard-sample': 1477}
+2026-05-26 19:11:49 - test.py[line:205] - INFO: {'standard-sample': 10000}
+2026-05-26 19:11:49 - test.py[line:205] - INFO: {'s0.01r': 1687, 'standard-sample': 5380, 's0.01': 1833, 'dt4ho': 235, 'dt3ed': 364, 'dt1na': 219, 'dt2ra': 282}
+2026-05-26 19:11:49 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-26 19:11:49 - test.py[line:167] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-26 19:11:49 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-26 19:11:49 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=2.0193, 50%=1.1367, 90%=3.3333, 95%=6.0000, 99%=13.0000, max=50.0000
+2026-05-26 19:11:49 - test.py[line:296] - INFO: Avg Sample Time=0.96ms
+2026-05-26 19:11:49 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-26 19:11:49 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=1.0404, 50%=1.0000, 90%=1.0651, 95%=1.1299, 99%=1.4250, max=14.2857
+2026-05-26 19:11:49 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.42ms, Avg Sample Time=0.80ms
+2026-05-26 19:11:49 - test.py[line:302] - INFO: Avg Sample Ratio=0.0231
+2026-05-26 19:11:49 - test.py[line:391] - INFO: opt=0.57, large=0.42, wrong=0.02
+2026-05-27 09:32:25 - test.py[line:222] - INFO: Loading model.
+2026-05-27 09:32:25 - test.py[line:227] - INFO: Loading Data.
+2026-05-27 09:32:26 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-27 09:32:26 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=58.63%
+2026-05-27 09:32:40 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-27 09:32:40 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-27 09:32:40 - test.py[line:205] - INFO: {'dt4ho': 953, 'standard-sample': 5380, 'dt3ed': 1086, 'dt1na': 968, 'dt2ra': 1040, 's0.01': 284, 's0.01r': 289}
+2026-05-27 09:32:40 - test.py[line:205] - INFO: {'s0.01r': 1578, 'standard-sample': 5380, 'dt4ho': 491, 's0.01': 1122, 'dt3ed': 510, 'dt1na': 422, 'dt2ra': 497}
+2026-05-27 09:32:40 - test.py[line:205] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-27 09:32:40 - test.py[line:205] - INFO: {'dt4ho': 6411, 's0.01': 1571, 's0.01r': 1384, 'dt2ra': 143, 'dt3ed': 369, 'dt1na': 122}
+2026-05-27 09:32:40 - test.py[line:205] - INFO: {'dt3ed': 1402, 'dt4ho': 1436, 'dt2ra': 1434, 's0.01': 1468, 's0.01r': 1475, 'dt1na': 1376, 'standard-sample': 1409}
+2026-05-27 09:32:40 - test.py[line:205] - INFO: {'standard-sample': 10000}
+2026-05-27 09:32:41 - test.py[line:205] - INFO: {'s0.01r': 1690, 'standard-sample': 5380, 's0.01': 1830, 'dt4ho': 241, 'dt3ed': 350, 'dt1na': 210, 'dt2ra': 299}
+2026-05-27 09:32:41 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-27 09:32:41 - test.py[line:167] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-27 09:32:41 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-27 09:32:41 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=2.0193, 50%=1.1367, 90%=3.3333, 95%=6.0000, 99%=13.0000, max=50.0000
+2026-05-27 09:32:41 - test.py[line:296] - INFO: Avg Sample Time=0.96ms
+2026-05-27 09:32:41 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-27 09:32:41 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=1.0404, 50%=1.0000, 90%=1.0651, 95%=1.1299, 99%=1.4250, max=14.2857
+2026-05-27 09:32:41 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.41ms, Avg Sample Time=0.80ms
+2026-05-27 09:32:41 - test.py[line:302] - INFO: Avg Sample Ratio=0.0231
+2026-05-27 09:32:41 - test.py[line:391] - INFO: opt=0.57, large=0.42, wrong=0.02
+2026-05-27 13:36:04 - test.py[line:222] - INFO: Loading model.
+2026-05-27 13:36:04 - test.py[line:227] - INFO: Loading Data.
+2026-05-27 13:36:04 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-27 13:36:04 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=58.63%
+2026-05-27 13:36:13 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-27 13:36:13 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-27 13:36:13 - test.py[line:205] - INFO: {'dt4ho': 926, 'standard-sample': 5380, 'dt1na': 966, 'dt3ed': 1105, 'dt2ra': 1050, 's0.01': 285, 's0.01r': 288}
+2026-05-27 13:36:13 - test.py[line:205] - INFO: {'s0.01r': 1578, 'standard-sample': 5380, 'dt4ho': 491, 's0.01': 1122, 'dt3ed': 510, 'dt1na': 422, 'dt2ra': 497}
+2026-05-27 13:36:13 - test.py[line:205] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-27 13:36:14 - test.py[line:205] - INFO: {'dt4ho': 6410, 's0.01r': 1357, 's0.01': 1598, 'dt2ra': 149, 'dt3ed': 369, 'dt1na': 117}
+2026-05-27 13:36:14 - test.py[line:205] - INFO: {'standard-sample': 1453, 'dt3ed': 1420, 'dt2ra': 1421, 's0.01': 1358, 's0.01r': 1471, 'dt1na': 1454, 'dt4ho': 1423}
+2026-05-27 13:36:14 - test.py[line:205] - INFO: {'standard-sample': 10000}
+2026-05-27 13:36:14 - test.py[line:205] - INFO: {'s0.01r': 1767, 'standard-sample': 5380, 's0.01': 1753, 'dt4ho': 210, 'dt3ed': 357, 'dt1na': 221, 'dt2ra': 312}
+2026-05-27 13:36:14 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-27 13:36:14 - test.py[line:167] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-27 13:36:14 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-27 13:36:14 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=2.0193, 50%=1.1367, 90%=3.3333, 95%=6.0000, 99%=13.0000, max=50.0000
+2026-05-27 13:36:14 - test.py[line:296] - INFO: Avg Sample Time=0.96ms
+2026-05-27 13:36:14 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-27 13:36:14 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=1.0404, 50%=1.0000, 90%=1.0651, 95%=1.1299, 99%=1.4250, max=14.2857
+2026-05-27 13:36:14 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.40ms, Avg Sample Time=0.80ms
+2026-05-27 13:36:14 - test.py[line:302] - INFO: Avg Sample Ratio=0.0231
+2026-05-27 13:36:14 - test.py[line:391] - INFO: opt=0.57, large=0.42, wrong=0.02
+2026-05-27 13:36:42 - test.py[line:222] - INFO: Loading model.
+2026-05-27 13:36:42 - test.py[line:227] - INFO: Loading Data.
+2026-05-27 13:36:43 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-27 13:36:43 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=58.63%
+2026-05-27 13:36:50 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-27 13:36:50 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-27 13:36:50 - test.py[line:205] - INFO: {'dt4ho': 922, 'standard-sample': 5380, 'dt1na': 953, 'dt3ed': 1136, 's0.01': 273, 'dt2ra': 1036, 's0.01r': 300}
+2026-05-27 13:36:50 - test.py[line:205] - INFO: {'s0.01r': 1578, 'standard-sample': 5380, 'dt4ho': 491, 's0.01': 1122, 'dt3ed': 510, 'dt1na': 422, 'dt2ra': 497}
+2026-05-27 13:36:50 - test.py[line:205] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-27 13:36:50 - test.py[line:205] - INFO: {'dt4ho': 6422, 's0.01r': 1362, 's0.01': 1593, 'dt2ra': 151, 'dt3ed': 360, 'dt1na': 112}
+2026-05-27 13:36:50 - test.py[line:205] - INFO: {'dt3ed': 1427, 'standard-sample': 1439, 'dt2ra': 1440, 's0.01r': 1396, 'dt4ho': 1378, 'dt1na': 1495, 's0.01': 1425}
+2026-05-27 13:36:50 - test.py[line:205] - INFO: {'standard-sample': 10000}
+2026-05-27 13:36:50 - test.py[line:205] - INFO: {'s0.01r': 1711, 'standard-sample': 5380, 's0.01': 1809, 'dt4ho': 234, 'dt3ed': 358, 'dt1na': 227, 'dt2ra': 281}
+2026-05-27 13:36:50 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-27 13:36:50 - test.py[line:167] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-27 13:36:50 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-27 13:36:50 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=2.0193, 50%=1.1367, 90%=3.3333, 95%=6.0000, 99%=13.0000, max=50.0000
+2026-05-27 13:36:50 - test.py[line:296] - INFO: Avg Sample Time=0.96ms
+2026-05-27 13:36:50 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-27 13:36:50 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=1.0404, 50%=1.0000, 90%=1.0651, 95%=1.1299, 99%=1.4250, max=14.2857
+2026-05-27 13:36:50 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.40ms, Avg Sample Time=0.80ms
+2026-05-27 13:36:50 - test.py[line:302] - INFO: Avg Sample Ratio=0.0231
+2026-05-27 13:36:51 - test.py[line:391] - INFO: opt=0.57, large=0.42, wrong=0.02
+2026-05-27 14:36:44 - test.py[line:222] - INFO: Loading model.
+2026-05-27 14:36:45 - test.py[line:227] - INFO: Loading Data.
+2026-05-27 14:36:45 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-27 14:36:45 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=58.63%
+2026-05-27 14:36:56 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-27 14:36:56 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-27 14:36:56 - test.py[line:205] - INFO: {'dt4ho': 997, 'standard-sample': 5380, 'dt1na': 935, 's0.01': 276, 'dt3ed': 1100, 'dt2ra': 1015, 's0.01r': 297}
+2026-05-27 14:36:56 - test.py[line:205] - INFO: {'s0.01r': 1578, 'standard-sample': 5380, 'dt4ho': 491, 's0.01': 1122, 'dt3ed': 510, 'dt1na': 422, 'dt2ra': 497}
+2026-05-27 14:36:56 - test.py[line:205] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-27 14:36:56 - test.py[line:205] - INFO: {'dt4ho': 6409, 's0.01r': 1352, 's0.01': 1603, 'dt2ra': 157, 'dt3ed': 363, 'dt1na': 116}
+2026-05-27 14:36:56 - test.py[line:205] - INFO: {'s0.01r': 1304, 'dt1na': 1423, 'dt2ra': 1450, 'dt4ho': 1509, 's0.01': 1412, 'dt3ed': 1475, 'standard-sample': 1427}
+2026-05-27 14:36:56 - test.py[line:205] - INFO: {'standard-sample': 10000}
+2026-05-27 14:36:56 - test.py[line:205] - INFO: {'s0.01r': 1692, 'standard-sample': 5380, 's0.01': 1828, 'dt4ho': 242, 'dt3ed': 392, 'dt1na': 198, 'dt2ra': 268}
+2026-05-27 14:36:56 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-27 14:36:56 - test.py[line:167] - INFO: {'s0.01r': 5607, 'dt4ho': 196, 's0.01': 1270, 'dt3ed': 395, 'standard-sample': 1248, 'dt2ra': 563, 'dt1na': 721}
+2026-05-27 14:36:56 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-27 14:36:56 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=2.0193, 50%=1.1367, 90%=3.3333, 95%=6.0000, 99%=13.0000, max=50.0000
+2026-05-27 14:36:56 - test.py[line:296] - INFO: Avg Sample Time=0.96ms
+2026-05-27 14:36:56 - test.py[line:298] - INFO: PSDSS Result
+2026-05-27 14:36:56 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=1.0404, 50%=1.0000, 90%=1.0651, 95%=1.1299, 99%=1.4250, max=14.2857
+2026-05-27 14:36:56 - test.py[line:301] - INFO: PSDSS Avg Recommend Time=0.40ms, Avg Sample Time=0.80ms
+2026-05-27 14:36:56 - test.py[line:302] - INFO: Avg Sample Ratio=0.0231
+2026-05-27 14:36:56 - test.py[line:391] - INFO: opt=0.57, large=0.42, wrong=0.02

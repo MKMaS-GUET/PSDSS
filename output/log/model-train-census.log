@@ -1,0 +1,400 @@
+2026-05-26 17:11:02 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=58.65%
+2026-05-26 17:18:35 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=58.65%
+2026-05-26 17:26:59 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=58.65%
+2026-05-26 18:04:34 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=58.65%
+2026-05-26 18:13:15 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=58.65%
+2026-05-26 18:13:40 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=58.52%
+2026-05-26 18:13:43 - train.py[line:106] - INFO: Model input: {'wide': 43, 'deep': 265, 'co': 78, 'sql': 26, 'class0': 248102.00929641724, 'class1': 351897.99070358276}
+2026-05-26 18:13:43 - train.py[line:118] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=78, out_features=64, bias=True)
+  (fcsql): Linear(in_features=26, out_features=64, bias=True)
+  (fc1): Linear(in_features=265, out_features=64, bias=True)
+  (fwide): Linear(in_features=43, out_features=64, bias=True)
+  (fc_final): Linear(in_features=64, out_features=1, bias=True)
+)
+2026-05-26 18:13:43 - train.py[line:126] - INFO: Loss Weights: tensor([1.4184, 1.0000])
+2026-05-26 18:13:43 - train.py[line:128] - INFO: Using BCELoss as loss function.
+2026-05-26 18:13:43 - train.py[line:130] - INFO: Using Adam as optimization function.
+2026-05-26 18:13:43 - train.py[line:133] - INFO: Begin the training of model.
+2026-05-26 18:13:59 - train.py[line:137] - INFO: epoch : 1, train loss : 0.5925, train acc: 0.7413, valid loss : 0.5381, valid acc : 0.7742
+2026-05-26 18:14:17 - train.py[line:137] - INFO: epoch : 2, train loss : 0.5389, train acc: 0.7707, valid loss : 0.5195, valid acc : 0.7810
+2026-05-26 18:14:33 - train.py[line:137] - INFO: epoch : 3, train loss : 0.5222, train acc: 0.7796, valid loss : 0.5109, valid acc : 0.7828
+2026-05-26 18:14:49 - train.py[line:137] - INFO: epoch : 4, train loss : 0.5106, train acc: 0.7862, valid loss : 0.4968, valid acc : 0.7921
+2026-05-26 18:15:06 - train.py[line:137] - INFO: epoch : 5, train loss : 0.5019, train acc: 0.7911, valid loss : 0.4926, valid acc : 0.8003
+2026-05-26 18:15:22 - train.py[line:137] - INFO: epoch : 6, train loss : 0.4959, train acc: 0.7944, valid loss : 0.4882, valid acc : 0.7899
+2026-05-26 18:15:39 - train.py[line:137] - INFO: epoch : 7, train loss : 0.4900, train acc: 0.7976, valid loss : 0.4840, valid acc : 0.7935
+2026-05-26 18:15:56 - train.py[line:137] - INFO: epoch : 8, train loss : 0.4857, train acc: 0.7999, valid loss : 0.4812, valid acc : 0.7956
+2026-05-26 18:16:12 - train.py[line:137] - INFO: epoch : 9, train loss : 0.4815, train acc: 0.8020, valid loss : 0.4784, valid acc : 0.7987
+2026-05-26 18:16:30 - train.py[line:137] - INFO: epoch : 10, train loss : 0.4791, train acc: 0.8031, valid loss : 0.4735, valid acc : 0.8052
+2026-05-26 18:16:47 - train.py[line:137] - INFO: epoch : 11, train loss : 0.4760, train acc: 0.8050, valid loss : 0.4796, valid acc : 0.7915
+2026-05-26 18:17:04 - train.py[line:137] - INFO: epoch : 12, train loss : 0.4741, train acc: 0.8054, valid loss : 0.4815, valid acc : 0.7911
+2026-05-26 18:17:20 - train.py[line:137] - INFO: epoch : 13, train loss : 0.4720, train acc: 0.8068, valid loss : 0.4686, valid acc : 0.8080
+2026-05-26 18:17:37 - train.py[line:137] - INFO: epoch : 14, train loss : 0.4694, train acc: 0.8080, valid loss : 0.4746, valid acc : 0.7936
+2026-05-26 18:17:53 - train.py[line:137] - INFO: epoch : 15, train loss : 0.4679, train acc: 0.8090, valid loss : 0.4724, valid acc : 0.8007
+2026-05-26 18:18:10 - train.py[line:137] - INFO: epoch : 16, train loss : 0.4665, train acc: 0.8095, valid loss : 0.4780, valid acc : 0.7857
+2026-05-26 18:18:26 - train.py[line:137] - INFO: epoch : 17, train loss : 0.4646, train acc: 0.8103, valid loss : 0.4673, valid acc : 0.8028
+2026-05-26 18:18:42 - train.py[line:137] - INFO: epoch : 18, train loss : 0.4631, train acc: 0.8116, valid loss : 0.4719, valid acc : 0.7905
+2026-05-26 18:18:58 - train.py[line:137] - INFO: epoch : 19, train loss : 0.4608, train acc: 0.8128, valid loss : 0.4591, valid acc : 0.8079
+2026-05-26 18:19:24 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=58.65%
+2026-05-26 18:19:48 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=58.52%
+2026-05-26 18:19:50 - train.py[line:106] - INFO: Model input: {'wide': 43, 'deep': 265, 'co': 78, 'sql': 26, 'class0': 248102.00929641724, 'class1': 351897.99070358276}
+2026-05-26 18:19:50 - train.py[line:118] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=78, out_features=64, bias=True)
+  (fcsql): Linear(in_features=26, out_features=64, bias=True)
+  (fc1): Linear(in_features=265, out_features=64, bias=True)
+  (fwide): Linear(in_features=43, out_features=64, bias=True)
+  (fc_final): Linear(in_features=64, out_features=1, bias=True)
+)
+2026-05-26 18:19:50 - train.py[line:126] - INFO: Loss Weights: tensor([1.4184, 1.0000])
+2026-05-26 18:19:50 - train.py[line:128] - INFO: Using BCELoss as loss function.
+2026-05-26 18:19:50 - train.py[line:130] - INFO: Using Adam as optimization function.
+2026-05-26 18:19:50 - train.py[line:133] - INFO: Begin the training of model.
+2026-05-26 18:20:08 - train.py[line:137] - INFO: epoch : 1, train loss : 0.5925, train acc: 0.7413, valid loss : 0.5381, valid acc : 0.7742
+2026-05-26 18:20:25 - train.py[line:137] - INFO: epoch : 2, train loss : 0.5389, train acc: 0.7707, valid loss : 0.5195, valid acc : 0.7810
+2026-05-26 18:20:42 - train.py[line:137] - INFO: epoch : 3, train loss : 0.5222, train acc: 0.7796, valid loss : 0.5109, valid acc : 0.7828
+2026-05-26 18:20:59 - train.py[line:137] - INFO: epoch : 4, train loss : 0.5106, train acc: 0.7862, valid loss : 0.4968, valid acc : 0.7921
+2026-05-26 18:21:15 - train.py[line:137] - INFO: epoch : 5, train loss : 0.5019, train acc: 0.7911, valid loss : 0.4926, valid acc : 0.8003
+2026-05-26 18:21:31 - train.py[line:137] - INFO: epoch : 6, train loss : 0.4959, train acc: 0.7944, valid loss : 0.4882, valid acc : 0.7899
+2026-05-26 18:21:48 - train.py[line:137] - INFO: epoch : 7, train loss : 0.4900, train acc: 0.7976, valid loss : 0.4840, valid acc : 0.7935
+2026-05-26 18:22:04 - train.py[line:137] - INFO: epoch : 8, train loss : 0.4857, train acc: 0.7999, valid loss : 0.4812, valid acc : 0.7956
+2026-05-26 18:22:20 - train.py[line:137] - INFO: epoch : 9, train loss : 0.4815, train acc: 0.8020, valid loss : 0.4784, valid acc : 0.7987
+2026-05-26 18:22:36 - train.py[line:137] - INFO: epoch : 10, train loss : 0.4791, train acc: 0.8031, valid loss : 0.4735, valid acc : 0.8052
+2026-05-26 18:22:51 - train.py[line:137] - INFO: epoch : 11, train loss : 0.4760, train acc: 0.8050, valid loss : 0.4796, valid acc : 0.7915
+2026-05-26 18:23:08 - train.py[line:137] - INFO: epoch : 12, train loss : 0.4741, train acc: 0.8054, valid loss : 0.4815, valid acc : 0.7911
+2026-05-26 18:23:24 - train.py[line:137] - INFO: epoch : 13, train loss : 0.4720, train acc: 0.8068, valid loss : 0.4686, valid acc : 0.8080
+2026-05-26 18:23:40 - train.py[line:137] - INFO: epoch : 14, train loss : 0.4694, train acc: 0.8080, valid loss : 0.4746, valid acc : 0.7936
+2026-05-26 18:23:57 - train.py[line:137] - INFO: epoch : 15, train loss : 0.4679, train acc: 0.8090, valid loss : 0.4724, valid acc : 0.8007
+2026-05-26 18:24:13 - train.py[line:137] - INFO: epoch : 16, train loss : 0.4665, train acc: 0.8095, valid loss : 0.4780, valid acc : 0.7857
+2026-05-26 18:24:30 - train.py[line:137] - INFO: epoch : 17, train loss : 0.4646, train acc: 0.8103, valid loss : 0.4673, valid acc : 0.8028
+2026-05-26 18:24:46 - train.py[line:137] - INFO: epoch : 18, train loss : 0.4631, train acc: 0.8116, valid loss : 0.4719, valid acc : 0.7905
+2026-05-26 18:25:03 - train.py[line:137] - INFO: epoch : 19, train loss : 0.4608, train acc: 0.8128, valid loss : 0.4591, valid acc : 0.8079
+2026-05-26 18:25:19 - train.py[line:137] - INFO: epoch : 20, train loss : 0.4603, train acc: 0.8127, valid loss : 0.4756, valid acc : 0.7864
+2026-05-26 18:25:19 - train.py[line:140] - INFO: Training Time of Neural Network: 5.476446406046549 min.
+2026-05-26 18:25:20 - train.py[line:154] - INFO: {'tp': 0.406, 'fp': 0.034, 'tn': 0.381, 'fn': 0.18}
+2026-05-26 18:25:20 - train.py[line:157] - INFO: Saving Model.
+2026-05-26 18:25:20 - train.py[line:159] - INFO: Model saved in path output/temp/model/census.pkl
+2026-05-26 18:43:05 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=58.65%
+2026-05-26 18:43:59 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=58.52%
+2026-05-26 18:44:01 - train.py[line:106] - INFO: Model input: {'wide': 43, 'deep': 265, 'co': 78, 'sql': 26, 'class0': 248102.00929641724, 'class1': 351897.99070358276}
+2026-05-26 18:44:01 - train.py[line:118] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=64, out_features=512, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=512, out_features=64, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((64,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=78, out_features=64, bias=True)
+  (fcsql): Linear(in_features=26, out_features=64, bias=True)
+  (fc1): Linear(in_features=265, out_features=64, bias=True)
+  (fwide): Linear(in_features=43, out_features=64, bias=True)
+  (fc_final): Linear(in_features=64, out_features=1, bias=True)
+)
+2026-05-26 18:44:01 - train.py[line:126] - INFO: Loss Weights: tensor([1.4184, 1.0000])
+2026-05-26 18:44:01 - train.py[line:128] - INFO: Using BCELoss as loss function.
+2026-05-26 18:44:01 - train.py[line:130] - INFO: Using Adam as optimization function.
+2026-05-26 18:44:01 - train.py[line:133] - INFO: Begin the training of model.
+2026-05-26 18:44:17 - train.py[line:137] - INFO: epoch : 1, train loss : 0.5903, train acc: 0.7422, valid loss : 0.5406, valid acc : 0.7625
+2026-05-26 18:44:34 - train.py[line:137] - INFO: epoch : 2, train loss : 0.5369, train acc: 0.7716, valid loss : 0.5195, valid acc : 0.7696
+2026-05-26 18:44:50 - train.py[line:137] - INFO: epoch : 3, train loss : 0.5191, train acc: 0.7819, valid loss : 0.5067, valid acc : 0.7812
+2026-05-26 18:45:06 - train.py[line:137] - INFO: epoch : 4, train loss : 0.5084, train acc: 0.7877, valid loss : 0.4960, valid acc : 0.7896
+2026-05-26 18:45:22 - train.py[line:137] - INFO: epoch : 5, train loss : 0.5007, train acc: 0.7916, valid loss : 0.5010, valid acc : 0.7766
+2026-05-26 18:45:38 - train.py[line:137] - INFO: epoch : 6, train loss : 0.4942, train acc: 0.7953, valid loss : 0.4830, valid acc : 0.8002
+2026-05-26 18:45:54 - train.py[line:137] - INFO: epoch : 7, train loss : 0.4895, train acc: 0.7974, valid loss : 0.4991, valid acc : 0.7745
+2026-05-26 18:46:11 - train.py[line:137] - INFO: epoch : 8, train loss : 0.4849, train acc: 0.8004, valid loss : 0.4789, valid acc : 0.8013
+2026-05-26 18:46:28 - train.py[line:137] - INFO: epoch : 9, train loss : 0.4822, train acc: 0.8014, valid loss : 0.4840, valid acc : 0.7858
+2026-05-26 18:46:44 - train.py[line:137] - INFO: epoch : 10, train loss : 0.4786, train acc: 0.8029, valid loss : 0.4762, valid acc : 0.7989
+2026-05-26 18:47:00 - train.py[line:137] - INFO: epoch : 11, train loss : 0.4766, train acc: 0.8044, valid loss : 0.4697, valid acc : 0.8047
+2026-05-26 18:47:17 - train.py[line:137] - INFO: epoch : 12, train loss : 0.4735, train acc: 0.8057, valid loss : 0.4853, valid acc : 0.7856
+2026-05-26 18:47:33 - train.py[line:137] - INFO: epoch : 13, train loss : 0.4722, train acc: 0.8067, valid loss : 0.4727, valid acc : 0.7989
+2026-05-26 18:47:50 - train.py[line:137] - INFO: epoch : 14, train loss : 0.4692, train acc: 0.8082, valid loss : 0.4850, valid acc : 0.7840
+2026-05-26 18:48:06 - train.py[line:137] - INFO: epoch : 15, train loss : 0.4675, train acc: 0.8095, valid loss : 0.4790, valid acc : 0.7898
+2026-05-26 18:48:23 - train.py[line:137] - INFO: epoch : 16, train loss : 0.4659, train acc: 0.8097, valid loss : 0.4744, valid acc : 0.7912
+2026-05-26 18:48:39 - train.py[line:137] - INFO: epoch : 17, train loss : 0.4644, train acc: 0.8108, valid loss : 0.4799, valid acc : 0.7882
+2026-05-26 18:48:55 - train.py[line:137] - INFO: epoch : 18, train loss : 0.4632, train acc: 0.8114, valid loss : 0.4795, valid acc : 0.7827
+2026-05-26 18:49:12 - train.py[line:137] - INFO: epoch : 19, train loss : 0.4618, train acc: 0.8118, valid loss : 0.4681, valid acc : 0.7973
+2026-05-26 18:49:28 - train.py[line:137] - INFO: epoch : 20, train loss : 0.4603, train acc: 0.8128, valid loss : 0.4820, valid acc : 0.7825
+2026-05-26 18:49:44 - train.py[line:137] - INFO: epoch : 21, train loss : 0.4593, train acc: 0.8128, valid loss : 0.4761, valid acc : 0.7849
+2026-05-26 18:50:00 - train.py[line:137] - INFO: epoch : 22, train loss : 0.4579, train acc: 0.8141, valid loss : 0.4678, valid acc : 0.7969
+2026-05-26 18:50:16 - train.py[line:137] - INFO: epoch : 23, train loss : 0.4570, train acc: 0.8149, valid loss : 0.4605, valid acc : 0.8037
+2026-05-26 18:50:32 - train.py[line:137] - INFO: epoch : 24, train loss : 0.4559, train acc: 0.8152, valid loss : 0.4690, valid acc : 0.7965
+2026-05-26 18:50:48 - train.py[line:137] - INFO: epoch : 25, train loss : 0.4551, train acc: 0.8149, valid loss : 0.4658, valid acc : 0.7944
+2026-05-26 18:51:04 - train.py[line:137] - INFO: epoch : 26, train loss : 0.4541, train acc: 0.8157, valid loss : 0.4697, valid acc : 0.7907
+2026-05-26 18:51:20 - train.py[line:137] - INFO: epoch : 27, train loss : 0.4530, train acc: 0.8163, valid loss : 0.4710, valid acc : 0.7930
+2026-05-26 18:51:36 - train.py[line:137] - INFO: epoch : 28, train loss : 0.4523, train acc: 0.8165, valid loss : 0.4721, valid acc : 0.7889
+2026-05-26 18:51:52 - train.py[line:137] - INFO: epoch : 29, train loss : 0.4506, train acc: 0.8173, valid loss : 0.4597, valid acc : 0.7977
+2026-05-26 18:52:08 - train.py[line:137] - INFO: epoch : 30, train loss : 0.4505, train acc: 0.8172, valid loss : 0.4670, valid acc : 0.7973
+2026-05-26 18:52:23 - train.py[line:137] - INFO: epoch : 31, train loss : 0.4496, train acc: 0.8178, valid loss : 0.4706, valid acc : 0.7930
+2026-05-26 18:52:39 - train.py[line:137] - INFO: epoch : 32, train loss : 0.4490, train acc: 0.8181, valid loss : 0.4740, valid acc : 0.7834
+2026-05-26 18:52:55 - train.py[line:137] - INFO: epoch : 33, train loss : 0.4479, train acc: 0.8190, valid loss : 0.4683, valid acc : 0.7928
+2026-05-26 18:53:11 - train.py[line:137] - INFO: epoch : 34, train loss : 0.4474, train acc: 0.8186, valid loss : 0.4663, valid acc : 0.7956
+2026-05-26 18:53:27 - train.py[line:137] - INFO: epoch : 35, train loss : 0.4468, train acc: 0.8193, valid loss : 0.4678, valid acc : 0.7944
+2026-05-26 18:53:43 - train.py[line:137] - INFO: epoch : 36, train loss : 0.4464, train acc: 0.8194, valid loss : 0.4634, valid acc : 0.7960
+2026-05-26 18:53:58 - train.py[line:137] - INFO: epoch : 37, train loss : 0.4455, train acc: 0.8194, valid loss : 0.4622, valid acc : 0.7939
+2026-05-26 18:54:15 - train.py[line:137] - INFO: epoch : 38, train loss : 0.4443, train acc: 0.8199, valid loss : 0.4576, valid acc : 0.7964
+2026-05-26 18:54:30 - train.py[line:137] - INFO: epoch : 39, train loss : 0.4437, train acc: 0.8211, valid loss : 0.4613, valid acc : 0.7999
+2026-05-26 18:54:47 - train.py[line:137] - INFO: epoch : 40, train loss : 0.4437, train acc: 0.8202, valid loss : 0.4636, valid acc : 0.7915
+2026-05-26 18:55:03 - train.py[line:137] - INFO: epoch : 41, train loss : 0.4426, train acc: 0.8213, valid loss : 0.4702, valid acc : 0.7897
+2026-05-26 18:55:20 - train.py[line:137] - INFO: epoch : 42, train loss : 0.4416, train acc: 0.8210, valid loss : 0.4547, valid acc : 0.8064
+2026-05-26 18:55:37 - train.py[line:137] - INFO: epoch : 43, train loss : 0.4420, train acc: 0.8213, valid loss : 0.4636, valid acc : 0.7954
+2026-05-26 18:55:54 - train.py[line:137] - INFO: epoch : 44, train loss : 0.4404, train acc: 0.8217, valid loss : 0.4644, valid acc : 0.7911
+2026-05-26 18:56:10 - train.py[line:137] - INFO: epoch : 45, train loss : 0.4404, train acc: 0.8214, valid loss : 0.4711, valid acc : 0.7898
+2026-05-26 18:56:29 - train.py[line:137] - INFO: epoch : 46, train loss : 0.4392, train acc: 0.8224, valid loss : 0.4629, valid acc : 0.7972
+2026-05-26 18:56:45 - train.py[line:137] - INFO: epoch : 47, train loss : 0.4388, train acc: 0.8229, valid loss : 0.4621, valid acc : 0.7908
+2026-05-26 18:57:02 - train.py[line:137] - INFO: epoch : 48, train loss : 0.4385, train acc: 0.8226, valid loss : 0.4667, valid acc : 0.7859
+2026-05-26 18:57:18 - train.py[line:137] - INFO: epoch : 49, train loss : 0.4379, train acc: 0.8232, valid loss : 0.4572, valid acc : 0.7986
+2026-05-26 18:57:35 - train.py[line:137] - INFO: epoch : 50, train loss : 0.4377, train acc: 0.8230, valid loss : 0.4592, valid acc : 0.7967
+2026-05-26 18:57:51 - train.py[line:137] - INFO: epoch : 51, train loss : 0.4370, train acc: 0.8235, valid loss : 0.4753, valid acc : 0.7857
+2026-05-26 18:58:08 - train.py[line:137] - INFO: epoch : 52, train loss : 0.4361, train acc: 0.8239, valid loss : 0.4605, valid acc : 0.7955
+2026-05-26 18:58:24 - train.py[line:137] - INFO: epoch : 53, train loss : 0.4360, train acc: 0.8238, valid loss : 0.4714, valid acc : 0.7845
+2026-05-26 18:58:42 - train.py[line:137] - INFO: epoch : 54, train loss : 0.4354, train acc: 0.8245, valid loss : 0.4524, valid acc : 0.8002
+2026-05-26 18:58:59 - train.py[line:137] - INFO: epoch : 55, train loss : 0.4345, train acc: 0.8248, valid loss : 0.4598, valid acc : 0.7966
+2026-05-26 18:59:16 - train.py[line:137] - INFO: epoch : 56, train loss : 0.4343, train acc: 0.8248, valid loss : 0.4642, valid acc : 0.7912
+2026-05-26 18:59:32 - train.py[line:137] - INFO: epoch : 57, train loss : 0.4341, train acc: 0.8250, valid loss : 0.4574, valid acc : 0.7988
+2026-05-26 18:59:49 - train.py[line:137] - INFO: epoch : 58, train loss : 0.4336, train acc: 0.8249, valid loss : 0.4583, valid acc : 0.8000
+2026-05-26 19:00:06 - train.py[line:137] - INFO: epoch : 59, train loss : 0.4334, train acc: 0.8252, valid loss : 0.4474, valid acc : 0.8046
+2026-05-26 19:00:22 - train.py[line:137] - INFO: epoch : 60, train loss : 0.4326, train acc: 0.8253, valid loss : 0.4566, valid acc : 0.7941
+2026-05-26 19:00:40 - train.py[line:137] - INFO: epoch : 61, train loss : 0.4319, train acc: 0.8260, valid loss : 0.4622, valid acc : 0.7914
+2026-05-26 19:00:57 - train.py[line:137] - INFO: epoch : 62, train loss : 0.4317, train acc: 0.8261, valid loss : 0.4764, valid acc : 0.7821
+2026-05-26 19:01:14 - train.py[line:137] - INFO: epoch : 63, train loss : 0.4316, train acc: 0.8261, valid loss : 0.4580, valid acc : 0.7990
+2026-05-26 19:01:31 - train.py[line:137] - INFO: epoch : 64, train loss : 0.4308, train acc: 0.8266, valid loss : 0.4604, valid acc : 0.7927
+2026-05-26 19:01:48 - train.py[line:137] - INFO: epoch : 65, train loss : 0.4302, train acc: 0.8273, valid loss : 0.4641, valid acc : 0.7913
+2026-05-26 19:02:05 - train.py[line:137] - INFO: epoch : 66, train loss : 0.4303, train acc: 0.8270, valid loss : 0.4625, valid acc : 0.7915
+2026-05-26 19:02:22 - train.py[line:137] - INFO: epoch : 67, train loss : 0.4295, train acc: 0.8272, valid loss : 0.4635, valid acc : 0.7956
+2026-05-26 19:02:38 - train.py[line:137] - INFO: epoch : 68, train loss : 0.4286, train acc: 0.8276, valid loss : 0.4693, valid acc : 0.7867
+2026-05-26 19:02:55 - train.py[line:137] - INFO: epoch : 69, train loss : 0.4286, train acc: 0.8274, valid loss : 0.4906, valid acc : 0.7707
+2026-05-26 19:03:11 - train.py[line:137] - INFO: epoch : 70, train loss : 0.4283, train acc: 0.8276, valid loss : 0.4561, valid acc : 0.7986
+2026-05-26 19:03:28 - train.py[line:137] - INFO: epoch : 71, train loss : 0.4277, train acc: 0.8277, valid loss : 0.4673, valid acc : 0.7909
+2026-05-26 19:03:44 - train.py[line:137] - INFO: epoch : 72, train loss : 0.4274, train acc: 0.8280, valid loss : 0.4571, valid acc : 0.7981
+2026-05-26 19:04:02 - train.py[line:137] - INFO: epoch : 73, train loss : 0.4271, train acc: 0.8279, valid loss : 0.4632, valid acc : 0.7926
+2026-05-26 19:04:20 - train.py[line:137] - INFO: epoch : 74, train loss : 0.4269, train acc: 0.8285, valid loss : 0.4477, valid acc : 0.8027
+2026-05-26 19:04:37 - train.py[line:137] - INFO: epoch : 75, train loss : 0.4262, train acc: 0.8285, valid loss : 0.4774, valid acc : 0.7785
+2026-05-26 19:04:53 - train.py[line:137] - INFO: epoch : 76, train loss : 0.4264, train acc: 0.8286, valid loss : 0.4606, valid acc : 0.7944
+2026-05-26 19:05:10 - train.py[line:137] - INFO: epoch : 77, train loss : 0.4256, train acc: 0.8294, valid loss : 0.4611, valid acc : 0.7942
+2026-05-26 19:05:26 - train.py[line:137] - INFO: epoch : 78, train loss : 0.4255, train acc: 0.8290, valid loss : 0.4597, valid acc : 0.7947
+2026-05-26 19:05:42 - train.py[line:137] - INFO: epoch : 79, train loss : 0.4251, train acc: 0.8292, valid loss : 0.4669, valid acc : 0.7931
+2026-05-26 19:05:59 - train.py[line:137] - INFO: epoch : 80, train loss : 0.4250, train acc: 0.8293, valid loss : 0.4668, valid acc : 0.7892
+2026-05-26 19:06:15 - train.py[line:137] - INFO: epoch : 81, train loss : 0.4235, train acc: 0.8295, valid loss : 0.4615, valid acc : 0.7922
+2026-05-26 19:06:32 - train.py[line:137] - INFO: epoch : 82, train loss : 0.4236, train acc: 0.8299, valid loss : 0.4438, valid acc : 0.8092
+2026-05-26 19:06:48 - train.py[line:137] - INFO: epoch : 83, train loss : 0.4234, train acc: 0.8297, valid loss : 0.4530, valid acc : 0.7967
+2026-05-26 19:07:05 - train.py[line:137] - INFO: epoch : 84, train loss : 0.4225, train acc: 0.8301, valid loss : 0.4481, valid acc : 0.8034
+2026-05-26 19:07:21 - train.py[line:137] - INFO: epoch : 85, train loss : 0.4227, train acc: 0.8305, valid loss : 0.4544, valid acc : 0.7996
+2026-05-26 19:07:37 - train.py[line:137] - INFO: epoch : 86, train loss : 0.4222, train acc: 0.8302, valid loss : 0.4668, valid acc : 0.7896
+2026-05-26 19:07:53 - train.py[line:137] - INFO: epoch : 87, train loss : 0.4223, train acc: 0.8307, valid loss : 0.4662, valid acc : 0.7894
+2026-05-26 19:08:09 - train.py[line:137] - INFO: epoch : 88, train loss : 0.4217, train acc: 0.8305, valid loss : 0.4524, valid acc : 0.8001
+2026-05-26 19:08:26 - train.py[line:137] - INFO: epoch : 89, train loss : 0.4213, train acc: 0.8310, valid loss : 0.4659, valid acc : 0.7882
+2026-05-26 19:08:43 - train.py[line:137] - INFO: epoch : 90, train loss : 0.4209, train acc: 0.8311, valid loss : 0.4914, valid acc : 0.7717
+2026-05-26 19:08:59 - train.py[line:137] - INFO: epoch : 91, train loss : 0.4205, train acc: 0.8312, valid loss : 0.4709, valid acc : 0.7886
+2026-05-26 19:09:16 - train.py[line:137] - INFO: epoch : 92, train loss : 0.4202, train acc: 0.8317, valid loss : 0.4616, valid acc : 0.7917
+2026-05-26 19:09:32 - train.py[line:137] - INFO: epoch : 93, train loss : 0.4197, train acc: 0.8314, valid loss : 0.4602, valid acc : 0.7951
+2026-05-26 19:09:49 - train.py[line:137] - INFO: epoch : 94, train loss : 0.4195, train acc: 0.8313, valid loss : 0.4678, valid acc : 0.7868
+2026-05-26 19:10:06 - train.py[line:137] - INFO: epoch : 95, train loss : 0.4194, train acc: 0.8317, valid loss : 0.4642, valid acc : 0.7943
+2026-05-26 19:10:21 - train.py[line:137] - INFO: epoch : 96, train loss : 0.4180, train acc: 0.8327, valid loss : 0.4836, valid acc : 0.7783
+2026-05-26 19:10:37 - train.py[line:137] - INFO: epoch : 97, train loss : 0.4188, train acc: 0.8317, valid loss : 0.4529, valid acc : 0.7980
+2026-05-26 19:10:54 - train.py[line:137] - INFO: epoch : 98, train loss : 0.4179, train acc: 0.8323, valid loss : 0.4842, valid acc : 0.7752
+2026-05-26 19:11:10 - train.py[line:137] - INFO: epoch : 99, train loss : 0.4175, train acc: 0.8325, valid loss : 0.4583, valid acc : 0.7970
+2026-05-26 19:11:27 - train.py[line:137] - INFO: epoch : 100, train loss : 0.4177, train acc: 0.8319, valid loss : 0.4794, valid acc : 0.7793
+2026-05-26 19:11:27 - train.py[line:140] - INFO: Training Time of Neural Network: 27.423111085096995 min.
+2026-05-26 19:11:28 - train.py[line:154] - INFO: {'tp': 0.396, 'fp': 0.032, 'tn': 0.383, 'fn': 0.189}
+2026-05-26 19:11:28 - train.py[line:157] - INFO: Saving Model.
+2026-05-26 19:11:28 - train.py[line:159] - INFO: Model saved in path output/temp/model/census.pkl

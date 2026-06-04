@@ -1,0 +1,24 @@
+2026-05-26 17:58:14 - test.py[line:222] - INFO: Loading model.
+2026-05-26 21:32:46 - test.py[line:222] - INFO: Loading model.
+2026-05-26 21:32:46 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 21:32:47 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-26 21:32:47 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=34.39%
+2026-05-26 21:32:52 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-26 21:32:52 - test.py[line:205] - INFO: {'merge': 10000}
+2026-05-26 21:32:52 - test.py[line:205] - INFO: {'standard-sample': 5746, 'dt2Gl': 1623, 'dt4Su': 869, 'dt3Gl': 1272, 'dt1Vo': 378, 's0.01r': 76, 's0.01': 36}
+2026-05-26 21:32:52 - test.py[line:205] - INFO: {'standard-sample': 5746, 'dt4Su': 648, 's0.01r': 495, 'dt2Gl': 1993, 'dt3Gl': 651, 'dt1Vo': 262, 's0.01': 205}
+2026-05-26 21:32:52 - test.py[line:205] - INFO: {'dt2Gl': 1575, 's0.01r': 3799, 's0.01': 597, 'dt4Su': 245, 'standard-sample': 2482, 'dt3Gl': 515, 'dt1Vo': 787}
+2026-05-26 21:32:52 - test.py[line:205] - INFO: {'dt4Su': 6673, 's0.01r': 2162, 'dt3Gl': 547, 'dt2Gl': 254, 's0.01': 309, 'dt1Vo': 55}
+2026-05-26 21:32:53 - test.py[line:205] - INFO: {'dt3Gl': 1465, 'standard-sample': 1395, 'dt1Vo': 1447, 'dt2Gl': 1435, 'dt4Su': 1416, 's0.01': 1408, 's0.01r': 1434}
+2026-05-26 21:32:53 - test.py[line:205] - INFO: {'standard-sample': 10000}
+2026-05-26 21:32:53 - test.py[line:205] - INFO: {'standard-sample': 5746, 's0.01r': 2210, 's0.01': 371, 'dt2Gl': 856, 'dt4Su': 317, 'dt3Gl': 389, 'dt1Vo': 111}
+2026-05-26 21:32:53 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-26 21:32:53 - test.py[line:167] - INFO: {'dt2Gl': 1575, 's0.01r': 3799, 's0.01': 597, 'dt4Su': 245, 'standard-sample': 2482, 'dt3Gl': 515, 'dt1Vo': 787}
+2026-05-26 21:32:53 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-26 21:32:53 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=1.0662, 50%=1.0021, 90%=1.0267, 95%=1.0751, 99%=2.0000, max=37.0000
+2026-05-26 21:32:53 - test.py[line:296] - INFO: Avg Sample Time=5.00ms
+2026-05-26 21:32:53 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-26 21:32:53 - log.py[line:46] - INFO: In dataset test, Count= 10000, Mean=1.0081, 50%=1.0009, 90%=1.0119, 95%=1.0231, 99%=1.0996, max=9.0909
+2026-05-26 21:32:53 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.41ms, Avg Sample Time=2.08ms
+2026-05-26 21:32:53 - test.py[line:302] - INFO: Avg Sample Ratio=0.0355
+2026-05-26 21:32:53 - test.py[line:391] - INFO: opt=0.58, large=0.35, wrong=0.07

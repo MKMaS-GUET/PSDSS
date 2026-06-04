@@ -1,0 +1,1913 @@
+2024-07-08 08:57:44 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-08 08:58:20 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-08 08:58:24 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-08 08:58:24 - train.py[line:115] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_4): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_5): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=42, bias=True)
+  (fcsql): Linear(in_features=22, out_features=42, bias=True)
+  (fc1): Linear(in_features=587, out_features=42, bias=True)
+  (fwide): Linear(in_features=37, out_features=42, bias=True)
+  (fc_final): Linear(in_features=42, out_features=1, bias=True)
+)
+2024-07-08 08:58:24 - train.py[line:121] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-08 08:58:24 - train.py[line:123] - INFO: Using BCELoss as loss function.
+2024-07-08 08:58:24 - train.py[line:125] - INFO: Using Adam as optimization function.
+2024-07-08 08:58:24 - train.py[line:128] - INFO: Begin the training of model.
+2024-07-08 08:58:43 - train.py[line:132] - INFO: epoch : 1, train loss : 0.6845, train acc: 0.7327, valid loss : 0.5850, valid acc : 0.7917
+2024-07-08 08:59:01 - train.py[line:132] - INFO: epoch : 2, train loss : 0.5937, train acc: 0.7795, valid loss : 0.5455, valid acc : 0.8072
+2024-07-08 08:59:18 - train.py[line:132] - INFO: epoch : 3, train loss : 0.5632, train acc: 0.7911, valid loss : 0.5304, valid acc : 0.8171
+2024-07-08 08:59:35 - train.py[line:132] - INFO: epoch : 4, train loss : 0.5451, train acc: 0.7983, valid loss : 0.5004, valid acc : 0.8177
+2024-07-08 08:59:52 - train.py[line:132] - INFO: epoch : 5, train loss : 0.5335, train acc: 0.8024, valid loss : 0.4941, valid acc : 0.8270
+2024-07-08 09:00:10 - train.py[line:132] - INFO: epoch : 6, train loss : 0.5237, train acc: 0.8055, valid loss : 0.4853, valid acc : 0.8282
+2024-07-08 09:00:28 - train.py[line:132] - INFO: epoch : 7, train loss : 0.5153, train acc: 0.8075, valid loss : 0.4782, valid acc : 0.8302
+2024-07-08 09:00:45 - train.py[line:132] - INFO: epoch : 8, train loss : 0.5089, train acc: 0.8098, valid loss : 0.4782, valid acc : 0.8333
+2024-07-08 09:01:03 - train.py[line:132] - INFO: epoch : 9, train loss : 0.5034, train acc: 0.8117, valid loss : 0.4690, valid acc : 0.8274
+2024-07-08 09:01:20 - train.py[line:132] - INFO: epoch : 10, train loss : 0.4974, train acc: 0.8144, valid loss : 0.4732, valid acc : 0.8320
+2024-07-08 09:01:38 - train.py[line:132] - INFO: epoch : 11, train loss : 0.4935, train acc: 0.8155, valid loss : 0.4624, valid acc : 0.8370
+2024-07-08 09:01:55 - train.py[line:132] - INFO: epoch : 12, train loss : 0.4879, train acc: 0.8177, valid loss : 0.4605, valid acc : 0.8361
+2024-07-08 09:02:12 - train.py[line:132] - INFO: epoch : 13, train loss : 0.4851, train acc: 0.8192, valid loss : 0.4564, valid acc : 0.8412
+2024-07-08 09:02:31 - train.py[line:132] - INFO: epoch : 14, train loss : 0.4808, train acc: 0.8205, valid loss : 0.4619, valid acc : 0.8331
+2024-07-08 09:02:46 - train.py[line:132] - INFO: epoch : 15, train loss : 0.4778, train acc: 0.8218, valid loss : 0.4540, valid acc : 0.8450
+2024-07-08 09:03:03 - train.py[line:132] - INFO: epoch : 16, train loss : 0.4758, train acc: 0.8223, valid loss : 0.4444, valid acc : 0.8448
+2024-07-08 09:03:20 - train.py[line:132] - INFO: epoch : 17, train loss : 0.4718, train acc: 0.8248, valid loss : 0.4454, valid acc : 0.8406
+2024-07-08 09:03:38 - train.py[line:132] - INFO: epoch : 18, train loss : 0.4694, train acc: 0.8257, valid loss : 0.4385, valid acc : 0.8430
+2024-07-08 09:03:55 - train.py[line:132] - INFO: epoch : 19, train loss : 0.4657, train acc: 0.8271, valid loss : 0.4316, valid acc : 0.8359
+2024-07-08 09:04:13 - train.py[line:132] - INFO: epoch : 20, train loss : 0.4646, train acc: 0.8282, valid loss : 0.4273, valid acc : 0.8471
+2024-07-08 09:04:30 - train.py[line:132] - INFO: epoch : 21, train loss : 0.4613, train acc: 0.8295, valid loss : 0.4377, valid acc : 0.8484
+2024-07-08 09:04:47 - train.py[line:132] - INFO: epoch : 22, train loss : 0.4593, train acc: 0.8299, valid loss : 0.4326, valid acc : 0.8527
+2024-07-08 09:05:03 - train.py[line:132] - INFO: epoch : 23, train loss : 0.4588, train acc: 0.8310, valid loss : 0.4268, valid acc : 0.8545
+2024-07-08 09:05:19 - train.py[line:132] - INFO: epoch : 24, train loss : 0.4545, train acc: 0.8321, valid loss : 0.4186, valid acc : 0.8493
+2024-07-08 09:05:34 - train.py[line:132] - INFO: epoch : 25, train loss : 0.4532, train acc: 0.8328, valid loss : 0.4171, valid acc : 0.8531
+2024-07-08 09:05:53 - train.py[line:132] - INFO: epoch : 26, train loss : 0.4506, train acc: 0.8338, valid loss : 0.4195, valid acc : 0.8476
+2024-07-08 09:06:09 - train.py[line:132] - INFO: epoch : 27, train loss : 0.4500, train acc: 0.8342, valid loss : 0.4288, valid acc : 0.8527
+2024-07-08 09:06:27 - train.py[line:132] - INFO: epoch : 28, train loss : 0.4463, train acc: 0.8364, valid loss : 0.4013, valid acc : 0.8557
+2024-07-08 09:06:43 - train.py[line:132] - INFO: epoch : 29, train loss : 0.4452, train acc: 0.8358, valid loss : 0.4132, valid acc : 0.8587
+2024-07-08 09:07:01 - train.py[line:132] - INFO: epoch : 30, train loss : 0.4434, train acc: 0.8374, valid loss : 0.4070, valid acc : 0.8530
+2024-07-08 09:07:18 - train.py[line:132] - INFO: epoch : 31, train loss : 0.4433, train acc: 0.8370, valid loss : 0.4094, valid acc : 0.8569
+2024-07-08 09:07:36 - train.py[line:132] - INFO: epoch : 32, train loss : 0.4413, train acc: 0.8379, valid loss : 0.4042, valid acc : 0.8583
+2024-07-08 09:07:53 - train.py[line:132] - INFO: epoch : 33, train loss : 0.4394, train acc: 0.8390, valid loss : 0.4279, valid acc : 0.8572
+2024-07-08 09:08:10 - train.py[line:132] - INFO: epoch : 34, train loss : 0.4362, train acc: 0.8397, valid loss : 0.4063, valid acc : 0.8581
+2024-07-08 09:08:25 - train.py[line:132] - INFO: epoch : 35, train loss : 0.4358, train acc: 0.8398, valid loss : 0.4148, valid acc : 0.8548
+2024-07-08 09:08:42 - train.py[line:132] - INFO: epoch : 36, train loss : 0.4342, train acc: 0.8402, valid loss : 0.4049, valid acc : 0.8591
+2024-07-08 09:08:59 - train.py[line:132] - INFO: epoch : 37, train loss : 0.4331, train acc: 0.8410, valid loss : 0.4077, valid acc : 0.8600
+2024-07-08 09:09:16 - train.py[line:132] - INFO: epoch : 38, train loss : 0.4318, train acc: 0.8412, valid loss : 0.4138, valid acc : 0.8571
+2024-07-08 09:09:34 - train.py[line:132] - INFO: epoch : 39, train loss : 0.4307, train acc: 0.8414, valid loss : 0.4064, valid acc : 0.8561
+2024-07-08 09:09:51 - train.py[line:132] - INFO: epoch : 40, train loss : 0.4283, train acc: 0.8428, valid loss : 0.4076, valid acc : 0.8587
+2024-07-08 09:10:07 - train.py[line:132] - INFO: epoch : 41, train loss : 0.4280, train acc: 0.8433, valid loss : 0.4026, valid acc : 0.8606
+2024-07-08 09:10:24 - train.py[line:132] - INFO: epoch : 42, train loss : 0.4260, train acc: 0.8440, valid loss : 0.3966, valid acc : 0.8553
+2024-07-08 09:10:40 - train.py[line:132] - INFO: epoch : 43, train loss : 0.4255, train acc: 0.8438, valid loss : 0.4119, valid acc : 0.8575
+2024-07-08 09:10:57 - train.py[line:132] - INFO: epoch : 44, train loss : 0.4226, train acc: 0.8448, valid loss : 0.3898, valid acc : 0.8589
+2024-07-08 09:11:14 - train.py[line:132] - INFO: epoch : 45, train loss : 0.4226, train acc: 0.8449, valid loss : 0.3965, valid acc : 0.8617
+2024-07-08 09:11:31 - train.py[line:132] - INFO: epoch : 46, train loss : 0.4213, train acc: 0.8457, valid loss : 0.3914, valid acc : 0.8665
+2024-07-08 09:11:48 - train.py[line:132] - INFO: epoch : 47, train loss : 0.4199, train acc: 0.8465, valid loss : 0.4048, valid acc : 0.8599
+2024-07-08 09:12:04 - train.py[line:132] - INFO: epoch : 48, train loss : 0.4195, train acc: 0.8466, valid loss : 0.3966, valid acc : 0.8652
+2024-07-08 09:12:21 - train.py[line:132] - INFO: epoch : 49, train loss : 0.4181, train acc: 0.8464, valid loss : 0.3974, valid acc : 0.8607
+2024-07-08 09:12:39 - train.py[line:132] - INFO: epoch : 50, train loss : 0.4166, train acc: 0.8472, valid loss : 0.3953, valid acc : 0.8594
+2024-07-08 09:12:55 - train.py[line:132] - INFO: epoch : 51, train loss : 0.4155, train acc: 0.8474, valid loss : 0.3983, valid acc : 0.8599
+2024-07-08 09:13:13 - train.py[line:132] - INFO: epoch : 52, train loss : 0.4157, train acc: 0.8477, valid loss : 0.4022, valid acc : 0.8605
+2024-07-08 09:13:30 - train.py[line:132] - INFO: epoch : 53, train loss : 0.4148, train acc: 0.8484, valid loss : 0.4003, valid acc : 0.8647
+2024-07-08 09:13:47 - train.py[line:132] - INFO: epoch : 54, train loss : 0.4132, train acc: 0.8486, valid loss : 0.3855, valid acc : 0.8633
+2024-07-08 09:14:04 - train.py[line:132] - INFO: epoch : 55, train loss : 0.4118, train acc: 0.8489, valid loss : 0.3924, valid acc : 0.8631
+2024-07-08 09:14:20 - train.py[line:132] - INFO: epoch : 56, train loss : 0.4113, train acc: 0.8492, valid loss : 0.3852, valid acc : 0.8642
+2024-07-08 09:14:36 - train.py[line:132] - INFO: epoch : 57, train loss : 0.4103, train acc: 0.8497, valid loss : 0.3872, valid acc : 0.8677
+2024-07-08 09:14:54 - train.py[line:132] - INFO: epoch : 58, train loss : 0.4094, train acc: 0.8504, valid loss : 0.3930, valid acc : 0.8649
+2024-07-08 09:15:10 - train.py[line:132] - INFO: epoch : 59, train loss : 0.4085, train acc: 0.8502, valid loss : 0.3937, valid acc : 0.8643
+2024-07-08 09:15:27 - train.py[line:132] - INFO: epoch : 60, train loss : 0.4071, train acc: 0.8504, valid loss : 0.3914, valid acc : 0.8654
+2024-07-08 09:15:44 - train.py[line:132] - INFO: epoch : 61, train loss : 0.4070, train acc: 0.8507, valid loss : 0.4002, valid acc : 0.8657
+2024-07-08 09:16:02 - train.py[line:132] - INFO: epoch : 62, train loss : 0.4062, train acc: 0.8513, valid loss : 0.3894, valid acc : 0.8624
+2024-07-08 09:16:19 - train.py[line:132] - INFO: epoch : 63, train loss : 0.4047, train acc: 0.8515, valid loss : 0.3945, valid acc : 0.8670
+2024-07-08 09:16:36 - train.py[line:132] - INFO: epoch : 64, train loss : 0.4050, train acc: 0.8514, valid loss : 0.3816, valid acc : 0.8679
+2024-07-08 09:16:53 - train.py[line:132] - INFO: epoch : 65, train loss : 0.4031, train acc: 0.8520, valid loss : 0.3835, valid acc : 0.8667
+2024-07-08 09:17:10 - train.py[line:132] - INFO: epoch : 66, train loss : 0.4022, train acc: 0.8519, valid loss : 0.3872, valid acc : 0.8671
+2024-07-08 09:17:27 - train.py[line:132] - INFO: epoch : 67, train loss : 0.4024, train acc: 0.8525, valid loss : 0.3853, valid acc : 0.8692
+2024-07-08 09:17:44 - train.py[line:132] - INFO: epoch : 68, train loss : 0.4008, train acc: 0.8528, valid loss : 0.3846, valid acc : 0.8627
+2024-07-08 09:18:00 - train.py[line:132] - INFO: epoch : 69, train loss : 0.4007, train acc: 0.8534, valid loss : 0.3818, valid acc : 0.8685
+2024-07-08 09:18:17 - train.py[line:132] - INFO: epoch : 70, train loss : 0.3997, train acc: 0.8528, valid loss : 0.4018, valid acc : 0.8645
+2024-07-08 09:18:33 - train.py[line:132] - INFO: epoch : 71, train loss : 0.3992, train acc: 0.8533, valid loss : 0.3764, valid acc : 0.8682
+2024-07-08 09:18:50 - train.py[line:132] - INFO: epoch : 72, train loss : 0.3987, train acc: 0.8540, valid loss : 0.3864, valid acc : 0.8706
+2024-07-08 09:19:06 - train.py[line:132] - INFO: epoch : 73, train loss : 0.3977, train acc: 0.8544, valid loss : 0.3874, valid acc : 0.8675
+2024-07-08 09:19:22 - train.py[line:132] - INFO: epoch : 74, train loss : 0.3975, train acc: 0.8547, valid loss : 0.3730, valid acc : 0.8628
+2024-07-08 09:19:39 - train.py[line:132] - INFO: epoch : 75, train loss : 0.3968, train acc: 0.8546, valid loss : 0.3750, valid acc : 0.8702
+2024-07-08 09:19:56 - train.py[line:132] - INFO: epoch : 76, train loss : 0.3958, train acc: 0.8552, valid loss : 0.3798, valid acc : 0.8694
+2024-07-08 09:20:12 - train.py[line:132] - INFO: epoch : 77, train loss : 0.3949, train acc: 0.8554, valid loss : 0.3796, valid acc : 0.8653
+2024-07-08 09:20:28 - train.py[line:132] - INFO: epoch : 78, train loss : 0.3938, train acc: 0.8557, valid loss : 0.3776, valid acc : 0.8702
+2024-07-08 09:20:44 - train.py[line:132] - INFO: epoch : 79, train loss : 0.3941, train acc: 0.8556, valid loss : 0.4005, valid acc : 0.8641
+2024-07-08 09:21:01 - train.py[line:132] - INFO: epoch : 80, train loss : 0.3929, train acc: 0.8561, valid loss : 0.3867, valid acc : 0.8659
+2024-07-08 09:21:18 - train.py[line:132] - INFO: epoch : 81, train loss : 0.3935, train acc: 0.8559, valid loss : 0.3805, valid acc : 0.8683
+2024-07-08 09:21:34 - train.py[line:132] - INFO: epoch : 82, train loss : 0.3920, train acc: 0.8567, valid loss : 0.3832, valid acc : 0.8704
+2024-07-08 09:21:51 - train.py[line:132] - INFO: epoch : 83, train loss : 0.3910, train acc: 0.8564, valid loss : 0.3766, valid acc : 0.8709
+2024-07-08 09:22:08 - train.py[line:132] - INFO: epoch : 84, train loss : 0.3915, train acc: 0.8567, valid loss : 0.3870, valid acc : 0.8651
+2024-07-08 09:22:25 - train.py[line:132] - INFO: epoch : 85, train loss : 0.3907, train acc: 0.8572, valid loss : 0.3902, valid acc : 0.8697
+2024-07-08 09:22:42 - train.py[line:132] - INFO: epoch : 86, train loss : 0.3897, train acc: 0.8573, valid loss : 0.3873, valid acc : 0.8660
+2024-07-08 09:22:59 - train.py[line:132] - INFO: epoch : 87, train loss : 0.3895, train acc: 0.8575, valid loss : 0.3761, valid acc : 0.8688
+2024-07-08 09:23:15 - train.py[line:132] - INFO: epoch : 88, train loss : 0.3894, train acc: 0.8576, valid loss : 0.3956, valid acc : 0.8641
+2024-07-08 09:23:32 - train.py[line:132] - INFO: epoch : 89, train loss : 0.3886, train acc: 0.8573, valid loss : 0.3884, valid acc : 0.8688
+2024-07-08 09:23:49 - train.py[line:132] - INFO: epoch : 90, train loss : 0.3881, train acc: 0.8580, valid loss : 0.3909, valid acc : 0.8685
+2024-07-08 09:24:06 - train.py[line:132] - INFO: epoch : 91, train loss : 0.3876, train acc: 0.8579, valid loss : 0.3564, valid acc : 0.8762
+2024-07-08 09:24:22 - train.py[line:132] - INFO: epoch : 92, train loss : 0.3866, train acc: 0.8586, valid loss : 0.3699, valid acc : 0.8723
+2024-07-08 09:24:37 - train.py[line:132] - INFO: epoch : 93, train loss : 0.3872, train acc: 0.8584, valid loss : 0.3963, valid acc : 0.8675
+2024-07-08 09:24:54 - train.py[line:132] - INFO: epoch : 94, train loss : 0.3852, train acc: 0.8591, valid loss : 0.3791, valid acc : 0.8682
+2024-07-08 09:25:08 - train.py[line:132] - INFO: epoch : 95, train loss : 0.3856, train acc: 0.8593, valid loss : 0.3722, valid acc : 0.8709
+2024-07-08 09:25:24 - train.py[line:132] - INFO: epoch : 96, train loss : 0.3850, train acc: 0.8590, valid loss : 0.3772, valid acc : 0.8670
+2024-07-08 09:25:41 - train.py[line:132] - INFO: epoch : 97, train loss : 0.3841, train acc: 0.8594, valid loss : 0.3992, valid acc : 0.8689
+2024-07-08 09:25:57 - train.py[line:132] - INFO: epoch : 98, train loss : 0.3836, train acc: 0.8594, valid loss : 0.3833, valid acc : 0.8683
+2024-07-08 09:26:14 - train.py[line:132] - INFO: epoch : 99, train loss : 0.3845, train acc: 0.8597, valid loss : 0.3738, valid acc : 0.8731
+2024-07-08 09:26:30 - train.py[line:132] - INFO: epoch : 100, train loss : 0.3828, train acc: 0.8597, valid loss : 0.3799, valid acc : 0.8703
+2024-07-08 09:26:30 - train.py[line:135] - INFO: Training Time of Neural Network: 28.10567504564921 min.
+2024-07-08 09:26:31 - train.py[line:149] - INFO: {'tp': 0.282, 'fp': 0.044, 'tn': 0.589, 'fn': 0.086}
+2024-07-08 09:26:31 - train.py[line:152] - INFO: Saving Model.
+2024-07-08 09:26:34 - train.py[line:154] - INFO: Model saved in path output/temp/model/dmv.pkl
+2024-07-08 15:52:13 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-08 15:52:44 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-08 15:52:47 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-08 15:52:47 - train.py[line:115] - INFO: Model established: WideDeepNew(
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=16, bias=True)
+  (fcsql): Linear(in_features=22, out_features=8, bias=True)
+  (fc1): Linear(in_features=587, out_features=256, bias=True)
+  (fc2): Linear(in_features=256, out_features=256, bias=True)
+  (fc3): Linear(in_features=256, out_features=40, bias=True)
+  (fc_final): Linear(in_features=101, out_features=1, bias=True)
+)
+2024-07-08 15:52:47 - train.py[line:121] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-08 15:52:47 - train.py[line:123] - INFO: Using BCELoss as loss function.
+2024-07-08 15:52:47 - train.py[line:125] - INFO: Using Adam as optimization function.
+2024-07-08 15:52:47 - train.py[line:128] - INFO: Begin the training of model.
+2024-07-08 15:52:56 - train.py[line:132] - INFO: epoch : 1, train loss : 0.6688, train acc: 0.7460, valid loss : 0.5718, valid acc : 0.7890
+2024-07-08 15:53:05 - train.py[line:132] - INFO: epoch : 2, train loss : 0.5623, train acc: 0.7934, valid loss : 0.5178, valid acc : 0.8091
+2024-07-08 15:53:14 - train.py[line:132] - INFO: epoch : 3, train loss : 0.5228, train acc: 0.8053, valid loss : 0.4831, valid acc : 0.8267
+2024-07-08 15:53:23 - train.py[line:132] - INFO: epoch : 4, train loss : 0.4973, train acc: 0.8148, valid loss : 0.4596, valid acc : 0.8338
+2024-07-08 15:53:31 - train.py[line:132] - INFO: epoch : 5, train loss : 0.4781, train acc: 0.8220, valid loss : 0.4414, valid acc : 0.8361
+2024-07-08 15:53:40 - train.py[line:132] - INFO: epoch : 6, train loss : 0.4653, train acc: 0.8282, valid loss : 0.4277, valid acc : 0.8392
+2024-07-08 15:53:48 - train.py[line:132] - INFO: epoch : 7, train loss : 0.4539, train acc: 0.8323, valid loss : 0.4196, valid acc : 0.8483
+2024-07-08 15:53:57 - train.py[line:132] - INFO: epoch : 8, train loss : 0.4437, train acc: 0.8370, valid loss : 0.4121, valid acc : 0.8547
+2024-07-08 15:54:05 - train.py[line:132] - INFO: epoch : 9, train loss : 0.4366, train acc: 0.8404, valid loss : 0.4014, valid acc : 0.8607
+2024-07-08 15:54:14 - train.py[line:132] - INFO: epoch : 10, train loss : 0.4298, train acc: 0.8426, valid loss : 0.3955, valid acc : 0.8573
+2024-07-08 15:54:24 - train.py[line:132] - INFO: epoch : 11, train loss : 0.4251, train acc: 0.8450, valid loss : 0.3906, valid acc : 0.8540
+2024-07-08 15:54:33 - train.py[line:132] - INFO: epoch : 12, train loss : 0.4193, train acc: 0.8467, valid loss : 0.3834, valid acc : 0.8558
+2024-07-08 15:54:42 - train.py[line:132] - INFO: epoch : 13, train loss : 0.4140, train acc: 0.8488, valid loss : 0.3778, valid acc : 0.8675
+2024-07-08 15:54:51 - train.py[line:132] - INFO: epoch : 14, train loss : 0.4092, train acc: 0.8506, valid loss : 0.3786, valid acc : 0.8689
+2024-07-08 15:54:59 - train.py[line:132] - INFO: epoch : 15, train loss : 0.4060, train acc: 0.8516, valid loss : 0.3744, valid acc : 0.8614
+2024-07-08 15:55:08 - train.py[line:132] - INFO: epoch : 16, train loss : 0.4028, train acc: 0.8522, valid loss : 0.3651, valid acc : 0.8685
+2024-07-08 15:55:16 - train.py[line:132] - INFO: epoch : 17, train loss : 0.3987, train acc: 0.8541, valid loss : 0.3704, valid acc : 0.8685
+2024-07-08 15:55:25 - train.py[line:132] - INFO: epoch : 18, train loss : 0.3954, train acc: 0.8552, valid loss : 0.3612, valid acc : 0.8708
+2024-07-08 15:55:33 - train.py[line:132] - INFO: epoch : 19, train loss : 0.3932, train acc: 0.8562, valid loss : 0.3597, valid acc : 0.8728
+2024-07-08 15:55:42 - train.py[line:132] - INFO: epoch : 20, train loss : 0.3899, train acc: 0.8573, valid loss : 0.3575, valid acc : 0.8728
+2024-07-08 15:55:51 - train.py[line:132] - INFO: epoch : 21, train loss : 0.3877, train acc: 0.8584, valid loss : 0.3552, valid acc : 0.8746
+2024-07-08 15:56:00 - train.py[line:132] - INFO: epoch : 22, train loss : 0.3854, train acc: 0.8592, valid loss : 0.3541, valid acc : 0.8755
+2024-07-08 15:56:08 - train.py[line:132] - INFO: epoch : 23, train loss : 0.3840, train acc: 0.8598, valid loss : 0.3526, valid acc : 0.8756
+2024-07-08 15:56:17 - train.py[line:132] - INFO: epoch : 24, train loss : 0.3820, train acc: 0.8611, valid loss : 0.3499, valid acc : 0.8752
+2024-07-08 15:56:25 - train.py[line:132] - INFO: epoch : 25, train loss : 0.3794, train acc: 0.8612, valid loss : 0.3443, valid acc : 0.8790
+2024-07-08 15:56:34 - train.py[line:132] - INFO: epoch : 26, train loss : 0.3777, train acc: 0.8626, valid loss : 0.3440, valid acc : 0.8785
+2024-07-08 15:56:43 - train.py[line:132] - INFO: epoch : 27, train loss : 0.3758, train acc: 0.8631, valid loss : 0.3401, valid acc : 0.8779
+2024-07-08 15:56:52 - train.py[line:132] - INFO: epoch : 28, train loss : 0.3736, train acc: 0.8639, valid loss : 0.3430, valid acc : 0.8789
+2024-07-08 15:57:00 - train.py[line:132] - INFO: epoch : 29, train loss : 0.3723, train acc: 0.8645, valid loss : 0.3390, valid acc : 0.8793
+2024-07-08 15:57:09 - train.py[line:132] - INFO: epoch : 30, train loss : 0.3707, train acc: 0.8649, valid loss : 0.3385, valid acc : 0.8790
+2024-07-08 15:57:17 - train.py[line:132] - INFO: epoch : 31, train loss : 0.3700, train acc: 0.8648, valid loss : 0.3416, valid acc : 0.8799
+2024-07-08 15:57:26 - train.py[line:132] - INFO: epoch : 32, train loss : 0.3678, train acc: 0.8658, valid loss : 0.3374, valid acc : 0.8819
+2024-07-08 15:57:35 - train.py[line:132] - INFO: epoch : 33, train loss : 0.3663, train acc: 0.8665, valid loss : 0.3360, valid acc : 0.8828
+2024-07-08 15:57:43 - train.py[line:132] - INFO: epoch : 34, train loss : 0.3648, train acc: 0.8664, valid loss : 0.3342, valid acc : 0.8832
+2024-07-08 15:57:52 - train.py[line:132] - INFO: epoch : 35, train loss : 0.3640, train acc: 0.8674, valid loss : 0.3321, valid acc : 0.8821
+2024-07-08 15:58:01 - train.py[line:132] - INFO: epoch : 36, train loss : 0.3616, train acc: 0.8681, valid loss : 0.3324, valid acc : 0.8843
+2024-07-08 15:58:10 - train.py[line:132] - INFO: epoch : 37, train loss : 0.3612, train acc: 0.8681, valid loss : 0.3294, valid acc : 0.8847
+2024-07-08 15:58:19 - train.py[line:132] - INFO: epoch : 38, train loss : 0.3598, train acc: 0.8686, valid loss : 0.3308, valid acc : 0.8851
+2024-07-08 15:58:27 - train.py[line:132] - INFO: epoch : 39, train loss : 0.3579, train acc: 0.8693, valid loss : 0.3269, valid acc : 0.8835
+2024-07-08 15:58:36 - train.py[line:132] - INFO: epoch : 40, train loss : 0.3586, train acc: 0.8698, valid loss : 0.3294, valid acc : 0.8834
+2024-07-08 15:58:45 - train.py[line:132] - INFO: epoch : 41, train loss : 0.3562, train acc: 0.8699, valid loss : 0.3250, valid acc : 0.8855
+2024-07-08 15:58:54 - train.py[line:132] - INFO: epoch : 42, train loss : 0.3554, train acc: 0.8708, valid loss : 0.3229, valid acc : 0.8845
+2024-07-08 15:59:02 - train.py[line:132] - INFO: epoch : 43, train loss : 0.3549, train acc: 0.8709, valid loss : 0.3258, valid acc : 0.8866
+2024-07-08 15:59:11 - train.py[line:132] - INFO: epoch : 44, train loss : 0.3542, train acc: 0.8706, valid loss : 0.3234, valid acc : 0.8876
+2024-07-08 15:59:20 - train.py[line:132] - INFO: epoch : 45, train loss : 0.3524, train acc: 0.8719, valid loss : 0.3209, valid acc : 0.8871
+2024-07-08 15:59:29 - train.py[line:132] - INFO: epoch : 46, train loss : 0.3521, train acc: 0.8720, valid loss : 0.3210, valid acc : 0.8871
+2024-07-08 15:59:38 - train.py[line:132] - INFO: epoch : 47, train loss : 0.3511, train acc: 0.8723, valid loss : 0.3192, valid acc : 0.8877
+2024-07-08 15:59:46 - train.py[line:132] - INFO: epoch : 48, train loss : 0.3493, train acc: 0.8722, valid loss : 0.3217, valid acc : 0.8894
+2024-07-08 15:59:55 - train.py[line:132] - INFO: epoch : 49, train loss : 0.3481, train acc: 0.8731, valid loss : 0.3197, valid acc : 0.8880
+2024-07-08 16:00:03 - train.py[line:132] - INFO: epoch : 50, train loss : 0.3482, train acc: 0.8736, valid loss : 0.3164, valid acc : 0.8865
+2024-07-08 16:00:12 - train.py[line:132] - INFO: epoch : 51, train loss : 0.3469, train acc: 0.8738, valid loss : 0.3144, valid acc : 0.8850
+2024-07-08 16:00:20 - train.py[line:132] - INFO: epoch : 52, train loss : 0.3466, train acc: 0.8742, valid loss : 0.3185, valid acc : 0.8895
+2024-07-08 16:00:29 - train.py[line:132] - INFO: epoch : 53, train loss : 0.3462, train acc: 0.8743, valid loss : 0.3169, valid acc : 0.8881
+2024-07-08 16:00:38 - train.py[line:132] - INFO: epoch : 54, train loss : 0.3459, train acc: 0.8745, valid loss : 0.3171, valid acc : 0.8877
+2024-07-08 16:00:46 - train.py[line:132] - INFO: epoch : 55, train loss : 0.3440, train acc: 0.8747, valid loss : 0.3143, valid acc : 0.8899
+2024-07-08 16:00:55 - train.py[line:132] - INFO: epoch : 56, train loss : 0.3431, train acc: 0.8750, valid loss : 0.3136, valid acc : 0.8880
+2024-07-08 16:01:04 - train.py[line:132] - INFO: epoch : 57, train loss : 0.3427, train acc: 0.8753, valid loss : 0.3130, valid acc : 0.8912
+2024-07-08 16:01:13 - train.py[line:132] - INFO: epoch : 58, train loss : 0.3424, train acc: 0.8758, valid loss : 0.3120, valid acc : 0.8905
+2024-07-08 16:01:22 - train.py[line:132] - INFO: epoch : 59, train loss : 0.3414, train acc: 0.8756, valid loss : 0.3102, valid acc : 0.8904
+2024-07-08 16:01:31 - train.py[line:132] - INFO: epoch : 60, train loss : 0.3394, train acc: 0.8764, valid loss : 0.3099, valid acc : 0.8907
+2024-07-08 16:01:39 - train.py[line:132] - INFO: epoch : 61, train loss : 0.3398, train acc: 0.8768, valid loss : 0.3114, valid acc : 0.8915
+2024-07-08 16:01:48 - train.py[line:132] - INFO: epoch : 62, train loss : 0.3392, train acc: 0.8771, valid loss : 0.3131, valid acc : 0.8926
+2024-07-08 16:01:56 - train.py[line:132] - INFO: epoch : 63, train loss : 0.3383, train acc: 0.8768, valid loss : 0.3117, valid acc : 0.8918
+2024-07-08 16:02:05 - train.py[line:132] - INFO: epoch : 64, train loss : 0.3384, train acc: 0.8769, valid loss : 0.3114, valid acc : 0.8929
+2024-07-08 16:02:14 - train.py[line:132] - INFO: epoch : 65, train loss : 0.3377, train acc: 0.8775, valid loss : 0.3107, valid acc : 0.8911
+2024-07-08 16:02:23 - train.py[line:132] - INFO: epoch : 66, train loss : 0.3365, train acc: 0.8779, valid loss : 0.3117, valid acc : 0.8928
+2024-07-08 16:02:32 - train.py[line:132] - INFO: epoch : 67, train loss : 0.3366, train acc: 0.8784, valid loss : 0.3072, valid acc : 0.8920
+2024-07-08 16:02:41 - train.py[line:132] - INFO: epoch : 68, train loss : 0.3356, train acc: 0.8779, valid loss : 0.3079, valid acc : 0.8930
+2024-07-08 16:02:49 - train.py[line:132] - INFO: epoch : 69, train loss : 0.3354, train acc: 0.8783, valid loss : 0.3060, valid acc : 0.8915
+2024-07-08 16:02:58 - train.py[line:132] - INFO: epoch : 70, train loss : 0.3346, train acc: 0.8782, valid loss : 0.3078, valid acc : 0.8901
+2024-07-08 16:03:06 - train.py[line:132] - INFO: epoch : 71, train loss : 0.3337, train acc: 0.8792, valid loss : 0.3071, valid acc : 0.8925
+2024-07-08 16:03:15 - train.py[line:132] - INFO: epoch : 72, train loss : 0.3337, train acc: 0.8788, valid loss : 0.3093, valid acc : 0.8917
+2024-07-08 16:03:24 - train.py[line:132] - INFO: epoch : 73, train loss : 0.3328, train acc: 0.8796, valid loss : 0.3054, valid acc : 0.8927
+2024-07-08 16:03:32 - train.py[line:132] - INFO: epoch : 74, train loss : 0.3328, train acc: 0.8795, valid loss : 0.3043, valid acc : 0.8926
+2024-07-08 16:03:41 - train.py[line:132] - INFO: epoch : 75, train loss : 0.3323, train acc: 0.8799, valid loss : 0.3049, valid acc : 0.8932
+2024-07-08 16:03:49 - train.py[line:132] - INFO: epoch : 76, train loss : 0.3315, train acc: 0.8799, valid loss : 0.3069, valid acc : 0.8944
+2024-07-08 16:03:58 - train.py[line:132] - INFO: epoch : 77, train loss : 0.3319, train acc: 0.8800, valid loss : 0.3065, valid acc : 0.8932
+2024-07-08 16:04:06 - train.py[line:132] - INFO: epoch : 78, train loss : 0.3312, train acc: 0.8795, valid loss : 0.3056, valid acc : 0.8939
+2024-07-08 16:04:15 - train.py[line:132] - INFO: epoch : 79, train loss : 0.3295, train acc: 0.8803, valid loss : 0.3027, valid acc : 0.8937
+2024-07-08 16:04:24 - train.py[line:132] - INFO: epoch : 80, train loss : 0.3289, train acc: 0.8807, valid loss : 0.3023, valid acc : 0.8931
+2024-07-08 16:04:33 - train.py[line:132] - INFO: epoch : 81, train loss : 0.3293, train acc: 0.8807, valid loss : 0.3035, valid acc : 0.8942
+2024-07-08 16:04:41 - train.py[line:132] - INFO: epoch : 82, train loss : 0.3284, train acc: 0.8812, valid loss : 0.3019, valid acc : 0.8941
+2024-07-08 16:04:50 - train.py[line:132] - INFO: epoch : 83, train loss : 0.3283, train acc: 0.8805, valid loss : 0.3031, valid acc : 0.8971
+2024-07-08 16:04:58 - train.py[line:132] - INFO: epoch : 84, train loss : 0.3272, train acc: 0.8815, valid loss : 0.3016, valid acc : 0.8947
+2024-07-08 16:05:07 - train.py[line:132] - INFO: epoch : 85, train loss : 0.3266, train acc: 0.8823, valid loss : 0.3019, valid acc : 0.8953
+2024-07-08 16:05:16 - train.py[line:132] - INFO: epoch : 86, train loss : 0.3265, train acc: 0.8821, valid loss : 0.3026, valid acc : 0.8953
+2024-07-08 16:05:24 - train.py[line:132] - INFO: epoch : 87, train loss : 0.3261, train acc: 0.8817, valid loss : 0.3027, valid acc : 0.8970
+2024-07-08 16:05:33 - train.py[line:132] - INFO: epoch : 88, train loss : 0.3263, train acc: 0.8818, valid loss : 0.3007, valid acc : 0.8960
+2024-07-08 16:05:41 - train.py[line:132] - INFO: epoch : 89, train loss : 0.3251, train acc: 0.8824, valid loss : 0.2993, valid acc : 0.8950
+2024-07-08 16:05:50 - train.py[line:132] - INFO: epoch : 90, train loss : 0.3253, train acc: 0.8821, valid loss : 0.2996, valid acc : 0.8958
+2024-07-08 16:05:58 - train.py[line:132] - INFO: epoch : 91, train loss : 0.3246, train acc: 0.8823, valid loss : 0.3001, valid acc : 0.8956
+2024-07-08 16:06:07 - train.py[line:132] - INFO: epoch : 92, train loss : 0.3249, train acc: 0.8823, valid loss : 0.2998, valid acc : 0.8972
+2024-07-08 16:06:16 - train.py[line:132] - INFO: epoch : 93, train loss : 0.3247, train acc: 0.8826, valid loss : 0.3013, valid acc : 0.8971
+2024-07-08 16:06:24 - train.py[line:132] - INFO: epoch : 94, train loss : 0.3243, train acc: 0.8828, valid loss : 0.2994, valid acc : 0.8959
+2024-07-08 16:06:33 - train.py[line:132] - INFO: epoch : 95, train loss : 0.3235, train acc: 0.8834, valid loss : 0.2985, valid acc : 0.8974
+2024-07-08 16:06:42 - train.py[line:132] - INFO: epoch : 96, train loss : 0.3231, train acc: 0.8833, valid loss : 0.2991, valid acc : 0.8958
+2024-07-08 16:06:50 - train.py[line:132] - INFO: epoch : 97, train loss : 0.3230, train acc: 0.8830, valid loss : 0.2975, valid acc : 0.8958
+2024-07-08 16:06:59 - train.py[line:132] - INFO: epoch : 98, train loss : 0.3218, train acc: 0.8834, valid loss : 0.2984, valid acc : 0.8984
+2024-07-08 16:07:08 - train.py[line:132] - INFO: epoch : 99, train loss : 0.3224, train acc: 0.8831, valid loss : 0.2969, valid acc : 0.8969
+2024-07-08 16:07:17 - train.py[line:132] - INFO: epoch : 100, train loss : 0.3209, train acc: 0.8835, valid loss : 0.2953, valid acc : 0.8970
+2024-07-08 16:07:17 - train.py[line:135] - INFO: Training Time of Neural Network: 14.492664694786072 min.
+2024-07-08 16:07:17 - train.py[line:149] - INFO: {'tp': 0.313, 'fp': 0.048, 'tn': 0.584, 'fn': 0.055}
+2024-07-08 16:07:17 - train.py[line:152] - INFO: Saving Model.
+2024-07-08 16:07:17 - train.py[line:154] - INFO: Model saved in path output/temp/model/dmv.pkl
+2024-07-08 16:08:04 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-08 16:08:33 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-08 16:08:36 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-08 16:08:36 - train.py[line:115] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_4): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_5): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=42, bias=True)
+  (fcsql): Linear(in_features=22, out_features=42, bias=True)
+  (fc1): Linear(in_features=587, out_features=42, bias=True)
+  (fwide): Linear(in_features=37, out_features=42, bias=True)
+  (fc_final): Linear(in_features=42, out_features=1, bias=True)
+)
+2024-07-08 16:08:36 - train.py[line:121] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-08 16:08:36 - train.py[line:123] - INFO: Using BCELoss as loss function.
+2024-07-08 16:08:36 - train.py[line:125] - INFO: Using Adam as optimization function.
+2024-07-08 16:08:36 - train.py[line:128] - INFO: Begin the training of model.
+2024-07-08 16:08:56 - train.py[line:132] - INFO: epoch : 1, train loss : 0.6845, train acc: 0.7327, valid loss : 0.5850, valid acc : 0.7917
+2024-07-08 16:09:14 - train.py[line:132] - INFO: epoch : 2, train loss : 0.5937, train acc: 0.7795, valid loss : 0.5455, valid acc : 0.8072
+2024-07-08 16:09:32 - train.py[line:132] - INFO: epoch : 3, train loss : 0.5632, train acc: 0.7911, valid loss : 0.5304, valid acc : 0.8171
+2024-07-08 16:09:51 - train.py[line:132] - INFO: epoch : 4, train loss : 0.5451, train acc: 0.7983, valid loss : 0.5004, valid acc : 0.8177
+2024-07-08 16:10:08 - train.py[line:132] - INFO: epoch : 5, train loss : 0.5335, train acc: 0.8024, valid loss : 0.4941, valid acc : 0.8270
+2024-07-08 16:10:28 - train.py[line:132] - INFO: epoch : 6, train loss : 0.5237, train acc: 0.8055, valid loss : 0.4853, valid acc : 0.8282
+2024-07-08 16:10:46 - train.py[line:132] - INFO: epoch : 7, train loss : 0.5153, train acc: 0.8075, valid loss : 0.4782, valid acc : 0.8302
+2024-07-08 16:11:04 - train.py[line:132] - INFO: epoch : 8, train loss : 0.5089, train acc: 0.8098, valid loss : 0.4782, valid acc : 0.8333
+2024-07-08 16:11:23 - train.py[line:132] - INFO: epoch : 9, train loss : 0.5034, train acc: 0.8117, valid loss : 0.4690, valid acc : 0.8274
+2024-07-08 16:11:42 - train.py[line:132] - INFO: epoch : 10, train loss : 0.4974, train acc: 0.8144, valid loss : 0.4732, valid acc : 0.8320
+2024-07-08 16:12:00 - train.py[line:132] - INFO: epoch : 11, train loss : 0.4935, train acc: 0.8155, valid loss : 0.4624, valid acc : 0.8370
+2024-07-08 16:12:18 - train.py[line:132] - INFO: epoch : 12, train loss : 0.4879, train acc: 0.8177, valid loss : 0.4605, valid acc : 0.8361
+2024-07-08 16:12:36 - train.py[line:132] - INFO: epoch : 13, train loss : 0.4851, train acc: 0.8192, valid loss : 0.4564, valid acc : 0.8412
+2024-07-08 16:12:54 - train.py[line:132] - INFO: epoch : 14, train loss : 0.4808, train acc: 0.8205, valid loss : 0.4619, valid acc : 0.8331
+2024-07-08 16:13:11 - train.py[line:132] - INFO: epoch : 15, train loss : 0.4778, train acc: 0.8218, valid loss : 0.4540, valid acc : 0.8450
+2024-07-08 16:13:29 - train.py[line:132] - INFO: epoch : 16, train loss : 0.4758, train acc: 0.8223, valid loss : 0.4444, valid acc : 0.8448
+2024-07-08 16:13:47 - train.py[line:132] - INFO: epoch : 17, train loss : 0.4718, train acc: 0.8248, valid loss : 0.4454, valid acc : 0.8406
+2024-07-08 16:14:05 - train.py[line:132] - INFO: epoch : 18, train loss : 0.4694, train acc: 0.8257, valid loss : 0.4385, valid acc : 0.8430
+2024-07-08 16:14:22 - train.py[line:132] - INFO: epoch : 19, train loss : 0.4657, train acc: 0.8271, valid loss : 0.4316, valid acc : 0.8359
+2024-07-08 16:14:40 - train.py[line:132] - INFO: epoch : 20, train loss : 0.4646, train acc: 0.8282, valid loss : 0.4273, valid acc : 0.8471
+2024-07-08 16:14:58 - train.py[line:132] - INFO: epoch : 21, train loss : 0.4613, train acc: 0.8295, valid loss : 0.4377, valid acc : 0.8484
+2024-07-08 16:15:16 - train.py[line:132] - INFO: epoch : 22, train loss : 0.4593, train acc: 0.8299, valid loss : 0.4326, valid acc : 0.8527
+2024-07-08 16:15:33 - train.py[line:132] - INFO: epoch : 23, train loss : 0.4588, train acc: 0.8310, valid loss : 0.4268, valid acc : 0.8545
+2024-07-08 16:15:51 - train.py[line:132] - INFO: epoch : 24, train loss : 0.4545, train acc: 0.8321, valid loss : 0.4186, valid acc : 0.8493
+2024-07-08 16:16:08 - train.py[line:132] - INFO: epoch : 25, train loss : 0.4532, train acc: 0.8328, valid loss : 0.4171, valid acc : 0.8531
+2024-07-08 16:16:26 - train.py[line:132] - INFO: epoch : 26, train loss : 0.4506, train acc: 0.8338, valid loss : 0.4195, valid acc : 0.8476
+2024-07-08 16:16:44 - train.py[line:132] - INFO: epoch : 27, train loss : 0.4500, train acc: 0.8342, valid loss : 0.4288, valid acc : 0.8527
+2024-07-08 16:17:02 - train.py[line:132] - INFO: epoch : 28, train loss : 0.4463, train acc: 0.8364, valid loss : 0.4013, valid acc : 0.8557
+2024-07-08 16:17:20 - train.py[line:132] - INFO: epoch : 29, train loss : 0.4452, train acc: 0.8358, valid loss : 0.4132, valid acc : 0.8587
+2024-07-08 16:17:37 - train.py[line:132] - INFO: epoch : 30, train loss : 0.4434, train acc: 0.8374, valid loss : 0.4070, valid acc : 0.8530
+2024-07-08 16:17:55 - train.py[line:132] - INFO: epoch : 31, train loss : 0.4433, train acc: 0.8370, valid loss : 0.4094, valid acc : 0.8569
+2024-07-08 16:18:13 - train.py[line:132] - INFO: epoch : 32, train loss : 0.4413, train acc: 0.8379, valid loss : 0.4042, valid acc : 0.8583
+2024-07-08 16:18:30 - train.py[line:132] - INFO: epoch : 33, train loss : 0.4394, train acc: 0.8390, valid loss : 0.4279, valid acc : 0.8572
+2024-07-08 16:18:48 - train.py[line:132] - INFO: epoch : 34, train loss : 0.4362, train acc: 0.8397, valid loss : 0.4063, valid acc : 0.8581
+2024-07-08 16:19:05 - train.py[line:132] - INFO: epoch : 35, train loss : 0.4358, train acc: 0.8398, valid loss : 0.4148, valid acc : 0.8548
+2024-07-08 16:19:23 - train.py[line:132] - INFO: epoch : 36, train loss : 0.4342, train acc: 0.8402, valid loss : 0.4049, valid acc : 0.8591
+2024-07-08 16:19:40 - train.py[line:132] - INFO: epoch : 37, train loss : 0.4331, train acc: 0.8410, valid loss : 0.4077, valid acc : 0.8600
+2024-07-08 16:19:58 - train.py[line:132] - INFO: epoch : 38, train loss : 0.4318, train acc: 0.8412, valid loss : 0.4138, valid acc : 0.8571
+2024-07-08 16:20:15 - train.py[line:132] - INFO: epoch : 39, train loss : 0.4307, train acc: 0.8414, valid loss : 0.4064, valid acc : 0.8561
+2024-07-08 16:20:33 - train.py[line:132] - INFO: epoch : 40, train loss : 0.4283, train acc: 0.8428, valid loss : 0.4076, valid acc : 0.8587
+2024-07-08 16:20:50 - train.py[line:132] - INFO: epoch : 41, train loss : 0.4280, train acc: 0.8433, valid loss : 0.4026, valid acc : 0.8606
+2024-07-08 16:21:09 - train.py[line:132] - INFO: epoch : 42, train loss : 0.4260, train acc: 0.8440, valid loss : 0.3966, valid acc : 0.8553
+2024-07-08 16:21:26 - train.py[line:132] - INFO: epoch : 43, train loss : 0.4255, train acc: 0.8438, valid loss : 0.4119, valid acc : 0.8575
+2024-07-08 16:21:44 - train.py[line:132] - INFO: epoch : 44, train loss : 0.4226, train acc: 0.8448, valid loss : 0.3898, valid acc : 0.8589
+2024-07-08 16:22:01 - train.py[line:132] - INFO: epoch : 45, train loss : 0.4226, train acc: 0.8449, valid loss : 0.3965, valid acc : 0.8617
+2024-07-08 16:22:18 - train.py[line:132] - INFO: epoch : 46, train loss : 0.4213, train acc: 0.8457, valid loss : 0.3914, valid acc : 0.8665
+2024-07-08 16:22:36 - train.py[line:132] - INFO: epoch : 47, train loss : 0.4199, train acc: 0.8465, valid loss : 0.4048, valid acc : 0.8599
+2024-07-08 16:22:54 - train.py[line:132] - INFO: epoch : 48, train loss : 0.4195, train acc: 0.8466, valid loss : 0.3966, valid acc : 0.8652
+2024-07-08 16:23:12 - train.py[line:132] - INFO: epoch : 49, train loss : 0.4181, train acc: 0.8464, valid loss : 0.3974, valid acc : 0.8607
+2024-07-08 16:23:31 - train.py[line:132] - INFO: epoch : 50, train loss : 0.4166, train acc: 0.8472, valid loss : 0.3953, valid acc : 0.8594
+2024-07-08 16:23:48 - train.py[line:132] - INFO: epoch : 51, train loss : 0.4155, train acc: 0.8474, valid loss : 0.3983, valid acc : 0.8599
+2024-07-08 16:24:06 - train.py[line:132] - INFO: epoch : 52, train loss : 0.4157, train acc: 0.8477, valid loss : 0.4022, valid acc : 0.8605
+2024-07-08 16:24:23 - train.py[line:132] - INFO: epoch : 53, train loss : 0.4148, train acc: 0.8484, valid loss : 0.4003, valid acc : 0.8647
+2024-07-08 16:24:40 - train.py[line:132] - INFO: epoch : 54, train loss : 0.4132, train acc: 0.8486, valid loss : 0.3855, valid acc : 0.8633
+2024-07-08 16:24:56 - train.py[line:132] - INFO: epoch : 55, train loss : 0.4118, train acc: 0.8489, valid loss : 0.3924, valid acc : 0.8631
+2024-07-08 16:25:14 - train.py[line:132] - INFO: epoch : 56, train loss : 0.4113, train acc: 0.8492, valid loss : 0.3852, valid acc : 0.8642
+2024-07-08 16:25:33 - train.py[line:132] - INFO: epoch : 57, train loss : 0.4103, train acc: 0.8497, valid loss : 0.3872, valid acc : 0.8677
+2024-07-08 16:25:50 - train.py[line:132] - INFO: epoch : 58, train loss : 0.4094, train acc: 0.8504, valid loss : 0.3930, valid acc : 0.8649
+2024-07-08 16:26:08 - train.py[line:132] - INFO: epoch : 59, train loss : 0.4085, train acc: 0.8502, valid loss : 0.3937, valid acc : 0.8643
+2024-07-08 16:26:26 - train.py[line:132] - INFO: epoch : 60, train loss : 0.4071, train acc: 0.8504, valid loss : 0.3914, valid acc : 0.8654
+2024-07-08 16:26:42 - train.py[line:132] - INFO: epoch : 61, train loss : 0.4070, train acc: 0.8507, valid loss : 0.4002, valid acc : 0.8657
+2024-07-08 16:27:00 - train.py[line:132] - INFO: epoch : 62, train loss : 0.4062, train acc: 0.8513, valid loss : 0.3894, valid acc : 0.8624
+2024-07-08 16:27:17 - train.py[line:132] - INFO: epoch : 63, train loss : 0.4047, train acc: 0.8515, valid loss : 0.3945, valid acc : 0.8670
+2024-07-08 16:27:35 - train.py[line:132] - INFO: epoch : 64, train loss : 0.4050, train acc: 0.8514, valid loss : 0.3816, valid acc : 0.8679
+2024-07-08 16:27:52 - train.py[line:132] - INFO: epoch : 65, train loss : 0.4031, train acc: 0.8520, valid loss : 0.3835, valid acc : 0.8667
+2024-07-08 16:28:10 - train.py[line:132] - INFO: epoch : 66, train loss : 0.4022, train acc: 0.8519, valid loss : 0.3872, valid acc : 0.8671
+2024-07-08 16:28:26 - train.py[line:132] - INFO: epoch : 67, train loss : 0.4024, train acc: 0.8525, valid loss : 0.3853, valid acc : 0.8692
+2024-07-08 16:28:44 - train.py[line:132] - INFO: epoch : 68, train loss : 0.4008, train acc: 0.8528, valid loss : 0.3846, valid acc : 0.8627
+2024-07-08 16:29:01 - train.py[line:132] - INFO: epoch : 69, train loss : 0.4007, train acc: 0.8534, valid loss : 0.3818, valid acc : 0.8685
+2024-07-08 16:29:19 - train.py[line:132] - INFO: epoch : 70, train loss : 0.3997, train acc: 0.8528, valid loss : 0.4018, valid acc : 0.8645
+2024-07-08 16:29:37 - train.py[line:132] - INFO: epoch : 71, train loss : 0.3992, train acc: 0.8533, valid loss : 0.3764, valid acc : 0.8682
+2024-07-08 16:29:54 - train.py[line:132] - INFO: epoch : 72, train loss : 0.3987, train acc: 0.8540, valid loss : 0.3864, valid acc : 0.8706
+2024-07-08 16:30:12 - train.py[line:132] - INFO: epoch : 73, train loss : 0.3977, train acc: 0.8544, valid loss : 0.3874, valid acc : 0.8675
+2024-07-08 16:30:30 - train.py[line:132] - INFO: epoch : 74, train loss : 0.3975, train acc: 0.8547, valid loss : 0.3730, valid acc : 0.8628
+2024-07-08 16:30:47 - train.py[line:132] - INFO: epoch : 75, train loss : 0.3968, train acc: 0.8546, valid loss : 0.3750, valid acc : 0.8702
+2024-07-08 16:31:04 - train.py[line:132] - INFO: epoch : 76, train loss : 0.3958, train acc: 0.8552, valid loss : 0.3798, valid acc : 0.8694
+2024-07-08 16:31:21 - train.py[line:132] - INFO: epoch : 77, train loss : 0.3949, train acc: 0.8554, valid loss : 0.3796, valid acc : 0.8653
+2024-07-08 16:31:38 - train.py[line:132] - INFO: epoch : 78, train loss : 0.3938, train acc: 0.8557, valid loss : 0.3776, valid acc : 0.8702
+2024-07-08 16:31:55 - train.py[line:132] - INFO: epoch : 79, train loss : 0.3941, train acc: 0.8556, valid loss : 0.4005, valid acc : 0.8641
+2024-07-08 16:32:12 - train.py[line:132] - INFO: epoch : 80, train loss : 0.3929, train acc: 0.8561, valid loss : 0.3867, valid acc : 0.8659
+2024-07-08 16:32:29 - train.py[line:132] - INFO: epoch : 81, train loss : 0.3935, train acc: 0.8559, valid loss : 0.3805, valid acc : 0.8683
+2024-07-08 16:32:47 - train.py[line:132] - INFO: epoch : 82, train loss : 0.3920, train acc: 0.8567, valid loss : 0.3832, valid acc : 0.8704
+2024-07-08 16:33:05 - train.py[line:132] - INFO: epoch : 83, train loss : 0.3910, train acc: 0.8564, valid loss : 0.3766, valid acc : 0.8709
+2024-07-08 16:33:21 - train.py[line:132] - INFO: epoch : 84, train loss : 0.3915, train acc: 0.8567, valid loss : 0.3870, valid acc : 0.8651
+2024-07-08 16:33:39 - train.py[line:132] - INFO: epoch : 85, train loss : 0.3907, train acc: 0.8572, valid loss : 0.3902, valid acc : 0.8697
+2024-07-08 16:33:55 - train.py[line:132] - INFO: epoch : 86, train loss : 0.3897, train acc: 0.8573, valid loss : 0.3873, valid acc : 0.8660
+2024-07-08 16:34:12 - train.py[line:132] - INFO: epoch : 87, train loss : 0.3895, train acc: 0.8575, valid loss : 0.3761, valid acc : 0.8688
+2024-07-08 16:34:29 - train.py[line:132] - INFO: epoch : 88, train loss : 0.3894, train acc: 0.8576, valid loss : 0.3956, valid acc : 0.8641
+2024-07-08 16:34:45 - train.py[line:132] - INFO: epoch : 89, train loss : 0.3886, train acc: 0.8573, valid loss : 0.3884, valid acc : 0.8688
+2024-07-08 16:35:03 - train.py[line:132] - INFO: epoch : 90, train loss : 0.3881, train acc: 0.8580, valid loss : 0.3909, valid acc : 0.8685
+2024-07-08 16:35:21 - train.py[line:132] - INFO: epoch : 91, train loss : 0.3876, train acc: 0.8579, valid loss : 0.3564, valid acc : 0.8762
+2024-07-08 16:35:36 - train.py[line:132] - INFO: epoch : 92, train loss : 0.3866, train acc: 0.8586, valid loss : 0.3699, valid acc : 0.8723
+2024-07-08 16:35:54 - train.py[line:132] - INFO: epoch : 93, train loss : 0.3872, train acc: 0.8584, valid loss : 0.3963, valid acc : 0.8675
+2024-07-08 16:36:11 - train.py[line:132] - INFO: epoch : 94, train loss : 0.3852, train acc: 0.8591, valid loss : 0.3791, valid acc : 0.8682
+2024-07-08 16:36:29 - train.py[line:132] - INFO: epoch : 95, train loss : 0.3856, train acc: 0.8593, valid loss : 0.3722, valid acc : 0.8709
+2024-07-08 16:36:46 - train.py[line:132] - INFO: epoch : 96, train loss : 0.3850, train acc: 0.8590, valid loss : 0.3772, valid acc : 0.8670
+2024-07-08 16:37:04 - train.py[line:132] - INFO: epoch : 97, train loss : 0.3841, train acc: 0.8594, valid loss : 0.3992, valid acc : 0.8689
+2024-07-08 16:37:20 - train.py[line:132] - INFO: epoch : 98, train loss : 0.3836, train acc: 0.8594, valid loss : 0.3833, valid acc : 0.8683
+2024-07-08 16:37:38 - train.py[line:132] - INFO: epoch : 99, train loss : 0.3845, train acc: 0.8597, valid loss : 0.3738, valid acc : 0.8731
+2024-07-08 16:37:56 - train.py[line:132] - INFO: epoch : 100, train loss : 0.3828, train acc: 0.8597, valid loss : 0.3799, valid acc : 0.8703
+2024-07-08 16:37:56 - train.py[line:135] - INFO: Training Time of Neural Network: 29.3213396747907 min.
+2024-07-08 16:37:56 - train.py[line:149] - INFO: {'tp': 0.282, 'fp': 0.044, 'tn': 0.589, 'fn': 0.086}
+2024-07-08 16:37:56 - train.py[line:152] - INFO: Saving Model.
+2024-07-08 16:37:56 - train.py[line:154] - INFO: Model saved in path output/temp/model/dmv.pkl
+2024-07-08 20:03:40 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-08 20:04:15 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-08 20:04:18 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-08 20:04:18 - train.py[line:115] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_4): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_5): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=42, bias=True)
+  (fcsql): Linear(in_features=22, out_features=42, bias=True)
+  (fc1): Linear(in_features=587, out_features=42, bias=True)
+  (fwide): Linear(in_features=37, out_features=42, bias=True)
+  (fc_final): Linear(in_features=42, out_features=1, bias=True)
+)
+2024-07-08 20:04:18 - train.py[line:121] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-08 20:04:18 - train.py[line:123] - INFO: Using BCELoss as loss function.
+2024-07-08 20:04:18 - train.py[line:125] - INFO: Using Adam as optimization function.
+2024-07-08 20:04:18 - train.py[line:128] - INFO: Begin the training of model.
+2024-07-08 20:04:37 - train.py[line:132] - INFO: epoch : 1, train loss : 0.6845, train acc: 0.7327, valid loss : 0.5850, valid acc : 0.7917
+2024-07-08 20:04:53 - train.py[line:132] - INFO: epoch : 2, train loss : 0.5937, train acc: 0.7795, valid loss : 0.5455, valid acc : 0.8072
+2024-07-08 20:05:10 - train.py[line:132] - INFO: epoch : 3, train loss : 0.5632, train acc: 0.7911, valid loss : 0.5304, valid acc : 0.8171
+2024-07-08 20:05:26 - train.py[line:132] - INFO: epoch : 4, train loss : 0.5451, train acc: 0.7983, valid loss : 0.5004, valid acc : 0.8177
+2024-07-08 20:05:44 - train.py[line:132] - INFO: epoch : 5, train loss : 0.5335, train acc: 0.8024, valid loss : 0.4941, valid acc : 0.8270
+2024-07-08 20:06:01 - train.py[line:132] - INFO: epoch : 6, train loss : 0.5237, train acc: 0.8055, valid loss : 0.4853, valid acc : 0.8282
+2024-07-08 20:06:18 - train.py[line:132] - INFO: epoch : 7, train loss : 0.5153, train acc: 0.8075, valid loss : 0.4782, valid acc : 0.8302
+2024-07-08 20:06:35 - train.py[line:132] - INFO: epoch : 8, train loss : 0.5089, train acc: 0.8098, valid loss : 0.4782, valid acc : 0.8333
+2024-07-08 20:06:52 - train.py[line:132] - INFO: epoch : 9, train loss : 0.5034, train acc: 0.8117, valid loss : 0.4690, valid acc : 0.8274
+2024-07-08 20:07:09 - train.py[line:132] - INFO: epoch : 10, train loss : 0.4974, train acc: 0.8144, valid loss : 0.4732, valid acc : 0.8320
+2024-07-08 20:07:27 - train.py[line:132] - INFO: epoch : 11, train loss : 0.4935, train acc: 0.8155, valid loss : 0.4624, valid acc : 0.8370
+2024-07-08 20:07:44 - train.py[line:132] - INFO: epoch : 12, train loss : 0.4879, train acc: 0.8177, valid loss : 0.4605, valid acc : 0.8361
+2024-07-08 20:08:01 - train.py[line:132] - INFO: epoch : 13, train loss : 0.4851, train acc: 0.8192, valid loss : 0.4564, valid acc : 0.8412
+2024-07-08 20:08:17 - train.py[line:132] - INFO: epoch : 14, train loss : 0.4808, train acc: 0.8205, valid loss : 0.4619, valid acc : 0.8331
+2024-07-08 20:08:35 - train.py[line:132] - INFO: epoch : 15, train loss : 0.4778, train acc: 0.8218, valid loss : 0.4540, valid acc : 0.8450
+2024-07-08 20:08:52 - train.py[line:132] - INFO: epoch : 16, train loss : 0.4758, train acc: 0.8223, valid loss : 0.4444, valid acc : 0.8448
+2024-07-08 20:09:08 - train.py[line:132] - INFO: epoch : 17, train loss : 0.4718, train acc: 0.8248, valid loss : 0.4454, valid acc : 0.8406
+2024-07-08 20:09:25 - train.py[line:132] - INFO: epoch : 18, train loss : 0.4694, train acc: 0.8257, valid loss : 0.4385, valid acc : 0.8430
+2024-07-08 20:09:42 - train.py[line:132] - INFO: epoch : 19, train loss : 0.4657, train acc: 0.8271, valid loss : 0.4316, valid acc : 0.8359
+2024-07-08 20:09:58 - train.py[line:132] - INFO: epoch : 20, train loss : 0.4646, train acc: 0.8282, valid loss : 0.4273, valid acc : 0.8471
+2024-07-08 20:10:15 - train.py[line:132] - INFO: epoch : 21, train loss : 0.4613, train acc: 0.8295, valid loss : 0.4377, valid acc : 0.8484
+2024-07-08 20:10:32 - train.py[line:132] - INFO: epoch : 22, train loss : 0.4593, train acc: 0.8299, valid loss : 0.4326, valid acc : 0.8527
+2024-07-08 20:10:49 - train.py[line:132] - INFO: epoch : 23, train loss : 0.4588, train acc: 0.8310, valid loss : 0.4268, valid acc : 0.8545
+2024-07-08 20:11:05 - train.py[line:132] - INFO: epoch : 24, train loss : 0.4545, train acc: 0.8321, valid loss : 0.4186, valid acc : 0.8493
+2024-07-08 20:11:23 - train.py[line:132] - INFO: epoch : 25, train loss : 0.4532, train acc: 0.8328, valid loss : 0.4171, valid acc : 0.8531
+2024-07-08 20:11:40 - train.py[line:132] - INFO: epoch : 26, train loss : 0.4506, train acc: 0.8338, valid loss : 0.4195, valid acc : 0.8476
+2024-07-08 20:11:57 - train.py[line:132] - INFO: epoch : 27, train loss : 0.4500, train acc: 0.8342, valid loss : 0.4288, valid acc : 0.8527
+2024-07-08 20:12:13 - train.py[line:132] - INFO: epoch : 28, train loss : 0.4463, train acc: 0.8364, valid loss : 0.4013, valid acc : 0.8557
+2024-07-08 20:12:31 - train.py[line:132] - INFO: epoch : 29, train loss : 0.4452, train acc: 0.8358, valid loss : 0.4132, valid acc : 0.8587
+2024-07-08 20:12:47 - train.py[line:132] - INFO: epoch : 30, train loss : 0.4434, train acc: 0.8374, valid loss : 0.4070, valid acc : 0.8530
+2024-07-08 20:13:04 - train.py[line:132] - INFO: epoch : 31, train loss : 0.4433, train acc: 0.8370, valid loss : 0.4094, valid acc : 0.8569
+2024-07-08 20:13:21 - train.py[line:132] - INFO: epoch : 32, train loss : 0.4413, train acc: 0.8379, valid loss : 0.4042, valid acc : 0.8583
+2024-07-08 20:13:38 - train.py[line:132] - INFO: epoch : 33, train loss : 0.4394, train acc: 0.8390, valid loss : 0.4279, valid acc : 0.8572
+2024-07-08 20:13:55 - train.py[line:132] - INFO: epoch : 34, train loss : 0.4362, train acc: 0.8397, valid loss : 0.4063, valid acc : 0.8581
+2024-07-08 20:14:12 - train.py[line:132] - INFO: epoch : 35, train loss : 0.4358, train acc: 0.8398, valid loss : 0.4148, valid acc : 0.8548
+2024-07-08 20:14:29 - train.py[line:132] - INFO: epoch : 36, train loss : 0.4342, train acc: 0.8402, valid loss : 0.4049, valid acc : 0.8591
+2024-07-08 20:14:46 - train.py[line:132] - INFO: epoch : 37, train loss : 0.4331, train acc: 0.8410, valid loss : 0.4077, valid acc : 0.8600
+2024-07-08 20:15:03 - train.py[line:132] - INFO: epoch : 38, train loss : 0.4318, train acc: 0.8412, valid loss : 0.4138, valid acc : 0.8571
+2024-07-08 20:15:20 - train.py[line:132] - INFO: epoch : 39, train loss : 0.4307, train acc: 0.8414, valid loss : 0.4064, valid acc : 0.8561
+2024-07-08 20:15:36 - train.py[line:132] - INFO: epoch : 40, train loss : 0.4283, train acc: 0.8428, valid loss : 0.4076, valid acc : 0.8587
+2024-07-08 20:15:53 - train.py[line:132] - INFO: epoch : 41, train loss : 0.4280, train acc: 0.8433, valid loss : 0.4026, valid acc : 0.8606
+2024-07-08 20:16:09 - train.py[line:132] - INFO: epoch : 42, train loss : 0.4260, train acc: 0.8440, valid loss : 0.3966, valid acc : 0.8553
+2024-07-08 20:16:26 - train.py[line:132] - INFO: epoch : 43, train loss : 0.4255, train acc: 0.8438, valid loss : 0.4119, valid acc : 0.8575
+2024-07-08 20:16:43 - train.py[line:132] - INFO: epoch : 44, train loss : 0.4226, train acc: 0.8448, valid loss : 0.3898, valid acc : 0.8589
+2024-07-08 20:17:00 - train.py[line:132] - INFO: epoch : 45, train loss : 0.4226, train acc: 0.8449, valid loss : 0.3965, valid acc : 0.8617
+2024-07-08 20:17:16 - train.py[line:132] - INFO: epoch : 46, train loss : 0.4213, train acc: 0.8457, valid loss : 0.3914, valid acc : 0.8665
+2024-07-08 20:17:33 - train.py[line:132] - INFO: epoch : 47, train loss : 0.4199, train acc: 0.8465, valid loss : 0.4048, valid acc : 0.8599
+2024-07-08 20:17:51 - train.py[line:132] - INFO: epoch : 48, train loss : 0.4195, train acc: 0.8466, valid loss : 0.3966, valid acc : 0.8652
+2024-07-08 20:18:08 - train.py[line:132] - INFO: epoch : 49, train loss : 0.4181, train acc: 0.8464, valid loss : 0.3974, valid acc : 0.8607
+2024-07-08 20:18:25 - train.py[line:132] - INFO: epoch : 50, train loss : 0.4166, train acc: 0.8472, valid loss : 0.3953, valid acc : 0.8594
+2024-07-08 20:18:42 - train.py[line:132] - INFO: epoch : 51, train loss : 0.4155, train acc: 0.8474, valid loss : 0.3983, valid acc : 0.8599
+2024-07-08 20:18:59 - train.py[line:132] - INFO: epoch : 52, train loss : 0.4157, train acc: 0.8477, valid loss : 0.4022, valid acc : 0.8605
+2024-07-08 20:19:17 - train.py[line:132] - INFO: epoch : 53, train loss : 0.4148, train acc: 0.8484, valid loss : 0.4003, valid acc : 0.8647
+2024-07-08 20:19:34 - train.py[line:132] - INFO: epoch : 54, train loss : 0.4132, train acc: 0.8486, valid loss : 0.3855, valid acc : 0.8633
+2024-07-08 20:19:50 - train.py[line:132] - INFO: epoch : 55, train loss : 0.4118, train acc: 0.8489, valid loss : 0.3924, valid acc : 0.8631
+2024-07-08 20:20:07 - train.py[line:132] - INFO: epoch : 56, train loss : 0.4113, train acc: 0.8492, valid loss : 0.3852, valid acc : 0.8642
+2024-07-08 20:20:24 - train.py[line:132] - INFO: epoch : 57, train loss : 0.4103, train acc: 0.8497, valid loss : 0.3872, valid acc : 0.8677
+2024-07-08 20:20:40 - train.py[line:132] - INFO: epoch : 58, train loss : 0.4094, train acc: 0.8504, valid loss : 0.3930, valid acc : 0.8649
+2024-07-08 20:20:57 - train.py[line:132] - INFO: epoch : 59, train loss : 0.4085, train acc: 0.8502, valid loss : 0.3937, valid acc : 0.8643
+2024-07-08 20:21:13 - train.py[line:132] - INFO: epoch : 60, train loss : 0.4071, train acc: 0.8504, valid loss : 0.3914, valid acc : 0.8654
+2024-07-08 20:21:30 - train.py[line:132] - INFO: epoch : 61, train loss : 0.4070, train acc: 0.8507, valid loss : 0.4002, valid acc : 0.8657
+2024-07-08 20:21:47 - train.py[line:132] - INFO: epoch : 62, train loss : 0.4062, train acc: 0.8513, valid loss : 0.3894, valid acc : 0.8624
+2024-07-08 20:22:05 - train.py[line:132] - INFO: epoch : 63, train loss : 0.4047, train acc: 0.8515, valid loss : 0.3945, valid acc : 0.8670
+2024-07-08 20:22:21 - train.py[line:132] - INFO: epoch : 64, train loss : 0.4050, train acc: 0.8514, valid loss : 0.3816, valid acc : 0.8679
+2024-07-08 20:22:38 - train.py[line:132] - INFO: epoch : 65, train loss : 0.4031, train acc: 0.8520, valid loss : 0.3835, valid acc : 0.8667
+2024-07-08 20:22:55 - train.py[line:132] - INFO: epoch : 66, train loss : 0.4022, train acc: 0.8519, valid loss : 0.3872, valid acc : 0.8671
+2024-07-08 20:23:12 - train.py[line:132] - INFO: epoch : 67, train loss : 0.4024, train acc: 0.8525, valid loss : 0.3853, valid acc : 0.8692
+2024-07-08 20:23:29 - train.py[line:132] - INFO: epoch : 68, train loss : 0.4008, train acc: 0.8528, valid loss : 0.3846, valid acc : 0.8627
+2024-07-08 20:23:46 - train.py[line:132] - INFO: epoch : 69, train loss : 0.4007, train acc: 0.8534, valid loss : 0.3818, valid acc : 0.8685
+2024-07-08 20:24:04 - train.py[line:132] - INFO: epoch : 70, train loss : 0.3997, train acc: 0.8528, valid loss : 0.4018, valid acc : 0.8645
+2024-07-08 20:24:21 - train.py[line:132] - INFO: epoch : 71, train loss : 0.3992, train acc: 0.8533, valid loss : 0.3764, valid acc : 0.8682
+2024-07-08 20:24:38 - train.py[line:132] - INFO: epoch : 72, train loss : 0.3987, train acc: 0.8540, valid loss : 0.3864, valid acc : 0.8706
+2024-07-08 20:24:53 - train.py[line:132] - INFO: epoch : 73, train loss : 0.3977, train acc: 0.8544, valid loss : 0.3874, valid acc : 0.8675
+2024-07-08 20:25:09 - train.py[line:132] - INFO: epoch : 74, train loss : 0.3975, train acc: 0.8547, valid loss : 0.3730, valid acc : 0.8628
+2024-07-08 20:25:26 - train.py[line:132] - INFO: epoch : 75, train loss : 0.3968, train acc: 0.8546, valid loss : 0.3750, valid acc : 0.8702
+2024-07-08 20:25:42 - train.py[line:132] - INFO: epoch : 76, train loss : 0.3958, train acc: 0.8552, valid loss : 0.3798, valid acc : 0.8694
+2024-07-08 20:25:59 - train.py[line:132] - INFO: epoch : 77, train loss : 0.3949, train acc: 0.8554, valid loss : 0.3796, valid acc : 0.8653
+2024-07-08 20:26:16 - train.py[line:132] - INFO: epoch : 78, train loss : 0.3938, train acc: 0.8557, valid loss : 0.3776, valid acc : 0.8702
+2024-07-08 20:26:33 - train.py[line:132] - INFO: epoch : 79, train loss : 0.3941, train acc: 0.8556, valid loss : 0.4005, valid acc : 0.8641
+2024-07-08 20:26:50 - train.py[line:132] - INFO: epoch : 80, train loss : 0.3929, train acc: 0.8561, valid loss : 0.3867, valid acc : 0.8659
+2024-07-08 20:27:06 - train.py[line:132] - INFO: epoch : 81, train loss : 0.3935, train acc: 0.8559, valid loss : 0.3805, valid acc : 0.8683
+2024-07-08 20:27:23 - train.py[line:132] - INFO: epoch : 82, train loss : 0.3920, train acc: 0.8567, valid loss : 0.3832, valid acc : 0.8704
+2024-07-08 20:27:40 - train.py[line:132] - INFO: epoch : 83, train loss : 0.3910, train acc: 0.8564, valid loss : 0.3766, valid acc : 0.8709
+2024-07-08 20:27:57 - train.py[line:132] - INFO: epoch : 84, train loss : 0.3915, train acc: 0.8567, valid loss : 0.3870, valid acc : 0.8651
+2024-07-08 20:28:14 - train.py[line:132] - INFO: epoch : 85, train loss : 0.3907, train acc: 0.8572, valid loss : 0.3902, valid acc : 0.8697
+2024-07-08 20:28:30 - train.py[line:132] - INFO: epoch : 86, train loss : 0.3897, train acc: 0.8573, valid loss : 0.3873, valid acc : 0.8660
+2024-07-08 20:28:47 - train.py[line:132] - INFO: epoch : 87, train loss : 0.3895, train acc: 0.8575, valid loss : 0.3761, valid acc : 0.8688
+2024-07-08 20:29:04 - train.py[line:132] - INFO: epoch : 88, train loss : 0.3894, train acc: 0.8576, valid loss : 0.3956, valid acc : 0.8641
+2024-07-08 20:29:21 - train.py[line:132] - INFO: epoch : 89, train loss : 0.3886, train acc: 0.8573, valid loss : 0.3884, valid acc : 0.8688
+2024-07-08 20:29:38 - train.py[line:132] - INFO: epoch : 90, train loss : 0.3881, train acc: 0.8580, valid loss : 0.3909, valid acc : 0.8685
+2024-07-08 20:29:54 - train.py[line:132] - INFO: epoch : 91, train loss : 0.3876, train acc: 0.8579, valid loss : 0.3564, valid acc : 0.8762
+2024-07-08 20:30:11 - train.py[line:132] - INFO: epoch : 92, train loss : 0.3866, train acc: 0.8586, valid loss : 0.3699, valid acc : 0.8723
+2024-07-08 20:30:28 - train.py[line:132] - INFO: epoch : 93, train loss : 0.3872, train acc: 0.8584, valid loss : 0.3963, valid acc : 0.8675
+2024-07-08 20:30:45 - train.py[line:132] - INFO: epoch : 94, train loss : 0.3852, train acc: 0.8591, valid loss : 0.3791, valid acc : 0.8682
+2024-07-08 20:31:02 - train.py[line:132] - INFO: epoch : 95, train loss : 0.3856, train acc: 0.8593, valid loss : 0.3722, valid acc : 0.8709
+2024-07-08 20:31:18 - train.py[line:132] - INFO: epoch : 96, train loss : 0.3850, train acc: 0.8590, valid loss : 0.3772, valid acc : 0.8670
+2024-07-08 20:31:34 - train.py[line:132] - INFO: epoch : 97, train loss : 0.3841, train acc: 0.8594, valid loss : 0.3992, valid acc : 0.8689
+2024-07-08 20:31:52 - train.py[line:132] - INFO: epoch : 98, train loss : 0.3836, train acc: 0.8594, valid loss : 0.3833, valid acc : 0.8683
+2024-07-08 20:32:08 - train.py[line:132] - INFO: epoch : 99, train loss : 0.3845, train acc: 0.8597, valid loss : 0.3738, valid acc : 0.8731
+2024-07-08 20:32:25 - train.py[line:132] - INFO: epoch : 100, train loss : 0.3828, train acc: 0.8597, valid loss : 0.3799, valid acc : 0.8703
+2024-07-08 20:32:25 - train.py[line:135] - INFO: Training Time of Neural Network: 28.104051899909972 min.
+2024-07-08 20:32:25 - train.py[line:149] - INFO: {'tp': 0.282, 'fp': 0.044, 'tn': 0.589, 'fn': 0.086}
+2024-07-08 20:32:25 - train.py[line:152] - INFO: Saving Model.
+2024-07-08 20:32:25 - train.py[line:154] - INFO: Model saved in path output/temp/model/dmv.pkl
+2024-07-09 09:20:24 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-09 09:20:53 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-09 09:20:57 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-09 09:20:57 - train.py[line:117] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_4): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_5): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=42, bias=True)
+  (fcsql): Linear(in_features=22, out_features=42, bias=True)
+  (fc1): Linear(in_features=587, out_features=42, bias=True)
+  (fwide): Linear(in_features=37, out_features=42, bias=True)
+  (fc_final): Linear(in_features=42, out_features=1, bias=True)
+)
+2024-07-09 09:20:57 - train.py[line:125] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-09 09:20:57 - train.py[line:127] - INFO: Using BCELoss as loss function.
+2024-07-09 09:20:57 - train.py[line:129] - INFO: Using Adam as optimization function.
+2024-07-09 09:20:57 - train.py[line:132] - INFO: Begin the training of model.
+2024-07-09 09:21:44 - train.py[line:136] - INFO: epoch : 1, train loss : 0.6850, train acc: 0.7357, valid loss : 0.5877, valid acc : 0.7925
+2024-07-09 09:22:24 - train.py[line:136] - INFO: epoch : 2, train loss : 0.5927, train acc: 0.7822, valid loss : 0.5438, valid acc : 0.8046
+2024-07-09 09:23:04 - train.py[line:136] - INFO: epoch : 3, train loss : 0.5653, train acc: 0.7908, valid loss : 0.5328, valid acc : 0.8131
+2024-07-09 09:23:43 - train.py[line:136] - INFO: epoch : 4, train loss : 0.5463, train acc: 0.7981, valid loss : 0.5018, valid acc : 0.8240
+2024-07-09 09:24:24 - train.py[line:136] - INFO: epoch : 5, train loss : 0.5343, train acc: 0.8018, valid loss : 0.5034, valid acc : 0.8221
+2024-07-09 09:25:04 - train.py[line:136] - INFO: epoch : 6, train loss : 0.5237, train acc: 0.8055, valid loss : 0.4846, valid acc : 0.8257
+2024-07-09 09:25:45 - train.py[line:136] - INFO: epoch : 7, train loss : 0.5155, train acc: 0.8079, valid loss : 0.4835, valid acc : 0.8253
+2024-07-09 09:26:25 - train.py[line:136] - INFO: epoch : 8, train loss : 0.5095, train acc: 0.8105, valid loss : 0.4788, valid acc : 0.8309
+2024-07-09 09:27:04 - train.py[line:136] - INFO: epoch : 9, train loss : 0.5038, train acc: 0.8116, valid loss : 0.4605, valid acc : 0.8309
+2024-07-09 09:27:46 - train.py[line:136] - INFO: epoch : 10, train loss : 0.4973, train acc: 0.8145, valid loss : 0.4653, valid acc : 0.8358
+2024-07-09 09:28:26 - train.py[line:136] - INFO: epoch : 11, train loss : 0.4943, train acc: 0.8152, valid loss : 0.4651, valid acc : 0.8387
+2024-07-09 09:29:04 - train.py[line:136] - INFO: epoch : 12, train loss : 0.4894, train acc: 0.8171, valid loss : 0.4530, valid acc : 0.8409
+2024-07-09 09:29:45 - train.py[line:136] - INFO: epoch : 13, train loss : 0.4857, train acc: 0.8180, valid loss : 0.4527, valid acc : 0.8428
+2024-07-09 09:30:25 - train.py[line:136] - INFO: epoch : 14, train loss : 0.4833, train acc: 0.8192, valid loss : 0.4509, valid acc : 0.8311
+2024-07-09 09:31:06 - train.py[line:136] - INFO: epoch : 15, train loss : 0.4794, train acc: 0.8209, valid loss : 0.4430, valid acc : 0.8409
+2024-07-09 09:31:45 - train.py[line:136] - INFO: epoch : 16, train loss : 0.4749, train acc: 0.8219, valid loss : 0.4399, valid acc : 0.8370
+2024-07-09 09:32:24 - train.py[line:136] - INFO: epoch : 17, train loss : 0.4727, train acc: 0.8232, valid loss : 0.4481, valid acc : 0.8392
+2024-07-09 09:33:49 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-09 09:34:23 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-09 09:34:26 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-09 09:34:26 - train.py[line:117] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_4): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_5): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=42, bias=True)
+  (fcsql): Linear(in_features=22, out_features=42, bias=True)
+  (fc1): Linear(in_features=587, out_features=42, bias=True)
+  (fwide): Linear(in_features=37, out_features=42, bias=True)
+  (fc_final): Linear(in_features=42, out_features=1, bias=True)
+)
+2024-07-09 09:34:26 - train.py[line:125] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-09 09:34:26 - train.py[line:127] - INFO: Using BCELoss as loss function.
+2024-07-09 09:34:26 - train.py[line:129] - INFO: Using Adam as optimization function.
+2024-07-09 09:34:26 - train.py[line:132] - INFO: Begin the training of model.
+2024-07-09 09:35:11 - train.py[line:136] - INFO: epoch : 1, train loss : 0.6850, train acc: 0.7357, valid loss : 0.5877, valid acc : 0.7925
+2024-07-09 09:35:49 - train.py[line:136] - INFO: epoch : 2, train loss : 0.5927, train acc: 0.7822, valid loss : 0.5438, valid acc : 0.8046
+2024-07-09 09:36:35 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-09 09:37:04 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-09 09:37:07 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-09 09:37:07 - train.py[line:117] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_4): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_5): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=42, bias=True)
+  (fcsql): Linear(in_features=22, out_features=42, bias=True)
+  (fc1): Linear(in_features=587, out_features=42, bias=True)
+  (fwide): Linear(in_features=37, out_features=42, bias=True)
+  (fc_final): Linear(in_features=42, out_features=1, bias=True)
+)
+2024-07-09 09:37:07 - train.py[line:125] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-09 09:37:07 - train.py[line:127] - INFO: Using BCELoss as loss function.
+2024-07-09 09:37:07 - train.py[line:129] - INFO: Using Adam as optimization function.
+2024-07-09 09:37:07 - train.py[line:132] - INFO: Begin the training of model.
+2024-07-09 09:37:25 - train.py[line:136] - INFO: epoch : 1, train loss : 0.6845, train acc: 0.7327, valid loss : 0.5850, valid acc : 0.7917
+2024-07-09 09:37:43 - train.py[line:136] - INFO: epoch : 2, train loss : 0.5937, train acc: 0.7795, valid loss : 0.5455, valid acc : 0.8072
+2024-07-09 09:38:00 - train.py[line:136] - INFO: epoch : 3, train loss : 0.5632, train acc: 0.7911, valid loss : 0.5304, valid acc : 0.8171
+2024-07-09 09:38:18 - train.py[line:136] - INFO: epoch : 4, train loss : 0.5451, train acc: 0.7983, valid loss : 0.5004, valid acc : 0.8177
+2024-07-09 09:38:35 - train.py[line:136] - INFO: epoch : 5, train loss : 0.5335, train acc: 0.8024, valid loss : 0.4941, valid acc : 0.8270
+2024-07-09 09:38:52 - train.py[line:136] - INFO: epoch : 6, train loss : 0.5237, train acc: 0.8055, valid loss : 0.4853, valid acc : 0.8282
+2024-07-09 09:39:08 - train.py[line:136] - INFO: epoch : 7, train loss : 0.5153, train acc: 0.8075, valid loss : 0.4782, valid acc : 0.8302
+2024-07-09 09:39:25 - train.py[line:136] - INFO: epoch : 8, train loss : 0.5089, train acc: 0.8098, valid loss : 0.4782, valid acc : 0.8333
+2024-07-09 09:39:42 - train.py[line:136] - INFO: epoch : 9, train loss : 0.5034, train acc: 0.8117, valid loss : 0.4690, valid acc : 0.8274
+2024-07-09 09:39:59 - train.py[line:136] - INFO: epoch : 10, train loss : 0.4974, train acc: 0.8144, valid loss : 0.4732, valid acc : 0.8320
+2024-07-09 09:40:17 - train.py[line:136] - INFO: epoch : 11, train loss : 0.4935, train acc: 0.8155, valid loss : 0.4624, valid acc : 0.8370
+2024-07-09 09:40:34 - train.py[line:136] - INFO: epoch : 12, train loss : 0.4879, train acc: 0.8177, valid loss : 0.4605, valid acc : 0.8361
+2024-07-09 09:40:51 - train.py[line:136] - INFO: epoch : 13, train loss : 0.4851, train acc: 0.8192, valid loss : 0.4564, valid acc : 0.8412
+2024-07-09 09:41:09 - train.py[line:136] - INFO: epoch : 14, train loss : 0.4808, train acc: 0.8205, valid loss : 0.4619, valid acc : 0.8331
+2024-07-09 09:41:26 - train.py[line:136] - INFO: epoch : 15, train loss : 0.4778, train acc: 0.8218, valid loss : 0.4540, valid acc : 0.8450
+2024-07-09 09:41:44 - train.py[line:136] - INFO: epoch : 16, train loss : 0.4758, train acc: 0.8223, valid loss : 0.4444, valid acc : 0.8448
+2024-07-09 09:42:01 - train.py[line:136] - INFO: epoch : 17, train loss : 0.4718, train acc: 0.8248, valid loss : 0.4454, valid acc : 0.8406
+2024-07-09 09:42:18 - train.py[line:136] - INFO: epoch : 18, train loss : 0.4694, train acc: 0.8257, valid loss : 0.4385, valid acc : 0.8430
+2024-07-09 09:42:35 - train.py[line:136] - INFO: epoch : 19, train loss : 0.4657, train acc: 0.8271, valid loss : 0.4316, valid acc : 0.8359
+2024-07-09 09:42:52 - train.py[line:136] - INFO: epoch : 20, train loss : 0.4646, train acc: 0.8282, valid loss : 0.4273, valid acc : 0.8471
+2024-07-09 09:43:08 - train.py[line:136] - INFO: epoch : 21, train loss : 0.4613, train acc: 0.8295, valid loss : 0.4377, valid acc : 0.8484
+2024-07-09 09:43:25 - train.py[line:136] - INFO: epoch : 22, train loss : 0.4593, train acc: 0.8299, valid loss : 0.4326, valid acc : 0.8527
+2024-07-09 09:43:42 - train.py[line:136] - INFO: epoch : 23, train loss : 0.4588, train acc: 0.8310, valid loss : 0.4268, valid acc : 0.8545
+2024-07-09 09:43:59 - train.py[line:136] - INFO: epoch : 24, train loss : 0.4545, train acc: 0.8321, valid loss : 0.4186, valid acc : 0.8493
+2024-07-09 09:44:16 - train.py[line:136] - INFO: epoch : 25, train loss : 0.4532, train acc: 0.8328, valid loss : 0.4171, valid acc : 0.8531
+2024-07-09 09:44:33 - train.py[line:136] - INFO: epoch : 26, train loss : 0.4506, train acc: 0.8338, valid loss : 0.4195, valid acc : 0.8476
+2024-07-09 09:44:50 - train.py[line:136] - INFO: epoch : 27, train loss : 0.4500, train acc: 0.8342, valid loss : 0.4288, valid acc : 0.8527
+2024-07-09 09:45:08 - train.py[line:136] - INFO: epoch : 28, train loss : 0.4463, train acc: 0.8364, valid loss : 0.4013, valid acc : 0.8557
+2024-07-09 09:45:25 - train.py[line:136] - INFO: epoch : 29, train loss : 0.4452, train acc: 0.8358, valid loss : 0.4132, valid acc : 0.8587
+2024-07-09 09:45:42 - train.py[line:136] - INFO: epoch : 30, train loss : 0.4434, train acc: 0.8374, valid loss : 0.4070, valid acc : 0.8530
+2024-07-09 09:45:57 - train.py[line:136] - INFO: epoch : 31, train loss : 0.4433, train acc: 0.8370, valid loss : 0.4094, valid acc : 0.8569
+2024-07-09 09:46:14 - train.py[line:136] - INFO: epoch : 32, train loss : 0.4413, train acc: 0.8379, valid loss : 0.4042, valid acc : 0.8583
+2024-07-09 09:46:31 - train.py[line:136] - INFO: epoch : 33, train loss : 0.4394, train acc: 0.8390, valid loss : 0.4279, valid acc : 0.8572
+2024-07-09 09:46:48 - train.py[line:136] - INFO: epoch : 34, train loss : 0.4362, train acc: 0.8397, valid loss : 0.4063, valid acc : 0.8581
+2024-07-09 09:47:05 - train.py[line:136] - INFO: epoch : 35, train loss : 0.4358, train acc: 0.8398, valid loss : 0.4148, valid acc : 0.8548
+2024-07-09 09:47:22 - train.py[line:136] - INFO: epoch : 36, train loss : 0.4342, train acc: 0.8402, valid loss : 0.4049, valid acc : 0.8591
+2024-07-09 09:47:40 - train.py[line:136] - INFO: epoch : 37, train loss : 0.4331, train acc: 0.8410, valid loss : 0.4077, valid acc : 0.8600
+2024-07-09 09:47:58 - train.py[line:136] - INFO: epoch : 38, train loss : 0.4318, train acc: 0.8412, valid loss : 0.4138, valid acc : 0.8571
+2024-07-09 09:48:14 - train.py[line:136] - INFO: epoch : 39, train loss : 0.4307, train acc: 0.8414, valid loss : 0.4064, valid acc : 0.8561
+2024-07-09 09:48:32 - train.py[line:136] - INFO: epoch : 40, train loss : 0.4283, train acc: 0.8428, valid loss : 0.4076, valid acc : 0.8587
+2024-07-09 09:48:49 - train.py[line:136] - INFO: epoch : 41, train loss : 0.4280, train acc: 0.8433, valid loss : 0.4026, valid acc : 0.8606
+2024-07-09 09:49:06 - train.py[line:136] - INFO: epoch : 42, train loss : 0.4260, train acc: 0.8440, valid loss : 0.3966, valid acc : 0.8553
+2024-07-09 09:49:23 - train.py[line:136] - INFO: epoch : 43, train loss : 0.4255, train acc: 0.8438, valid loss : 0.4119, valid acc : 0.8575
+2024-07-09 09:49:40 - train.py[line:136] - INFO: epoch : 44, train loss : 0.4226, train acc: 0.8448, valid loss : 0.3898, valid acc : 0.8589
+2024-07-09 09:49:57 - train.py[line:136] - INFO: epoch : 45, train loss : 0.4226, train acc: 0.8449, valid loss : 0.3965, valid acc : 0.8617
+2024-07-09 09:50:12 - train.py[line:136] - INFO: epoch : 46, train loss : 0.4213, train acc: 0.8457, valid loss : 0.3914, valid acc : 0.8665
+2024-07-09 09:50:30 - train.py[line:136] - INFO: epoch : 47, train loss : 0.4199, train acc: 0.8465, valid loss : 0.4048, valid acc : 0.8599
+2024-07-09 09:50:46 - train.py[line:136] - INFO: epoch : 48, train loss : 0.4195, train acc: 0.8466, valid loss : 0.3966, valid acc : 0.8652
+2024-07-09 09:51:03 - train.py[line:136] - INFO: epoch : 49, train loss : 0.4181, train acc: 0.8464, valid loss : 0.3974, valid acc : 0.8607
+2024-07-09 09:51:20 - train.py[line:136] - INFO: epoch : 50, train loss : 0.4166, train acc: 0.8472, valid loss : 0.3953, valid acc : 0.8594
+2024-07-09 09:51:37 - train.py[line:136] - INFO: epoch : 51, train loss : 0.4155, train acc: 0.8474, valid loss : 0.3983, valid acc : 0.8599
+2024-07-09 09:51:54 - train.py[line:136] - INFO: epoch : 52, train loss : 0.4157, train acc: 0.8477, valid loss : 0.4022, valid acc : 0.8605
+2024-07-09 09:52:11 - train.py[line:136] - INFO: epoch : 53, train loss : 0.4148, train acc: 0.8484, valid loss : 0.4003, valid acc : 0.8647
+2024-07-09 09:52:29 - train.py[line:136] - INFO: epoch : 54, train loss : 0.4132, train acc: 0.8486, valid loss : 0.3855, valid acc : 0.8633
+2024-07-09 09:52:45 - train.py[line:136] - INFO: epoch : 55, train loss : 0.4118, train acc: 0.8489, valid loss : 0.3924, valid acc : 0.8631
+2024-07-09 09:53:03 - train.py[line:136] - INFO: epoch : 56, train loss : 0.4113, train acc: 0.8492, valid loss : 0.3852, valid acc : 0.8642
+2024-07-09 09:53:20 - train.py[line:136] - INFO: epoch : 57, train loss : 0.4103, train acc: 0.8497, valid loss : 0.3872, valid acc : 0.8677
+2024-07-09 09:53:38 - train.py[line:136] - INFO: epoch : 58, train loss : 0.4094, train acc: 0.8504, valid loss : 0.3930, valid acc : 0.8649
+2024-07-09 09:53:54 - train.py[line:136] - INFO: epoch : 59, train loss : 0.4085, train acc: 0.8502, valid loss : 0.3937, valid acc : 0.8643
+2024-07-09 09:54:11 - train.py[line:136] - INFO: epoch : 60, train loss : 0.4071, train acc: 0.8504, valid loss : 0.3914, valid acc : 0.8654
+2024-07-09 09:54:28 - train.py[line:136] - INFO: epoch : 61, train loss : 0.4070, train acc: 0.8507, valid loss : 0.4002, valid acc : 0.8657
+2024-07-09 09:54:45 - train.py[line:136] - INFO: epoch : 62, train loss : 0.4062, train acc: 0.8513, valid loss : 0.3894, valid acc : 0.8624
+2024-07-09 09:55:03 - train.py[line:136] - INFO: epoch : 63, train loss : 0.4047, train acc: 0.8515, valid loss : 0.3945, valid acc : 0.8670
+2024-07-09 09:55:20 - train.py[line:136] - INFO: epoch : 64, train loss : 0.4050, train acc: 0.8514, valid loss : 0.3816, valid acc : 0.8679
+2024-07-09 09:55:37 - train.py[line:136] - INFO: epoch : 65, train loss : 0.4031, train acc: 0.8520, valid loss : 0.3835, valid acc : 0.8667
+2024-07-09 09:55:54 - train.py[line:136] - INFO: epoch : 66, train loss : 0.4022, train acc: 0.8519, valid loss : 0.3872, valid acc : 0.8671
+2024-07-09 09:56:09 - train.py[line:136] - INFO: epoch : 67, train loss : 0.4024, train acc: 0.8525, valid loss : 0.3853, valid acc : 0.8692
+2024-07-09 09:56:27 - train.py[line:136] - INFO: epoch : 68, train loss : 0.4008, train acc: 0.8528, valid loss : 0.3846, valid acc : 0.8627
+2024-07-09 09:56:44 - train.py[line:136] - INFO: epoch : 69, train loss : 0.4007, train acc: 0.8534, valid loss : 0.3818, valid acc : 0.8685
+2024-07-09 09:57:01 - train.py[line:136] - INFO: epoch : 70, train loss : 0.3997, train acc: 0.8528, valid loss : 0.4018, valid acc : 0.8645
+2024-07-09 09:57:17 - train.py[line:136] - INFO: epoch : 71, train loss : 0.3992, train acc: 0.8533, valid loss : 0.3764, valid acc : 0.8682
+2024-07-09 09:57:34 - train.py[line:136] - INFO: epoch : 72, train loss : 0.3987, train acc: 0.8540, valid loss : 0.3864, valid acc : 0.8706
+2024-07-09 09:57:51 - train.py[line:136] - INFO: epoch : 73, train loss : 0.3977, train acc: 0.8544, valid loss : 0.3874, valid acc : 0.8675
+2024-07-09 09:58:09 - train.py[line:136] - INFO: epoch : 74, train loss : 0.3975, train acc: 0.8547, valid loss : 0.3730, valid acc : 0.8628
+2024-07-09 09:58:26 - train.py[line:136] - INFO: epoch : 75, train loss : 0.3968, train acc: 0.8546, valid loss : 0.3750, valid acc : 0.8702
+2024-07-09 09:58:44 - train.py[line:136] - INFO: epoch : 76, train loss : 0.3958, train acc: 0.8552, valid loss : 0.3798, valid acc : 0.8694
+2024-07-09 09:59:01 - train.py[line:136] - INFO: epoch : 77, train loss : 0.3949, train acc: 0.8554, valid loss : 0.3796, valid acc : 0.8653
+2024-07-09 09:59:18 - train.py[line:136] - INFO: epoch : 78, train loss : 0.3938, train acc: 0.8557, valid loss : 0.3776, valid acc : 0.8702
+2024-07-09 09:59:34 - train.py[line:136] - INFO: epoch : 79, train loss : 0.3941, train acc: 0.8556, valid loss : 0.4005, valid acc : 0.8641
+2024-07-09 09:59:51 - train.py[line:136] - INFO: epoch : 80, train loss : 0.3929, train acc: 0.8561, valid loss : 0.3867, valid acc : 0.8659
+2024-07-09 10:00:08 - train.py[line:136] - INFO: epoch : 81, train loss : 0.3935, train acc: 0.8559, valid loss : 0.3805, valid acc : 0.8683
+2024-07-09 10:00:26 - train.py[line:136] - INFO: epoch : 82, train loss : 0.3920, train acc: 0.8567, valid loss : 0.3832, valid acc : 0.8704
+2024-07-09 10:00:43 - train.py[line:136] - INFO: epoch : 83, train loss : 0.3910, train acc: 0.8564, valid loss : 0.3766, valid acc : 0.8709
+2024-07-09 10:01:00 - train.py[line:136] - INFO: epoch : 84, train loss : 0.3915, train acc: 0.8567, valid loss : 0.3870, valid acc : 0.8651
+2024-07-09 10:01:18 - train.py[line:136] - INFO: epoch : 85, train loss : 0.3907, train acc: 0.8572, valid loss : 0.3902, valid acc : 0.8697
+2024-07-09 10:01:34 - train.py[line:136] - INFO: epoch : 86, train loss : 0.3897, train acc: 0.8573, valid loss : 0.3873, valid acc : 0.8660
+2024-07-09 10:01:51 - train.py[line:136] - INFO: epoch : 87, train loss : 0.3895, train acc: 0.8575, valid loss : 0.3761, valid acc : 0.8688
+2024-07-09 10:02:08 - train.py[line:136] - INFO: epoch : 88, train loss : 0.3894, train acc: 0.8576, valid loss : 0.3956, valid acc : 0.8641
+2024-07-09 10:02:25 - train.py[line:136] - INFO: epoch : 89, train loss : 0.3886, train acc: 0.8573, valid loss : 0.3884, valid acc : 0.8688
+2024-07-09 10:02:43 - train.py[line:136] - INFO: epoch : 90, train loss : 0.3881, train acc: 0.8580, valid loss : 0.3909, valid acc : 0.8685
+2024-07-09 10:03:00 - train.py[line:136] - INFO: epoch : 91, train loss : 0.3876, train acc: 0.8579, valid loss : 0.3564, valid acc : 0.8762
+2024-07-09 10:03:17 - train.py[line:136] - INFO: epoch : 92, train loss : 0.3866, train acc: 0.8586, valid loss : 0.3699, valid acc : 0.8723
+2024-07-09 10:03:34 - train.py[line:136] - INFO: epoch : 93, train loss : 0.3872, train acc: 0.8584, valid loss : 0.3963, valid acc : 0.8675
+2024-07-09 10:03:52 - train.py[line:136] - INFO: epoch : 94, train loss : 0.3852, train acc: 0.8591, valid loss : 0.3791, valid acc : 0.8682
+2024-07-09 10:04:09 - train.py[line:136] - INFO: epoch : 95, train loss : 0.3856, train acc: 0.8593, valid loss : 0.3722, valid acc : 0.8709
+2024-07-09 10:04:26 - train.py[line:136] - INFO: epoch : 96, train loss : 0.3850, train acc: 0.8590, valid loss : 0.3772, valid acc : 0.8670
+2024-07-09 10:04:42 - train.py[line:136] - INFO: epoch : 97, train loss : 0.3841, train acc: 0.8594, valid loss : 0.3992, valid acc : 0.8689
+2024-07-09 10:04:59 - train.py[line:136] - INFO: epoch : 98, train loss : 0.3836, train acc: 0.8594, valid loss : 0.3833, valid acc : 0.8683
+2024-07-09 10:05:16 - train.py[line:136] - INFO: epoch : 99, train loss : 0.3845, train acc: 0.8597, valid loss : 0.3738, valid acc : 0.8731
+2024-07-09 10:05:33 - train.py[line:136] - INFO: epoch : 100, train loss : 0.3828, train acc: 0.8597, valid loss : 0.3799, valid acc : 0.8703
+2024-07-09 10:05:33 - train.py[line:139] - INFO: Training Time of Neural Network: 28.4310843706131 min.
+2024-07-09 10:05:34 - train.py[line:153] - INFO: {'tp': 0.282, 'fp': 0.044, 'tn': 0.589, 'fn': 0.086}
+2024-07-09 10:05:34 - train.py[line:156] - INFO: Saving Model.
+2024-07-09 10:05:34 - train.py[line:158] - INFO: Model saved in path output/temp/model/dmv.pkl
+2024-07-09 10:07:21 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-09 10:08:17 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-09 10:08:20 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-09 10:08:20 - train.py[line:117] - INFO: Model established: WideDeepNew(
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=16, bias=True)
+  (fcsql): Linear(in_features=22, out_features=8, bias=True)
+  (fc1): Linear(in_features=587, out_features=256, bias=True)
+  (fc2): Linear(in_features=256, out_features=256, bias=True)
+  (fc3): Linear(in_features=256, out_features=40, bias=True)
+  (fc_final): Linear(in_features=101, out_features=1, bias=True)
+)
+2024-07-09 10:08:20 - train.py[line:125] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-09 10:08:20 - train.py[line:127] - INFO: Using BCELoss as loss function.
+2024-07-09 10:08:20 - train.py[line:129] - INFO: Using Adam as optimization function.
+2024-07-09 10:08:20 - train.py[line:132] - INFO: Begin the training of model.
+2024-07-09 10:08:31 - train.py[line:136] - INFO: epoch : 1, train loss : 0.6688, train acc: 0.7460, valid loss : 0.5718, valid acc : 0.7890
+2024-07-09 10:08:40 - train.py[line:136] - INFO: epoch : 2, train loss : 0.5623, train acc: 0.7934, valid loss : 0.5178, valid acc : 0.8091
+2024-07-09 10:08:50 - train.py[line:136] - INFO: epoch : 3, train loss : 0.5228, train acc: 0.8053, valid loss : 0.4831, valid acc : 0.8267
+2024-07-09 10:09:01 - train.py[line:136] - INFO: epoch : 4, train loss : 0.4973, train acc: 0.8148, valid loss : 0.4596, valid acc : 0.8338
+2024-07-09 10:09:11 - train.py[line:136] - INFO: epoch : 5, train loss : 0.4781, train acc: 0.8220, valid loss : 0.4414, valid acc : 0.8361
+2024-07-09 10:09:22 - train.py[line:136] - INFO: epoch : 6, train loss : 0.4653, train acc: 0.8282, valid loss : 0.4277, valid acc : 0.8392
+2024-07-09 10:09:31 - train.py[line:136] - INFO: epoch : 7, train loss : 0.4539, train acc: 0.8323, valid loss : 0.4196, valid acc : 0.8483
+2024-07-09 10:09:43 - train.py[line:136] - INFO: epoch : 8, train loss : 0.4437, train acc: 0.8370, valid loss : 0.4121, valid acc : 0.8547
+2024-07-09 10:09:52 - train.py[line:136] - INFO: epoch : 9, train loss : 0.4366, train acc: 0.8404, valid loss : 0.4014, valid acc : 0.8607
+2024-07-09 10:10:01 - train.py[line:136] - INFO: epoch : 10, train loss : 0.4298, train acc: 0.8426, valid loss : 0.3955, valid acc : 0.8573
+2024-07-09 10:10:10 - train.py[line:136] - INFO: epoch : 11, train loss : 0.4251, train acc: 0.8450, valid loss : 0.3906, valid acc : 0.8540
+2024-07-09 10:10:19 - train.py[line:136] - INFO: epoch : 12, train loss : 0.4193, train acc: 0.8467, valid loss : 0.3834, valid acc : 0.8558
+2024-07-09 10:10:28 - train.py[line:136] - INFO: epoch : 13, train loss : 0.4140, train acc: 0.8488, valid loss : 0.3778, valid acc : 0.8675
+2024-07-09 10:10:37 - train.py[line:136] - INFO: epoch : 14, train loss : 0.4092, train acc: 0.8506, valid loss : 0.3786, valid acc : 0.8689
+2024-07-09 10:10:48 - train.py[line:136] - INFO: epoch : 15, train loss : 0.4060, train acc: 0.8516, valid loss : 0.3744, valid acc : 0.8614
+2024-07-09 10:10:57 - train.py[line:136] - INFO: epoch : 16, train loss : 0.4028, train acc: 0.8522, valid loss : 0.3651, valid acc : 0.8685
+2024-07-09 10:11:08 - train.py[line:136] - INFO: epoch : 17, train loss : 0.3987, train acc: 0.8541, valid loss : 0.3704, valid acc : 0.8685
+2024-07-09 10:11:18 - train.py[line:136] - INFO: epoch : 18, train loss : 0.3954, train acc: 0.8552, valid loss : 0.3612, valid acc : 0.8708
+2024-07-09 10:11:27 - train.py[line:136] - INFO: epoch : 19, train loss : 0.3932, train acc: 0.8562, valid loss : 0.3597, valid acc : 0.8728
+2024-07-09 10:11:38 - train.py[line:136] - INFO: epoch : 20, train loss : 0.3899, train acc: 0.8573, valid loss : 0.3575, valid acc : 0.8728
+2024-07-09 10:11:48 - train.py[line:136] - INFO: epoch : 21, train loss : 0.3877, train acc: 0.8584, valid loss : 0.3552, valid acc : 0.8746
+2024-07-09 10:11:57 - train.py[line:136] - INFO: epoch : 22, train loss : 0.3854, train acc: 0.8592, valid loss : 0.3541, valid acc : 0.8755
+2024-07-09 10:12:06 - train.py[line:136] - INFO: epoch : 23, train loss : 0.3840, train acc: 0.8598, valid loss : 0.3526, valid acc : 0.8756
+2024-07-09 10:12:15 - train.py[line:136] - INFO: epoch : 24, train loss : 0.3820, train acc: 0.8611, valid loss : 0.3499, valid acc : 0.8752
+2024-07-09 10:12:25 - train.py[line:136] - INFO: epoch : 25, train loss : 0.3794, train acc: 0.8612, valid loss : 0.3443, valid acc : 0.8790
+2024-07-09 10:12:34 - train.py[line:136] - INFO: epoch : 26, train loss : 0.3777, train acc: 0.8626, valid loss : 0.3440, valid acc : 0.8785
+2024-07-09 10:12:43 - train.py[line:136] - INFO: epoch : 27, train loss : 0.3758, train acc: 0.8631, valid loss : 0.3401, valid acc : 0.8779
+2024-07-09 10:12:51 - train.py[line:136] - INFO: epoch : 28, train loss : 0.3736, train acc: 0.8639, valid loss : 0.3430, valid acc : 0.8789
+2024-07-09 10:13:00 - train.py[line:136] - INFO: epoch : 29, train loss : 0.3723, train acc: 0.8645, valid loss : 0.3390, valid acc : 0.8793
+2024-07-09 10:13:09 - train.py[line:136] - INFO: epoch : 30, train loss : 0.3707, train acc: 0.8649, valid loss : 0.3385, valid acc : 0.8790
+2024-07-09 10:13:18 - train.py[line:136] - INFO: epoch : 31, train loss : 0.3700, train acc: 0.8648, valid loss : 0.3416, valid acc : 0.8799
+2024-07-09 10:13:27 - train.py[line:136] - INFO: epoch : 32, train loss : 0.3678, train acc: 0.8658, valid loss : 0.3374, valid acc : 0.8819
+2024-07-09 10:13:36 - train.py[line:136] - INFO: epoch : 33, train loss : 0.3663, train acc: 0.8665, valid loss : 0.3360, valid acc : 0.8828
+2024-07-09 10:13:45 - train.py[line:136] - INFO: epoch : 34, train loss : 0.3648, train acc: 0.8664, valid loss : 0.3342, valid acc : 0.8832
+2024-07-09 10:13:55 - train.py[line:136] - INFO: epoch : 35, train loss : 0.3640, train acc: 0.8674, valid loss : 0.3321, valid acc : 0.8821
+2024-07-09 10:14:03 - train.py[line:136] - INFO: epoch : 36, train loss : 0.3616, train acc: 0.8681, valid loss : 0.3324, valid acc : 0.8843
+2024-07-09 10:14:13 - train.py[line:136] - INFO: epoch : 37, train loss : 0.3612, train acc: 0.8681, valid loss : 0.3294, valid acc : 0.8847
+2024-07-09 10:14:23 - train.py[line:136] - INFO: epoch : 38, train loss : 0.3598, train acc: 0.8686, valid loss : 0.3308, valid acc : 0.8851
+2024-07-09 10:14:32 - train.py[line:136] - INFO: epoch : 39, train loss : 0.3579, train acc: 0.8693, valid loss : 0.3269, valid acc : 0.8835
+2024-07-09 10:14:42 - train.py[line:136] - INFO: epoch : 40, train loss : 0.3586, train acc: 0.8698, valid loss : 0.3294, valid acc : 0.8834
+2024-07-09 10:14:51 - train.py[line:136] - INFO: epoch : 41, train loss : 0.3562, train acc: 0.8699, valid loss : 0.3250, valid acc : 0.8855
+2024-07-09 10:15:00 - train.py[line:136] - INFO: epoch : 42, train loss : 0.3554, train acc: 0.8708, valid loss : 0.3229, valid acc : 0.8845
+2024-07-09 10:15:09 - train.py[line:136] - INFO: epoch : 43, train loss : 0.3549, train acc: 0.8709, valid loss : 0.3258, valid acc : 0.8866
+2024-07-09 10:15:19 - train.py[line:136] - INFO: epoch : 44, train loss : 0.3542, train acc: 0.8706, valid loss : 0.3234, valid acc : 0.8876
+2024-07-09 10:15:29 - train.py[line:136] - INFO: epoch : 45, train loss : 0.3524, train acc: 0.8719, valid loss : 0.3209, valid acc : 0.8871
+2024-07-09 10:15:38 - train.py[line:136] - INFO: epoch : 46, train loss : 0.3521, train acc: 0.8720, valid loss : 0.3210, valid acc : 0.8871
+2024-07-09 10:15:49 - train.py[line:136] - INFO: epoch : 47, train loss : 0.3511, train acc: 0.8723, valid loss : 0.3192, valid acc : 0.8877
+2024-07-09 10:15:59 - train.py[line:136] - INFO: epoch : 48, train loss : 0.3493, train acc: 0.8722, valid loss : 0.3217, valid acc : 0.8894
+2024-07-09 10:16:08 - train.py[line:136] - INFO: epoch : 49, train loss : 0.3481, train acc: 0.8731, valid loss : 0.3197, valid acc : 0.8880
+2024-07-09 10:16:17 - train.py[line:136] - INFO: epoch : 50, train loss : 0.3482, train acc: 0.8736, valid loss : 0.3164, valid acc : 0.8865
+2024-07-09 10:16:26 - train.py[line:136] - INFO: epoch : 51, train loss : 0.3469, train acc: 0.8738, valid loss : 0.3144, valid acc : 0.8850
+2024-07-09 10:16:35 - train.py[line:136] - INFO: epoch : 52, train loss : 0.3466, train acc: 0.8742, valid loss : 0.3185, valid acc : 0.8895
+2024-07-09 10:16:44 - train.py[line:136] - INFO: epoch : 53, train loss : 0.3462, train acc: 0.8743, valid loss : 0.3169, valid acc : 0.8881
+2024-07-09 10:16:53 - train.py[line:136] - INFO: epoch : 54, train loss : 0.3459, train acc: 0.8745, valid loss : 0.3171, valid acc : 0.8877
+2024-07-09 10:17:02 - train.py[line:136] - INFO: epoch : 55, train loss : 0.3440, train acc: 0.8747, valid loss : 0.3143, valid acc : 0.8899
+2024-07-09 10:17:11 - train.py[line:136] - INFO: epoch : 56, train loss : 0.3431, train acc: 0.8750, valid loss : 0.3136, valid acc : 0.8880
+2024-07-09 10:17:20 - train.py[line:136] - INFO: epoch : 57, train loss : 0.3427, train acc: 0.8753, valid loss : 0.3130, valid acc : 0.8912
+2024-07-09 10:17:29 - train.py[line:136] - INFO: epoch : 58, train loss : 0.3424, train acc: 0.8758, valid loss : 0.3120, valid acc : 0.8905
+2024-07-09 10:17:38 - train.py[line:136] - INFO: epoch : 59, train loss : 0.3414, train acc: 0.8756, valid loss : 0.3102, valid acc : 0.8904
+2024-07-09 10:17:48 - train.py[line:136] - INFO: epoch : 60, train loss : 0.3394, train acc: 0.8764, valid loss : 0.3099, valid acc : 0.8907
+2024-07-09 10:17:59 - train.py[line:136] - INFO: epoch : 61, train loss : 0.3398, train acc: 0.8768, valid loss : 0.3114, valid acc : 0.8915
+2024-07-09 10:18:08 - train.py[line:136] - INFO: epoch : 62, train loss : 0.3392, train acc: 0.8771, valid loss : 0.3131, valid acc : 0.8926
+2024-07-09 10:18:16 - train.py[line:136] - INFO: epoch : 63, train loss : 0.3383, train acc: 0.8768, valid loss : 0.3117, valid acc : 0.8918
+2024-07-09 10:18:25 - train.py[line:136] - INFO: epoch : 64, train loss : 0.3384, train acc: 0.8769, valid loss : 0.3114, valid acc : 0.8929
+2024-07-09 10:18:34 - train.py[line:136] - INFO: epoch : 65, train loss : 0.3377, train acc: 0.8775, valid loss : 0.3107, valid acc : 0.8911
+2024-07-09 10:18:43 - train.py[line:136] - INFO: epoch : 66, train loss : 0.3365, train acc: 0.8779, valid loss : 0.3117, valid acc : 0.8928
+2024-07-09 10:18:52 - train.py[line:136] - INFO: epoch : 67, train loss : 0.3366, train acc: 0.8784, valid loss : 0.3072, valid acc : 0.8920
+2024-07-09 10:19:01 - train.py[line:136] - INFO: epoch : 68, train loss : 0.3356, train acc: 0.8779, valid loss : 0.3079, valid acc : 0.8930
+2024-07-09 10:19:10 - train.py[line:136] - INFO: epoch : 69, train loss : 0.3354, train acc: 0.8783, valid loss : 0.3060, valid acc : 0.8915
+2024-07-09 10:19:19 - train.py[line:136] - INFO: epoch : 70, train loss : 0.3346, train acc: 0.8782, valid loss : 0.3078, valid acc : 0.8901
+2024-07-09 10:19:28 - train.py[line:136] - INFO: epoch : 71, train loss : 0.3337, train acc: 0.8792, valid loss : 0.3071, valid acc : 0.8925
+2024-07-09 10:19:37 - train.py[line:136] - INFO: epoch : 72, train loss : 0.3337, train acc: 0.8788, valid loss : 0.3093, valid acc : 0.8917
+2024-07-09 10:19:46 - train.py[line:136] - INFO: epoch : 73, train loss : 0.3328, train acc: 0.8796, valid loss : 0.3054, valid acc : 0.8927
+2024-07-09 10:19:55 - train.py[line:136] - INFO: epoch : 74, train loss : 0.3328, train acc: 0.8795, valid loss : 0.3043, valid acc : 0.8926
+2024-07-09 10:20:04 - train.py[line:136] - INFO: epoch : 75, train loss : 0.3323, train acc: 0.8799, valid loss : 0.3049, valid acc : 0.8932
+2024-07-09 10:20:13 - train.py[line:136] - INFO: epoch : 76, train loss : 0.3315, train acc: 0.8799, valid loss : 0.3069, valid acc : 0.8944
+2024-07-09 10:20:23 - train.py[line:136] - INFO: epoch : 77, train loss : 0.3319, train acc: 0.8800, valid loss : 0.3065, valid acc : 0.8932
+2024-07-09 10:20:32 - train.py[line:136] - INFO: epoch : 78, train loss : 0.3312, train acc: 0.8795, valid loss : 0.3056, valid acc : 0.8939
+2024-07-09 10:20:41 - train.py[line:136] - INFO: epoch : 79, train loss : 0.3295, train acc: 0.8803, valid loss : 0.3027, valid acc : 0.8937
+2024-07-09 10:20:50 - train.py[line:136] - INFO: epoch : 80, train loss : 0.3289, train acc: 0.8807, valid loss : 0.3023, valid acc : 0.8931
+2024-07-09 10:20:59 - train.py[line:136] - INFO: epoch : 81, train loss : 0.3293, train acc: 0.8807, valid loss : 0.3035, valid acc : 0.8942
+2024-07-09 10:21:08 - train.py[line:136] - INFO: epoch : 82, train loss : 0.3284, train acc: 0.8812, valid loss : 0.3019, valid acc : 0.8941
+2024-07-09 10:21:17 - train.py[line:136] - INFO: epoch : 83, train loss : 0.3283, train acc: 0.8805, valid loss : 0.3031, valid acc : 0.8971
+2024-07-09 10:21:27 - train.py[line:136] - INFO: epoch : 84, train loss : 0.3272, train acc: 0.8815, valid loss : 0.3016, valid acc : 0.8947
+2024-07-09 10:21:35 - train.py[line:136] - INFO: epoch : 85, train loss : 0.3266, train acc: 0.8823, valid loss : 0.3019, valid acc : 0.8953
+2024-07-09 10:21:45 - train.py[line:136] - INFO: epoch : 86, train loss : 0.3265, train acc: 0.8821, valid loss : 0.3026, valid acc : 0.8953
+2024-07-09 10:21:54 - train.py[line:136] - INFO: epoch : 87, train loss : 0.3261, train acc: 0.8817, valid loss : 0.3027, valid acc : 0.8970
+2024-07-09 10:22:03 - train.py[line:136] - INFO: epoch : 88, train loss : 0.3263, train acc: 0.8818, valid loss : 0.3007, valid acc : 0.8960
+2024-07-09 10:22:12 - train.py[line:136] - INFO: epoch : 89, train loss : 0.3251, train acc: 0.8824, valid loss : 0.2993, valid acc : 0.8950
+2024-07-09 10:22:21 - train.py[line:136] - INFO: epoch : 90, train loss : 0.3253, train acc: 0.8821, valid loss : 0.2996, valid acc : 0.8958
+2024-07-09 10:22:30 - train.py[line:136] - INFO: epoch : 91, train loss : 0.3246, train acc: 0.8823, valid loss : 0.3001, valid acc : 0.8956
+2024-07-09 10:22:39 - train.py[line:136] - INFO: epoch : 92, train loss : 0.3249, train acc: 0.8823, valid loss : 0.2998, valid acc : 0.8972
+2024-07-09 10:22:49 - train.py[line:136] - INFO: epoch : 93, train loss : 0.3247, train acc: 0.8826, valid loss : 0.3013, valid acc : 0.8971
+2024-07-09 10:22:59 - train.py[line:136] - INFO: epoch : 94, train loss : 0.3243, train acc: 0.8828, valid loss : 0.2994, valid acc : 0.8959
+2024-07-09 10:23:09 - train.py[line:136] - INFO: epoch : 95, train loss : 0.3235, train acc: 0.8834, valid loss : 0.2985, valid acc : 0.8974
+2024-07-09 10:23:18 - train.py[line:136] - INFO: epoch : 96, train loss : 0.3231, train acc: 0.8833, valid loss : 0.2991, valid acc : 0.8958
+2024-07-09 10:23:27 - train.py[line:136] - INFO: epoch : 97, train loss : 0.3230, train acc: 0.8830, valid loss : 0.2975, valid acc : 0.8958
+2024-07-09 10:23:36 - train.py[line:136] - INFO: epoch : 98, train loss : 0.3218, train acc: 0.8834, valid loss : 0.2984, valid acc : 0.8984
+2024-07-09 10:23:45 - train.py[line:136] - INFO: epoch : 99, train loss : 0.3224, train acc: 0.8831, valid loss : 0.2969, valid acc : 0.8969
+2024-07-09 10:23:53 - train.py[line:136] - INFO: epoch : 100, train loss : 0.3209, train acc: 0.8835, valid loss : 0.2953, valid acc : 0.8970
+2024-07-09 10:23:53 - train.py[line:139] - INFO: Training Time of Neural Network: 15.557540651162466 min.
+2024-07-09 10:23:54 - train.py[line:153] - INFO: {'tp': 0.313, 'fp': 0.048, 'tn': 0.584, 'fn': 0.055}
+2024-07-09 10:23:54 - train.py[line:156] - INFO: Saving Model.
+2024-07-09 10:23:54 - train.py[line:158] - INFO: Model saved in path output/temp/model/dmv.pkl
+2024-07-09 10:40:53 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-09 10:42:04 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-09 10:42:08 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-09 10:42:08 - train.py[line:117] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_4): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_5): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=42, bias=True)
+  (fcsql): Linear(in_features=22, out_features=42, bias=True)
+  (fc1): Linear(in_features=587, out_features=42, bias=True)
+  (fwide): Linear(in_features=37, out_features=42, bias=True)
+  (fc_final): Linear(in_features=42, out_features=1, bias=True)
+)
+2024-07-09 10:42:08 - train.py[line:125] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-09 10:42:08 - train.py[line:127] - INFO: Using BCELoss as loss function.
+2024-07-09 10:42:08 - train.py[line:129] - INFO: Using Adam as optimization function.
+2024-07-09 10:42:08 - train.py[line:132] - INFO: Begin the training of model.
+2024-07-09 10:42:56 - train.py[line:136] - INFO: epoch : 1, train loss : 0.6850, train acc: 0.7357, valid loss : 0.5877, valid acc : 0.7925
+2024-07-09 10:43:35 - train.py[line:136] - INFO: epoch : 2, train loss : 0.5927, train acc: 0.7822, valid loss : 0.5438, valid acc : 0.8046
+2024-07-09 10:44:14 - train.py[line:136] - INFO: epoch : 3, train loss : 0.5653, train acc: 0.7908, valid loss : 0.5328, valid acc : 0.8131
+2024-07-09 10:44:56 - train.py[line:136] - INFO: epoch : 4, train loss : 0.5463, train acc: 0.7981, valid loss : 0.5018, valid acc : 0.8240
+2024-07-09 10:45:35 - train.py[line:136] - INFO: epoch : 5, train loss : 0.5343, train acc: 0.8018, valid loss : 0.5034, valid acc : 0.8221
+2024-07-09 10:46:15 - train.py[line:136] - INFO: epoch : 6, train loss : 0.5237, train acc: 0.8055, valid loss : 0.4846, valid acc : 0.8257
+2024-07-09 10:46:53 - train.py[line:136] - INFO: epoch : 7, train loss : 0.5155, train acc: 0.8079, valid loss : 0.4835, valid acc : 0.8253
+2024-07-09 10:47:31 - train.py[line:136] - INFO: epoch : 8, train loss : 0.5095, train acc: 0.8105, valid loss : 0.4788, valid acc : 0.8309
+2024-07-09 10:48:09 - train.py[line:136] - INFO: epoch : 9, train loss : 0.5038, train acc: 0.8116, valid loss : 0.4605, valid acc : 0.8309
+2024-07-09 10:48:48 - train.py[line:136] - INFO: epoch : 10, train loss : 0.4973, train acc: 0.8145, valid loss : 0.4653, valid acc : 0.8358
+2024-07-09 10:49:26 - train.py[line:136] - INFO: epoch : 11, train loss : 0.4943, train acc: 0.8152, valid loss : 0.4651, valid acc : 0.8387
+2024-07-09 10:50:05 - train.py[line:136] - INFO: epoch : 12, train loss : 0.4894, train acc: 0.8171, valid loss : 0.4530, valid acc : 0.8409
+2024-07-09 10:50:44 - train.py[line:136] - INFO: epoch : 13, train loss : 0.4857, train acc: 0.8180, valid loss : 0.4527, valid acc : 0.8428
+2024-07-09 10:51:24 - train.py[line:136] - INFO: epoch : 14, train loss : 0.4833, train acc: 0.8192, valid loss : 0.4509, valid acc : 0.8311
+2024-07-09 10:52:02 - train.py[line:136] - INFO: epoch : 15, train loss : 0.4794, train acc: 0.8209, valid loss : 0.4430, valid acc : 0.8409
+2024-07-09 10:52:40 - train.py[line:136] - INFO: epoch : 16, train loss : 0.4749, train acc: 0.8219, valid loss : 0.4399, valid acc : 0.8370
+2024-07-09 10:53:17 - train.py[line:136] - INFO: epoch : 17, train loss : 0.4727, train acc: 0.8232, valid loss : 0.4481, valid acc : 0.8392
+2024-07-09 10:53:56 - train.py[line:136] - INFO: epoch : 18, train loss : 0.4698, train acc: 0.8244, valid loss : 0.4260, valid acc : 0.8424
+2024-07-09 10:54:37 - train.py[line:136] - INFO: epoch : 19, train loss : 0.4664, train acc: 0.8261, valid loss : 0.4316, valid acc : 0.8429
+2024-07-09 10:55:18 - train.py[line:136] - INFO: epoch : 20, train loss : 0.4645, train acc: 0.8270, valid loss : 0.4267, valid acc : 0.8433
+2024-07-09 10:55:58 - train.py[line:136] - INFO: epoch : 21, train loss : 0.4608, train acc: 0.8280, valid loss : 0.4307, valid acc : 0.8518
+2024-07-09 10:56:37 - train.py[line:136] - INFO: epoch : 22, train loss : 0.4594, train acc: 0.8286, valid loss : 0.4255, valid acc : 0.8505
+2024-07-09 10:57:15 - train.py[line:136] - INFO: epoch : 23, train loss : 0.4561, train acc: 0.8298, valid loss : 0.4340, valid acc : 0.8473
+2024-07-09 10:57:54 - train.py[line:136] - INFO: epoch : 24, train loss : 0.4546, train acc: 0.8304, valid loss : 0.4167, valid acc : 0.8455
+2024-07-09 10:58:32 - train.py[line:136] - INFO: epoch : 25, train loss : 0.4529, train acc: 0.8314, valid loss : 0.4169, valid acc : 0.8505
+2024-07-09 10:59:11 - train.py[line:136] - INFO: epoch : 26, train loss : 0.4505, train acc: 0.8317, valid loss : 0.4240, valid acc : 0.8462
+2024-07-09 10:59:51 - train.py[line:136] - INFO: epoch : 27, train loss : 0.4492, train acc: 0.8328, valid loss : 0.4163, valid acc : 0.8502
+2024-07-09 11:00:29 - train.py[line:136] - INFO: epoch : 28, train loss : 0.4465, train acc: 0.8342, valid loss : 0.4142, valid acc : 0.8483
+2024-07-09 11:01:09 - train.py[line:136] - INFO: epoch : 29, train loss : 0.4445, train acc: 0.8345, valid loss : 0.4022, valid acc : 0.8517
+2024-07-09 11:01:49 - train.py[line:136] - INFO: epoch : 30, train loss : 0.4428, train acc: 0.8359, valid loss : 0.4065, valid acc : 0.8464
+2024-07-09 11:02:27 - train.py[line:136] - INFO: epoch : 31, train loss : 0.4412, train acc: 0.8360, valid loss : 0.4048, valid acc : 0.8588
+2024-07-09 11:03:06 - train.py[line:136] - INFO: epoch : 32, train loss : 0.4391, train acc: 0.8361, valid loss : 0.4136, valid acc : 0.8471
+2024-07-09 11:03:45 - train.py[line:136] - INFO: epoch : 33, train loss : 0.4375, train acc: 0.8372, valid loss : 0.4043, valid acc : 0.8584
+2024-07-09 11:04:24 - train.py[line:136] - INFO: epoch : 34, train loss : 0.4367, train acc: 0.8378, valid loss : 0.3997, valid acc : 0.8575
+2024-07-09 11:05:03 - train.py[line:136] - INFO: epoch : 35, train loss : 0.4346, train acc: 0.8381, valid loss : 0.4071, valid acc : 0.8585
+2024-07-09 11:05:44 - train.py[line:136] - INFO: epoch : 36, train loss : 0.4325, train acc: 0.8392, valid loss : 0.4041, valid acc : 0.8604
+2024-07-09 11:06:24 - train.py[line:136] - INFO: epoch : 37, train loss : 0.4320, train acc: 0.8395, valid loss : 0.4076, valid acc : 0.8567
+2024-07-09 11:07:02 - train.py[line:136] - INFO: epoch : 38, train loss : 0.4314, train acc: 0.8393, valid loss : 0.4005, valid acc : 0.8549
+2024-07-09 11:07:42 - train.py[line:136] - INFO: epoch : 39, train loss : 0.4289, train acc: 0.8402, valid loss : 0.4085, valid acc : 0.8557
+2024-07-09 11:08:21 - train.py[line:136] - INFO: epoch : 40, train loss : 0.4278, train acc: 0.8413, valid loss : 0.4064, valid acc : 0.8575
+2024-07-09 11:09:00 - train.py[line:136] - INFO: epoch : 41, train loss : 0.4271, train acc: 0.8418, valid loss : 0.3989, valid acc : 0.8607
+2024-07-09 11:09:39 - train.py[line:136] - INFO: epoch : 42, train loss : 0.4243, train acc: 0.8423, valid loss : 0.3916, valid acc : 0.8563
+2024-07-09 11:10:18 - train.py[line:136] - INFO: epoch : 43, train loss : 0.4237, train acc: 0.8427, valid loss : 0.3985, valid acc : 0.8584
+2024-07-09 11:10:58 - train.py[line:136] - INFO: epoch : 44, train loss : 0.4229, train acc: 0.8436, valid loss : 0.3909, valid acc : 0.8572
+2024-07-09 11:11:37 - train.py[line:136] - INFO: epoch : 45, train loss : 0.4214, train acc: 0.8432, valid loss : 0.3951, valid acc : 0.8635
+2024-07-09 11:12:17 - train.py[line:136] - INFO: epoch : 46, train loss : 0.4211, train acc: 0.8442, valid loss : 0.3914, valid acc : 0.8652
+2024-07-09 11:12:56 - train.py[line:136] - INFO: epoch : 47, train loss : 0.4187, train acc: 0.8448, valid loss : 0.3850, valid acc : 0.8648
+2024-07-09 11:13:35 - train.py[line:136] - INFO: epoch : 48, train loss : 0.4179, train acc: 0.8456, valid loss : 0.3788, valid acc : 0.8634
+2024-07-09 11:14:15 - train.py[line:136] - INFO: epoch : 49, train loss : 0.4170, train acc: 0.8453, valid loss : 0.3924, valid acc : 0.8621
+2024-07-09 11:14:55 - train.py[line:136] - INFO: epoch : 50, train loss : 0.4156, train acc: 0.8464, valid loss : 0.3925, valid acc : 0.8565
+2024-07-09 11:15:36 - train.py[line:136] - INFO: epoch : 51, train loss : 0.4151, train acc: 0.8465, valid loss : 0.3987, valid acc : 0.8595
+2024-07-09 11:16:15 - train.py[line:136] - INFO: epoch : 52, train loss : 0.4137, train acc: 0.8473, valid loss : 0.3965, valid acc : 0.8577
+2024-07-09 11:16:56 - train.py[line:136] - INFO: epoch : 53, train loss : 0.4136, train acc: 0.8470, valid loss : 0.3844, valid acc : 0.8649
+2024-07-09 11:17:35 - train.py[line:136] - INFO: epoch : 54, train loss : 0.4125, train acc: 0.8476, valid loss : 0.3878, valid acc : 0.8637
+2024-07-09 11:18:14 - train.py[line:136] - INFO: epoch : 55, train loss : 0.4106, train acc: 0.8487, valid loss : 0.3753, valid acc : 0.8629
+2024-07-09 11:18:53 - train.py[line:136] - INFO: epoch : 56, train loss : 0.4107, train acc: 0.8480, valid loss : 0.3833, valid acc : 0.8637
+2024-07-09 11:19:33 - train.py[line:136] - INFO: epoch : 57, train loss : 0.4090, train acc: 0.8492, valid loss : 0.4032, valid acc : 0.8634
+2024-07-09 11:20:11 - train.py[line:136] - INFO: epoch : 58, train loss : 0.4080, train acc: 0.8493, valid loss : 0.3902, valid acc : 0.8615
+2024-07-09 11:20:51 - train.py[line:136] - INFO: epoch : 59, train loss : 0.4070, train acc: 0.8499, valid loss : 0.3824, valid acc : 0.8617
+2024-07-09 11:21:32 - train.py[line:136] - INFO: epoch : 60, train loss : 0.4069, train acc: 0.8500, valid loss : 0.3783, valid acc : 0.8673
+2024-07-09 11:22:11 - train.py[line:136] - INFO: epoch : 61, train loss : 0.4051, train acc: 0.8502, valid loss : 0.3803, valid acc : 0.8694
+2024-07-09 11:22:49 - train.py[line:136] - INFO: epoch : 62, train loss : 0.4048, train acc: 0.8503, valid loss : 0.3760, valid acc : 0.8674
+2024-07-09 11:23:27 - train.py[line:136] - INFO: epoch : 63, train loss : 0.4039, train acc: 0.8509, valid loss : 0.3893, valid acc : 0.8598
+2024-07-09 11:24:06 - train.py[line:136] - INFO: epoch : 64, train loss : 0.4031, train acc: 0.8511, valid loss : 0.3876, valid acc : 0.8653
+2024-07-09 11:24:47 - train.py[line:136] - INFO: epoch : 65, train loss : 0.4025, train acc: 0.8517, valid loss : 0.3775, valid acc : 0.8620
+2024-07-09 11:25:26 - train.py[line:136] - INFO: epoch : 66, train loss : 0.4011, train acc: 0.8518, valid loss : 0.3708, valid acc : 0.8711
+2024-07-09 11:26:06 - train.py[line:136] - INFO: epoch : 67, train loss : 0.4005, train acc: 0.8519, valid loss : 0.3759, valid acc : 0.8667
+2024-07-09 11:26:47 - train.py[line:136] - INFO: epoch : 68, train loss : 0.3993, train acc: 0.8522, valid loss : 0.3833, valid acc : 0.8666
+2024-07-09 11:27:28 - train.py[line:136] - INFO: epoch : 69, train loss : 0.3988, train acc: 0.8526, valid loss : 0.3970, valid acc : 0.8623
+2024-07-09 11:28:07 - train.py[line:136] - INFO: epoch : 70, train loss : 0.3981, train acc: 0.8531, valid loss : 0.3953, valid acc : 0.8656
+2024-07-09 11:28:46 - train.py[line:136] - INFO: epoch : 71, train loss : 0.3971, train acc: 0.8535, valid loss : 0.3722, valid acc : 0.8661
+2024-07-09 11:29:25 - train.py[line:136] - INFO: epoch : 72, train loss : 0.3974, train acc: 0.8536, valid loss : 0.3784, valid acc : 0.8660
+2024-07-09 11:30:02 - train.py[line:136] - INFO: epoch : 73, train loss : 0.3965, train acc: 0.8537, valid loss : 0.3713, valid acc : 0.8659
+2024-07-09 11:30:41 - train.py[line:136] - INFO: epoch : 74, train loss : 0.3963, train acc: 0.8542, valid loss : 0.3741, valid acc : 0.8615
+2024-07-09 11:31:22 - train.py[line:136] - INFO: epoch : 75, train loss : 0.3950, train acc: 0.8540, valid loss : 0.3790, valid acc : 0.8664
+2024-07-09 11:32:01 - train.py[line:136] - INFO: epoch : 76, train loss : 0.3949, train acc: 0.8547, valid loss : 0.3882, valid acc : 0.8636
+2024-07-09 11:32:38 - train.py[line:136] - INFO: epoch : 77, train loss : 0.3936, train acc: 0.8548, valid loss : 0.3753, valid acc : 0.8634
+2024-07-09 11:33:17 - train.py[line:136] - INFO: epoch : 78, train loss : 0.3926, train acc: 0.8547, valid loss : 0.3731, valid acc : 0.8699
+2024-07-09 11:33:55 - train.py[line:136] - INFO: epoch : 79, train loss : 0.3921, train acc: 0.8555, valid loss : 0.3731, valid acc : 0.8669
+2024-07-09 11:34:33 - train.py[line:136] - INFO: epoch : 80, train loss : 0.3918, train acc: 0.8552, valid loss : 0.3803, valid acc : 0.8666
+2024-07-09 11:35:12 - train.py[line:136] - INFO: epoch : 81, train loss : 0.3902, train acc: 0.8562, valid loss : 0.3762, valid acc : 0.8682
+2024-07-09 11:35:53 - train.py[line:136] - INFO: epoch : 82, train loss : 0.3909, train acc: 0.8564, valid loss : 0.3843, valid acc : 0.8627
+2024-07-09 11:36:33 - train.py[line:136] - INFO: epoch : 83, train loss : 0.3902, train acc: 0.8563, valid loss : 0.3782, valid acc : 0.8679
+2024-07-09 11:37:12 - train.py[line:136] - INFO: epoch : 84, train loss : 0.3895, train acc: 0.8562, valid loss : 0.3613, valid acc : 0.8692
+2024-07-09 11:37:51 - train.py[line:136] - INFO: epoch : 85, train loss : 0.3882, train acc: 0.8567, valid loss : 0.3751, valid acc : 0.8660
+2024-07-09 11:38:30 - train.py[line:136] - INFO: epoch : 86, train loss : 0.3876, train acc: 0.8571, valid loss : 0.3788, valid acc : 0.8666
+2024-07-09 11:39:09 - train.py[line:136] - INFO: epoch : 87, train loss : 0.3866, train acc: 0.8572, valid loss : 0.3690, valid acc : 0.8705
+2024-07-09 11:39:48 - train.py[line:136] - INFO: epoch : 88, train loss : 0.3864, train acc: 0.8578, valid loss : 0.3795, valid acc : 0.8691
+2024-07-09 11:40:28 - train.py[line:136] - INFO: epoch : 89, train loss : 0.3859, train acc: 0.8578, valid loss : 0.3675, valid acc : 0.8733
+2024-07-09 11:41:07 - train.py[line:136] - INFO: epoch : 90, train loss : 0.3848, train acc: 0.8583, valid loss : 0.3595, valid acc : 0.8702
+2024-07-09 11:41:49 - train.py[line:136] - INFO: epoch : 91, train loss : 0.3843, train acc: 0.8583, valid loss : 0.3635, valid acc : 0.8675
+2024-07-09 11:42:29 - train.py[line:136] - INFO: epoch : 92, train loss : 0.3842, train acc: 0.8587, valid loss : 0.3687, valid acc : 0.8710
+2024-07-09 11:43:07 - train.py[line:136] - INFO: epoch : 93, train loss : 0.3842, train acc: 0.8588, valid loss : 0.3847, valid acc : 0.8667
+2024-07-09 11:43:46 - train.py[line:136] - INFO: epoch : 94, train loss : 0.3831, train acc: 0.8589, valid loss : 0.3708, valid acc : 0.8691
+2024-07-09 11:44:23 - train.py[line:136] - INFO: epoch : 95, train loss : 0.3824, train acc: 0.8591, valid loss : 0.3614, valid acc : 0.8676
+2024-07-09 11:45:01 - train.py[line:136] - INFO: epoch : 96, train loss : 0.3819, train acc: 0.8596, valid loss : 0.3617, valid acc : 0.8713
+2024-07-09 11:45:40 - train.py[line:136] - INFO: epoch : 97, train loss : 0.3816, train acc: 0.8592, valid loss : 0.3628, valid acc : 0.8712
+2024-07-09 11:46:18 - train.py[line:136] - INFO: epoch : 98, train loss : 0.3810, train acc: 0.8594, valid loss : 0.3675, valid acc : 0.8696
+2024-07-09 11:46:57 - train.py[line:136] - INFO: epoch : 99, train loss : 0.3805, train acc: 0.8600, valid loss : 0.3638, valid acc : 0.8725
+2024-07-09 11:47:35 - train.py[line:136] - INFO: epoch : 100, train loss : 0.3794, train acc: 0.8604, valid loss : 0.3612, valid acc : 0.8695
+2024-07-09 11:47:35 - train.py[line:139] - INFO: Training Time of Neural Network: 65.46120582024257 min.
+2024-07-09 11:47:37 - train.py[line:153] - INFO: {'tp': 0.294, 'fp': 0.057, 'tn': 0.576, 'fn': 0.074}
+2024-07-09 11:47:37 - train.py[line:156] - INFO: Saving Model.
+2024-07-09 11:47:37 - train.py[line:158] - INFO: Model saved in path output/temp/model/dmv.pkl
+2024-07-09 15:08:09 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-09 15:08:38 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-09 15:08:42 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-09 15:08:42 - train.py[line:117] - INFO: Model established: WideDeepNew(
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=16, bias=True)
+  (fcsql): Linear(in_features=22, out_features=8, bias=True)
+  (fc1): Linear(in_features=587, out_features=256, bias=True)
+  (fc2): Linear(in_features=256, out_features=256, bias=True)
+  (fc3): Linear(in_features=256, out_features=40, bias=True)
+  (fc_final): Linear(in_features=101, out_features=1, bias=True)
+)
+2024-07-09 15:08:42 - train.py[line:125] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-09 15:08:42 - train.py[line:127] - INFO: Using BCELoss as loss function.
+2024-07-09 15:08:42 - train.py[line:129] - INFO: Using Adam as optimization function.
+2024-07-09 15:08:42 - train.py[line:132] - INFO: Begin the training of model.
+2024-07-09 15:08:52 - train.py[line:136] - INFO: epoch : 1, train loss : 0.6688, train acc: 0.7460, valid loss : 0.5718, valid acc : 0.7890
+2024-07-09 15:09:01 - train.py[line:136] - INFO: epoch : 2, train loss : 0.5623, train acc: 0.7934, valid loss : 0.5178, valid acc : 0.8091
+2024-07-09 15:09:10 - train.py[line:136] - INFO: epoch : 3, train loss : 0.5228, train acc: 0.8053, valid loss : 0.4831, valid acc : 0.8267
+2024-07-09 15:09:19 - train.py[line:136] - INFO: epoch : 4, train loss : 0.4973, train acc: 0.8148, valid loss : 0.4596, valid acc : 0.8338
+2024-07-09 15:09:29 - train.py[line:136] - INFO: epoch : 5, train loss : 0.4781, train acc: 0.8220, valid loss : 0.4414, valid acc : 0.8361
+2024-07-09 15:09:38 - train.py[line:136] - INFO: epoch : 6, train loss : 0.4653, train acc: 0.8282, valid loss : 0.4277, valid acc : 0.8392
+2024-07-09 15:09:47 - train.py[line:136] - INFO: epoch : 7, train loss : 0.4539, train acc: 0.8323, valid loss : 0.4196, valid acc : 0.8483
+2024-07-09 15:09:56 - train.py[line:136] - INFO: epoch : 8, train loss : 0.4437, train acc: 0.8370, valid loss : 0.4121, valid acc : 0.8547
+2024-07-09 15:10:05 - train.py[line:136] - INFO: epoch : 9, train loss : 0.4366, train acc: 0.8404, valid loss : 0.4014, valid acc : 0.8607
+2024-07-09 15:10:13 - train.py[line:136] - INFO: epoch : 10, train loss : 0.4298, train acc: 0.8426, valid loss : 0.3955, valid acc : 0.8573
+2024-07-09 15:10:22 - train.py[line:136] - INFO: epoch : 11, train loss : 0.4251, train acc: 0.8450, valid loss : 0.3906, valid acc : 0.8540
+2024-07-09 15:10:31 - train.py[line:136] - INFO: epoch : 12, train loss : 0.4193, train acc: 0.8467, valid loss : 0.3834, valid acc : 0.8558
+2024-07-09 15:10:40 - train.py[line:136] - INFO: epoch : 13, train loss : 0.4140, train acc: 0.8488, valid loss : 0.3778, valid acc : 0.8675
+2024-07-09 15:10:49 - train.py[line:136] - INFO: epoch : 14, train loss : 0.4092, train acc: 0.8506, valid loss : 0.3786, valid acc : 0.8689
+2024-07-09 15:10:58 - train.py[line:136] - INFO: epoch : 15, train loss : 0.4060, train acc: 0.8516, valid loss : 0.3744, valid acc : 0.8614
+2024-07-09 15:11:07 - train.py[line:136] - INFO: epoch : 16, train loss : 0.4028, train acc: 0.8522, valid loss : 0.3651, valid acc : 0.8685
+2024-07-09 15:11:15 - train.py[line:136] - INFO: epoch : 17, train loss : 0.3987, train acc: 0.8541, valid loss : 0.3704, valid acc : 0.8685
+2024-07-09 15:11:24 - train.py[line:136] - INFO: epoch : 18, train loss : 0.3954, train acc: 0.8552, valid loss : 0.3612, valid acc : 0.8708
+2024-07-09 15:11:33 - train.py[line:136] - INFO: epoch : 19, train loss : 0.3932, train acc: 0.8562, valid loss : 0.3597, valid acc : 0.8728
+2024-07-09 15:11:43 - train.py[line:136] - INFO: epoch : 20, train loss : 0.3899, train acc: 0.8573, valid loss : 0.3575, valid acc : 0.8728
+2024-07-09 15:11:53 - train.py[line:136] - INFO: epoch : 21, train loss : 0.3877, train acc: 0.8584, valid loss : 0.3552, valid acc : 0.8746
+2024-07-09 15:12:03 - train.py[line:136] - INFO: epoch : 22, train loss : 0.3854, train acc: 0.8592, valid loss : 0.3541, valid acc : 0.8755
+2024-07-09 15:12:12 - train.py[line:136] - INFO: epoch : 23, train loss : 0.3840, train acc: 0.8598, valid loss : 0.3526, valid acc : 0.8756
+2024-07-09 15:12:20 - train.py[line:136] - INFO: epoch : 24, train loss : 0.3820, train acc: 0.8611, valid loss : 0.3499, valid acc : 0.8752
+2024-07-09 15:12:29 - train.py[line:136] - INFO: epoch : 25, train loss : 0.3794, train acc: 0.8612, valid loss : 0.3443, valid acc : 0.8790
+2024-07-09 15:12:38 - train.py[line:136] - INFO: epoch : 26, train loss : 0.3777, train acc: 0.8626, valid loss : 0.3440, valid acc : 0.8785
+2024-07-09 15:12:47 - train.py[line:136] - INFO: epoch : 27, train loss : 0.3758, train acc: 0.8631, valid loss : 0.3401, valid acc : 0.8779
+2024-07-09 15:12:55 - train.py[line:136] - INFO: epoch : 28, train loss : 0.3736, train acc: 0.8639, valid loss : 0.3430, valid acc : 0.8789
+2024-07-09 15:13:04 - train.py[line:136] - INFO: epoch : 29, train loss : 0.3723, train acc: 0.8645, valid loss : 0.3390, valid acc : 0.8793
+2024-07-09 15:13:13 - train.py[line:136] - INFO: epoch : 30, train loss : 0.3707, train acc: 0.8649, valid loss : 0.3385, valid acc : 0.8790
+2024-07-09 15:13:21 - train.py[line:136] - INFO: epoch : 31, train loss : 0.3700, train acc: 0.8648, valid loss : 0.3416, valid acc : 0.8799
+2024-07-09 15:13:30 - train.py[line:136] - INFO: epoch : 32, train loss : 0.3678, train acc: 0.8658, valid loss : 0.3374, valid acc : 0.8819
+2024-07-09 15:13:39 - train.py[line:136] - INFO: epoch : 33, train loss : 0.3663, train acc: 0.8665, valid loss : 0.3360, valid acc : 0.8828
+2024-07-09 15:13:47 - train.py[line:136] - INFO: epoch : 34, train loss : 0.3648, train acc: 0.8664, valid loss : 0.3342, valid acc : 0.8832
+2024-07-09 15:13:56 - train.py[line:136] - INFO: epoch : 35, train loss : 0.3640, train acc: 0.8674, valid loss : 0.3321, valid acc : 0.8821
+2024-07-09 15:14:04 - train.py[line:136] - INFO: epoch : 36, train loss : 0.3616, train acc: 0.8681, valid loss : 0.3324, valid acc : 0.8843
+2024-07-09 15:14:13 - train.py[line:136] - INFO: epoch : 37, train loss : 0.3612, train acc: 0.8681, valid loss : 0.3294, valid acc : 0.8847
+2024-07-09 15:14:22 - train.py[line:136] - INFO: epoch : 38, train loss : 0.3598, train acc: 0.8686, valid loss : 0.3308, valid acc : 0.8851
+2024-07-09 15:14:30 - train.py[line:136] - INFO: epoch : 39, train loss : 0.3579, train acc: 0.8693, valid loss : 0.3269, valid acc : 0.8835
+2024-07-09 15:14:39 - train.py[line:136] - INFO: epoch : 40, train loss : 0.3586, train acc: 0.8698, valid loss : 0.3294, valid acc : 0.8834
+2024-07-09 15:14:48 - train.py[line:136] - INFO: epoch : 41, train loss : 0.3562, train acc: 0.8699, valid loss : 0.3250, valid acc : 0.8855
+2024-07-09 15:14:56 - train.py[line:136] - INFO: epoch : 42, train loss : 0.3554, train acc: 0.8708, valid loss : 0.3229, valid acc : 0.8845
+2024-07-09 15:15:05 - train.py[line:136] - INFO: epoch : 43, train loss : 0.3549, train acc: 0.8709, valid loss : 0.3258, valid acc : 0.8866
+2024-07-09 15:15:13 - train.py[line:136] - INFO: epoch : 44, train loss : 0.3542, train acc: 0.8706, valid loss : 0.3234, valid acc : 0.8876
+2024-07-09 15:15:22 - train.py[line:136] - INFO: epoch : 45, train loss : 0.3524, train acc: 0.8719, valid loss : 0.3209, valid acc : 0.8871
+2024-07-09 15:15:30 - train.py[line:136] - INFO: epoch : 46, train loss : 0.3521, train acc: 0.8720, valid loss : 0.3210, valid acc : 0.8871
+2024-07-09 15:15:39 - train.py[line:136] - INFO: epoch : 47, train loss : 0.3511, train acc: 0.8723, valid loss : 0.3192, valid acc : 0.8877
+2024-07-09 15:15:47 - train.py[line:136] - INFO: epoch : 48, train loss : 0.3493, train acc: 0.8722, valid loss : 0.3217, valid acc : 0.8894
+2024-07-09 15:15:56 - train.py[line:136] - INFO: epoch : 49, train loss : 0.3481, train acc: 0.8731, valid loss : 0.3197, valid acc : 0.8880
+2024-07-09 15:16:05 - train.py[line:136] - INFO: epoch : 50, train loss : 0.3482, train acc: 0.8736, valid loss : 0.3164, valid acc : 0.8865
+2024-07-09 15:16:13 - train.py[line:136] - INFO: epoch : 51, train loss : 0.3469, train acc: 0.8738, valid loss : 0.3144, valid acc : 0.8850
+2024-07-09 15:16:22 - train.py[line:136] - INFO: epoch : 52, train loss : 0.3466, train acc: 0.8742, valid loss : 0.3185, valid acc : 0.8895
+2024-07-09 15:16:32 - train.py[line:136] - INFO: epoch : 53, train loss : 0.3462, train acc: 0.8743, valid loss : 0.3169, valid acc : 0.8881
+2024-07-09 15:16:40 - train.py[line:136] - INFO: epoch : 54, train loss : 0.3459, train acc: 0.8745, valid loss : 0.3171, valid acc : 0.8877
+2024-07-09 15:16:49 - train.py[line:136] - INFO: epoch : 55, train loss : 0.3440, train acc: 0.8747, valid loss : 0.3143, valid acc : 0.8899
+2024-07-09 15:16:58 - train.py[line:136] - INFO: epoch : 56, train loss : 0.3431, train acc: 0.8750, valid loss : 0.3136, valid acc : 0.8880
+2024-07-09 15:17:06 - train.py[line:136] - INFO: epoch : 57, train loss : 0.3427, train acc: 0.8753, valid loss : 0.3130, valid acc : 0.8912
+2024-07-09 15:17:15 - train.py[line:136] - INFO: epoch : 58, train loss : 0.3424, train acc: 0.8758, valid loss : 0.3120, valid acc : 0.8905
+2024-07-09 15:17:24 - train.py[line:136] - INFO: epoch : 59, train loss : 0.3414, train acc: 0.8756, valid loss : 0.3102, valid acc : 0.8904
+2024-07-09 15:17:33 - train.py[line:136] - INFO: epoch : 60, train loss : 0.3394, train acc: 0.8764, valid loss : 0.3099, valid acc : 0.8907
+2024-07-09 15:17:41 - train.py[line:136] - INFO: epoch : 61, train loss : 0.3398, train acc: 0.8768, valid loss : 0.3114, valid acc : 0.8915
+2024-07-09 15:17:50 - train.py[line:136] - INFO: epoch : 62, train loss : 0.3392, train acc: 0.8771, valid loss : 0.3131, valid acc : 0.8926
+2024-07-09 15:17:58 - train.py[line:136] - INFO: epoch : 63, train loss : 0.3383, train acc: 0.8768, valid loss : 0.3117, valid acc : 0.8918
+2024-07-09 15:18:07 - train.py[line:136] - INFO: epoch : 64, train loss : 0.3384, train acc: 0.8769, valid loss : 0.3114, valid acc : 0.8929
+2024-07-09 15:18:16 - train.py[line:136] - INFO: epoch : 65, train loss : 0.3377, train acc: 0.8775, valid loss : 0.3107, valid acc : 0.8911
+2024-07-09 15:18:24 - train.py[line:136] - INFO: epoch : 66, train loss : 0.3365, train acc: 0.8779, valid loss : 0.3117, valid acc : 0.8928
+2024-07-09 15:18:33 - train.py[line:136] - INFO: epoch : 67, train loss : 0.3366, train acc: 0.8784, valid loss : 0.3072, valid acc : 0.8920
+2024-07-09 15:18:41 - train.py[line:136] - INFO: epoch : 68, train loss : 0.3356, train acc: 0.8779, valid loss : 0.3079, valid acc : 0.8930
+2024-07-09 15:18:50 - train.py[line:136] - INFO: epoch : 69, train loss : 0.3354, train acc: 0.8783, valid loss : 0.3060, valid acc : 0.8915
+2024-07-09 15:18:59 - train.py[line:136] - INFO: epoch : 70, train loss : 0.3346, train acc: 0.8782, valid loss : 0.3078, valid acc : 0.8901
+2024-07-09 15:19:07 - train.py[line:136] - INFO: epoch : 71, train loss : 0.3337, train acc: 0.8792, valid loss : 0.3071, valid acc : 0.8925
+2024-07-09 15:19:16 - train.py[line:136] - INFO: epoch : 72, train loss : 0.3337, train acc: 0.8788, valid loss : 0.3093, valid acc : 0.8917
+2024-07-09 15:19:25 - train.py[line:136] - INFO: epoch : 73, train loss : 0.3328, train acc: 0.8796, valid loss : 0.3054, valid acc : 0.8927
+2024-07-09 15:19:33 - train.py[line:136] - INFO: epoch : 74, train loss : 0.3328, train acc: 0.8795, valid loss : 0.3043, valid acc : 0.8926
+2024-07-09 15:19:42 - train.py[line:136] - INFO: epoch : 75, train loss : 0.3323, train acc: 0.8799, valid loss : 0.3049, valid acc : 0.8932
+2024-07-09 15:19:51 - train.py[line:136] - INFO: epoch : 76, train loss : 0.3315, train acc: 0.8799, valid loss : 0.3069, valid acc : 0.8944
+2024-07-09 15:20:00 - train.py[line:136] - INFO: epoch : 77, train loss : 0.3319, train acc: 0.8800, valid loss : 0.3065, valid acc : 0.8932
+2024-07-09 15:20:09 - train.py[line:136] - INFO: epoch : 78, train loss : 0.3312, train acc: 0.8795, valid loss : 0.3056, valid acc : 0.8939
+2024-07-09 15:20:17 - train.py[line:136] - INFO: epoch : 79, train loss : 0.3295, train acc: 0.8803, valid loss : 0.3027, valid acc : 0.8937
+2024-07-09 15:20:26 - train.py[line:136] - INFO: epoch : 80, train loss : 0.3289, train acc: 0.8807, valid loss : 0.3023, valid acc : 0.8931
+2024-07-09 15:20:35 - train.py[line:136] - INFO: epoch : 81, train loss : 0.3293, train acc: 0.8807, valid loss : 0.3035, valid acc : 0.8942
+2024-07-09 15:20:44 - train.py[line:136] - INFO: epoch : 82, train loss : 0.3284, train acc: 0.8812, valid loss : 0.3019, valid acc : 0.8941
+2024-07-09 15:20:52 - train.py[line:136] - INFO: epoch : 83, train loss : 0.3283, train acc: 0.8805, valid loss : 0.3031, valid acc : 0.8971
+2024-07-09 15:21:01 - train.py[line:136] - INFO: epoch : 84, train loss : 0.3272, train acc: 0.8815, valid loss : 0.3016, valid acc : 0.8947
+2024-07-09 15:21:10 - train.py[line:136] - INFO: epoch : 85, train loss : 0.3266, train acc: 0.8823, valid loss : 0.3019, valid acc : 0.8953
+2024-07-09 15:21:18 - train.py[line:136] - INFO: epoch : 86, train loss : 0.3265, train acc: 0.8821, valid loss : 0.3026, valid acc : 0.8953
+2024-07-09 15:21:27 - train.py[line:136] - INFO: epoch : 87, train loss : 0.3261, train acc: 0.8817, valid loss : 0.3027, valid acc : 0.8970
+2024-07-09 15:21:36 - train.py[line:136] - INFO: epoch : 88, train loss : 0.3263, train acc: 0.8818, valid loss : 0.3007, valid acc : 0.8960
+2024-07-09 15:21:45 - train.py[line:136] - INFO: epoch : 89, train loss : 0.3251, train acc: 0.8824, valid loss : 0.2993, valid acc : 0.8950
+2024-07-09 15:21:54 - train.py[line:136] - INFO: epoch : 90, train loss : 0.3253, train acc: 0.8821, valid loss : 0.2996, valid acc : 0.8958
+2024-07-09 15:22:02 - train.py[line:136] - INFO: epoch : 91, train loss : 0.3246, train acc: 0.8823, valid loss : 0.3001, valid acc : 0.8956
+2024-07-09 15:22:11 - train.py[line:136] - INFO: epoch : 92, train loss : 0.3249, train acc: 0.8823, valid loss : 0.2998, valid acc : 0.8972
+2024-07-09 15:22:20 - train.py[line:136] - INFO: epoch : 93, train loss : 0.3247, train acc: 0.8826, valid loss : 0.3013, valid acc : 0.8971
+2024-07-09 15:22:28 - train.py[line:136] - INFO: epoch : 94, train loss : 0.3243, train acc: 0.8828, valid loss : 0.2994, valid acc : 0.8959
+2024-07-09 15:22:37 - train.py[line:136] - INFO: epoch : 95, train loss : 0.3235, train acc: 0.8834, valid loss : 0.2985, valid acc : 0.8974
+2024-07-09 15:22:46 - train.py[line:136] - INFO: epoch : 96, train loss : 0.3231, train acc: 0.8833, valid loss : 0.2991, valid acc : 0.8958
+2024-07-09 15:22:54 - train.py[line:136] - INFO: epoch : 97, train loss : 0.3230, train acc: 0.8830, valid loss : 0.2975, valid acc : 0.8958
+2024-07-09 15:23:03 - train.py[line:136] - INFO: epoch : 98, train loss : 0.3218, train acc: 0.8834, valid loss : 0.2984, valid acc : 0.8984
+2024-07-09 15:23:12 - train.py[line:136] - INFO: epoch : 99, train loss : 0.3224, train acc: 0.8831, valid loss : 0.2969, valid acc : 0.8969
+2024-07-09 15:23:20 - train.py[line:136] - INFO: epoch : 100, train loss : 0.3209, train acc: 0.8835, valid loss : 0.2953, valid acc : 0.8970
+2024-07-09 15:23:20 - train.py[line:139] - INFO: Training Time of Neural Network: 14.643969794114431 min.
+2024-07-09 15:23:21 - train.py[line:153] - INFO: {'tp': 0.313, 'fp': 0.048, 'tn': 0.584, 'fn': 0.055}
+2024-07-09 15:23:21 - train.py[line:156] - INFO: Saving Model.
+2024-07-09 15:23:22 - train.py[line:158] - INFO: Model saved in path output/temp/model/dmv.pkl
+2024-07-14 16:07:42 - featureNew.py[line:38] - INFO: Data num=600000 label1 num=36.53%
+2024-07-14 16:08:46 - featureNew.py[line:38] - INFO: Data num=60000 label1 num=36.75%
+2024-07-14 16:08:49 - train.py[line:106] - INFO: Model input: {'wide': 37, 'deep': 587, 'co': 55, 'sql': 22, 'class0': 380839.00809288025, 'class1': 219160.99190711975}
+2024-07-14 16:08:49 - train.py[line:117] - INFO: Model established: LDSSTransformer2(
+  (transformer_encoder): Encoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (layers): Sequential(
+      (encoder_layer_0): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_1): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_2): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_3): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_4): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+      (encoder_layer_5): EncoderBlock(
+        (ln_1): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (self_attention): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=42, out_features=42, bias=True)
+        )
+        (dropout): Dropout(p=0.0, inplace=False)
+        (ln_2): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+        (mlp): MLPBlock(
+          (0): Linear(in_features=42, out_features=43, bias=True)
+          (1): GELU(approximate='none')
+          (2): Dropout(p=0.0, inplace=False)
+          (3): Linear(in_features=43, out_features=42, bias=True)
+          (4): Dropout(p=0.0, inplace=False)
+        )
+      )
+    )
+    (ln): LayerNorm((42,), eps=1e-06, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.3, inplace=False)
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (fcco): Linear(in_features=55, out_features=42, bias=True)
+  (fcsql): Linear(in_features=22, out_features=42, bias=True)
+  (fc1): Linear(in_features=587, out_features=42, bias=True)
+  (fwide): Linear(in_features=37, out_features=42, bias=True)
+  (fc_final): Linear(in_features=42, out_features=1, bias=True)
+)
+2024-07-14 16:08:49 - train.py[line:125] - INFO: Loss Weights: tensor([1.0000, 1.7377])
+2024-07-14 16:08:49 - train.py[line:127] - INFO: Using BCELoss as loss function.
+2024-07-14 16:08:49 - train.py[line:129] - INFO: Using Adam as optimization function.
+2024-07-14 16:08:49 - train.py[line:132] - INFO: Begin the training of model.
+2024-07-14 16:09:09 - train.py[line:136] - INFO: epoch : 1, train loss : 0.6845, train acc: 0.7327, valid loss : 0.5850, valid acc : 0.7917
+2024-07-14 16:09:28 - train.py[line:136] - INFO: epoch : 2, train loss : 0.5937, train acc: 0.7795, valid loss : 0.5455, valid acc : 0.8072
+2024-07-14 16:09:46 - train.py[line:136] - INFO: epoch : 3, train loss : 0.5632, train acc: 0.7911, valid loss : 0.5304, valid acc : 0.8171
+2024-07-14 16:10:04 - train.py[line:136] - INFO: epoch : 4, train loss : 0.5451, train acc: 0.7983, valid loss : 0.5004, valid acc : 0.8177
+2024-07-14 16:10:22 - train.py[line:136] - INFO: epoch : 5, train loss : 0.5335, train acc: 0.8024, valid loss : 0.4941, valid acc : 0.8270
+2024-07-14 16:10:39 - train.py[line:136] - INFO: epoch : 6, train loss : 0.5237, train acc: 0.8055, valid loss : 0.4853, valid acc : 0.8282
+2024-07-14 16:10:56 - train.py[line:136] - INFO: epoch : 7, train loss : 0.5153, train acc: 0.8075, valid loss : 0.4782, valid acc : 0.8302
+2024-07-14 16:11:13 - train.py[line:136] - INFO: epoch : 8, train loss : 0.5089, train acc: 0.8098, valid loss : 0.4782, valid acc : 0.8333
+2024-07-14 16:11:31 - train.py[line:136] - INFO: epoch : 9, train loss : 0.5034, train acc: 0.8117, valid loss : 0.4690, valid acc : 0.8274
+2024-07-14 16:11:48 - train.py[line:136] - INFO: epoch : 10, train loss : 0.4974, train acc: 0.8144, valid loss : 0.4732, valid acc : 0.8320
+2024-07-14 16:12:06 - train.py[line:136] - INFO: epoch : 11, train loss : 0.4935, train acc: 0.8155, valid loss : 0.4624, valid acc : 0.8370
+2024-07-14 16:12:24 - train.py[line:136] - INFO: epoch : 12, train loss : 0.4879, train acc: 0.8177, valid loss : 0.4605, valid acc : 0.8361
+2024-07-14 16:12:41 - train.py[line:136] - INFO: epoch : 13, train loss : 0.4851, train acc: 0.8192, valid loss : 0.4564, valid acc : 0.8412
+2024-07-14 16:12:59 - train.py[line:136] - INFO: epoch : 14, train loss : 0.4808, train acc: 0.8205, valid loss : 0.4619, valid acc : 0.8331
+2024-07-14 16:13:14 - train.py[line:136] - INFO: epoch : 15, train loss : 0.4778, train acc: 0.8218, valid loss : 0.4540, valid acc : 0.8450
+2024-07-14 16:13:31 - train.py[line:136] - INFO: epoch : 16, train loss : 0.4758, train acc: 0.8223, valid loss : 0.4444, valid acc : 0.8448
+2024-07-14 16:13:48 - train.py[line:136] - INFO: epoch : 17, train loss : 0.4718, train acc: 0.8248, valid loss : 0.4454, valid acc : 0.8406
+2024-07-14 16:14:05 - train.py[line:136] - INFO: epoch : 18, train loss : 0.4694, train acc: 0.8257, valid loss : 0.4385, valid acc : 0.8430
+2024-07-14 16:14:22 - train.py[line:136] - INFO: epoch : 19, train loss : 0.4657, train acc: 0.8271, valid loss : 0.4316, valid acc : 0.8359
+2024-07-14 16:14:40 - train.py[line:136] - INFO: epoch : 20, train loss : 0.4646, train acc: 0.8282, valid loss : 0.4273, valid acc : 0.8471
+2024-07-14 16:14:57 - train.py[line:136] - INFO: epoch : 21, train loss : 0.4613, train acc: 0.8295, valid loss : 0.4377, valid acc : 0.8484
+2024-07-14 16:15:14 - train.py[line:136] - INFO: epoch : 22, train loss : 0.4593, train acc: 0.8299, valid loss : 0.4326, valid acc : 0.8527
+2024-07-14 16:15:33 - train.py[line:136] - INFO: epoch : 23, train loss : 0.4588, train acc: 0.8310, valid loss : 0.4268, valid acc : 0.8545
+2024-07-14 16:15:51 - train.py[line:136] - INFO: epoch : 24, train loss : 0.4545, train acc: 0.8321, valid loss : 0.4186, valid acc : 0.8493
+2024-07-14 16:16:07 - train.py[line:136] - INFO: epoch : 25, train loss : 0.4532, train acc: 0.8328, valid loss : 0.4171, valid acc : 0.8531
+2024-07-14 16:16:25 - train.py[line:136] - INFO: epoch : 26, train loss : 0.4506, train acc: 0.8338, valid loss : 0.4195, valid acc : 0.8476
+2024-07-14 16:16:43 - train.py[line:136] - INFO: epoch : 27, train loss : 0.4500, train acc: 0.8342, valid loss : 0.4288, valid acc : 0.8527
+2024-07-14 16:17:01 - train.py[line:136] - INFO: epoch : 28, train loss : 0.4463, train acc: 0.8364, valid loss : 0.4013, valid acc : 0.8557
+2024-07-14 16:17:18 - train.py[line:136] - INFO: epoch : 29, train loss : 0.4452, train acc: 0.8358, valid loss : 0.4132, valid acc : 0.8587
+2024-07-14 16:17:37 - train.py[line:136] - INFO: epoch : 30, train loss : 0.4434, train acc: 0.8374, valid loss : 0.4070, valid acc : 0.8530
+2024-07-14 16:17:54 - train.py[line:136] - INFO: epoch : 31, train loss : 0.4433, train acc: 0.8370, valid loss : 0.4094, valid acc : 0.8569
+2024-07-14 16:18:12 - train.py[line:136] - INFO: epoch : 32, train loss : 0.4413, train acc: 0.8379, valid loss : 0.4042, valid acc : 0.8583
+2024-07-14 16:18:29 - train.py[line:136] - INFO: epoch : 33, train loss : 0.4394, train acc: 0.8390, valid loss : 0.4279, valid acc : 0.8572
+2024-07-14 16:18:47 - train.py[line:136] - INFO: epoch : 34, train loss : 0.4362, train acc: 0.8397, valid loss : 0.4063, valid acc : 0.8581
+2024-07-14 16:19:05 - train.py[line:136] - INFO: epoch : 35, train loss : 0.4358, train acc: 0.8398, valid loss : 0.4148, valid acc : 0.8548
+2024-07-14 16:19:22 - train.py[line:136] - INFO: epoch : 36, train loss : 0.4342, train acc: 0.8402, valid loss : 0.4049, valid acc : 0.8591
+2024-07-14 16:19:40 - train.py[line:136] - INFO: epoch : 37, train loss : 0.4331, train acc: 0.8410, valid loss : 0.4077, valid acc : 0.8600
+2024-07-14 16:19:58 - train.py[line:136] - INFO: epoch : 38, train loss : 0.4318, train acc: 0.8412, valid loss : 0.4138, valid acc : 0.8571
+2024-07-14 16:20:14 - train.py[line:136] - INFO: epoch : 39, train loss : 0.4307, train acc: 0.8414, valid loss : 0.4064, valid acc : 0.8561
+2024-07-14 16:20:32 - train.py[line:136] - INFO: epoch : 40, train loss : 0.4283, train acc: 0.8428, valid loss : 0.4076, valid acc : 0.8587
+2024-07-14 16:20:50 - train.py[line:136] - INFO: epoch : 41, train loss : 0.4280, train acc: 0.8433, valid loss : 0.4026, valid acc : 0.8606
+2024-07-14 16:21:08 - train.py[line:136] - INFO: epoch : 42, train loss : 0.4260, train acc: 0.8440, valid loss : 0.3966, valid acc : 0.8553
+2024-07-14 16:21:25 - train.py[line:136] - INFO: epoch : 43, train loss : 0.4255, train acc: 0.8438, valid loss : 0.4119, valid acc : 0.8575
+2024-07-14 16:21:43 - train.py[line:136] - INFO: epoch : 44, train loss : 0.4226, train acc: 0.8448, valid loss : 0.3898, valid acc : 0.8589
+2024-07-14 16:22:01 - train.py[line:136] - INFO: epoch : 45, train loss : 0.4226, train acc: 0.8449, valid loss : 0.3965, valid acc : 0.8617
+2024-07-14 16:22:19 - train.py[line:136] - INFO: epoch : 46, train loss : 0.4213, train acc: 0.8457, valid loss : 0.3914, valid acc : 0.8665
+2024-07-14 16:22:37 - train.py[line:136] - INFO: epoch : 47, train loss : 0.4199, train acc: 0.8465, valid loss : 0.4048, valid acc : 0.8599
+2024-07-14 16:22:54 - train.py[line:136] - INFO: epoch : 48, train loss : 0.4195, train acc: 0.8466, valid loss : 0.3966, valid acc : 0.8652
+2024-07-14 16:23:11 - train.py[line:136] - INFO: epoch : 49, train loss : 0.4181, train acc: 0.8464, valid loss : 0.3974, valid acc : 0.8607
+2024-07-14 16:23:28 - train.py[line:136] - INFO: epoch : 50, train loss : 0.4166, train acc: 0.8472, valid loss : 0.3953, valid acc : 0.8594
+2024-07-14 16:23:45 - train.py[line:136] - INFO: epoch : 51, train loss : 0.4155, train acc: 0.8474, valid loss : 0.3983, valid acc : 0.8599
+2024-07-14 16:24:03 - train.py[line:136] - INFO: epoch : 52, train loss : 0.4157, train acc: 0.8477, valid loss : 0.4022, valid acc : 0.8605
+2024-07-14 16:24:20 - train.py[line:136] - INFO: epoch : 53, train loss : 0.4148, train acc: 0.8484, valid loss : 0.4003, valid acc : 0.8647
+2024-07-14 16:24:36 - train.py[line:136] - INFO: epoch : 54, train loss : 0.4132, train acc: 0.8486, valid loss : 0.3855, valid acc : 0.8633
+2024-07-14 16:24:54 - train.py[line:136] - INFO: epoch : 55, train loss : 0.4118, train acc: 0.8489, valid loss : 0.3924, valid acc : 0.8631
+2024-07-14 16:25:12 - train.py[line:136] - INFO: epoch : 56, train loss : 0.4113, train acc: 0.8492, valid loss : 0.3852, valid acc : 0.8642
+2024-07-14 16:25:29 - train.py[line:136] - INFO: epoch : 57, train loss : 0.4103, train acc: 0.8497, valid loss : 0.3872, valid acc : 0.8677
+2024-07-14 16:25:47 - train.py[line:136] - INFO: epoch : 58, train loss : 0.4094, train acc: 0.8504, valid loss : 0.3930, valid acc : 0.8649
+2024-07-14 16:26:04 - train.py[line:136] - INFO: epoch : 59, train loss : 0.4085, train acc: 0.8502, valid loss : 0.3937, valid acc : 0.8643
+2024-07-14 16:26:22 - train.py[line:136] - INFO: epoch : 60, train loss : 0.4071, train acc: 0.8504, valid loss : 0.3914, valid acc : 0.8654
+2024-07-14 16:26:40 - train.py[line:136] - INFO: epoch : 61, train loss : 0.4070, train acc: 0.8507, valid loss : 0.4002, valid acc : 0.8657
+2024-07-14 16:26:57 - train.py[line:136] - INFO: epoch : 62, train loss : 0.4062, train acc: 0.8513, valid loss : 0.3894, valid acc : 0.8624
+2024-07-14 16:27:15 - train.py[line:136] - INFO: epoch : 63, train loss : 0.4047, train acc: 0.8515, valid loss : 0.3945, valid acc : 0.8670
+2024-07-14 16:27:33 - train.py[line:136] - INFO: epoch : 64, train loss : 0.4050, train acc: 0.8514, valid loss : 0.3816, valid acc : 0.8679
+2024-07-14 16:27:51 - train.py[line:136] - INFO: epoch : 65, train loss : 0.4031, train acc: 0.8520, valid loss : 0.3835, valid acc : 0.8667
+2024-07-14 16:28:07 - train.py[line:136] - INFO: epoch : 66, train loss : 0.4022, train acc: 0.8519, valid loss : 0.3872, valid acc : 0.8671
+2024-07-14 16:28:25 - train.py[line:136] - INFO: epoch : 67, train loss : 0.4024, train acc: 0.8525, valid loss : 0.3853, valid acc : 0.8692
+2024-07-14 16:28:43 - train.py[line:136] - INFO: epoch : 68, train loss : 0.4008, train acc: 0.8528, valid loss : 0.3846, valid acc : 0.8627
+2024-07-14 16:29:00 - train.py[line:136] - INFO: epoch : 69, train loss : 0.4007, train acc: 0.8534, valid loss : 0.3818, valid acc : 0.8685
+2024-07-14 16:29:18 - train.py[line:136] - INFO: epoch : 70, train loss : 0.3997, train acc: 0.8528, valid loss : 0.4018, valid acc : 0.8645
+2024-07-14 16:29:34 - train.py[line:136] - INFO: epoch : 71, train loss : 0.3992, train acc: 0.8533, valid loss : 0.3764, valid acc : 0.8682
+2024-07-14 16:29:51 - train.py[line:136] - INFO: epoch : 72, train loss : 0.3987, train acc: 0.8540, valid loss : 0.3864, valid acc : 0.8706
+2024-07-14 16:30:08 - train.py[line:136] - INFO: epoch : 73, train loss : 0.3977, train acc: 0.8544, valid loss : 0.3874, valid acc : 0.8675
+2024-07-14 16:30:25 - train.py[line:136] - INFO: epoch : 74, train loss : 0.3975, train acc: 0.8547, valid loss : 0.3730, valid acc : 0.8628
+2024-07-14 16:30:43 - train.py[line:136] - INFO: epoch : 75, train loss : 0.3968, train acc: 0.8546, valid loss : 0.3750, valid acc : 0.8702
+2024-07-14 16:31:02 - train.py[line:136] - INFO: epoch : 76, train loss : 0.3958, train acc: 0.8552, valid loss : 0.3798, valid acc : 0.8694
+2024-07-14 16:31:19 - train.py[line:136] - INFO: epoch : 77, train loss : 0.3949, train acc: 0.8554, valid loss : 0.3796, valid acc : 0.8653
+2024-07-14 16:31:37 - train.py[line:136] - INFO: epoch : 78, train loss : 0.3938, train acc: 0.8557, valid loss : 0.3776, valid acc : 0.8702
+2024-07-14 16:31:55 - train.py[line:136] - INFO: epoch : 79, train loss : 0.3941, train acc: 0.8556, valid loss : 0.4005, valid acc : 0.8641
+2024-07-14 16:32:12 - train.py[line:136] - INFO: epoch : 80, train loss : 0.3929, train acc: 0.8561, valid loss : 0.3867, valid acc : 0.8659
+2024-07-14 16:32:30 - train.py[line:136] - INFO: epoch : 81, train loss : 0.3935, train acc: 0.8559, valid loss : 0.3805, valid acc : 0.8683
+2024-07-14 16:32:47 - train.py[line:136] - INFO: epoch : 82, train loss : 0.3920, train acc: 0.8567, valid loss : 0.3832, valid acc : 0.8704
+2024-07-14 16:33:04 - train.py[line:136] - INFO: epoch : 83, train loss : 0.3910, train acc: 0.8564, valid loss : 0.3766, valid acc : 0.8709
+2024-07-14 16:33:21 - train.py[line:136] - INFO: epoch : 84, train loss : 0.3915, train acc: 0.8567, valid loss : 0.3870, valid acc : 0.8651
+2024-07-14 16:33:37 - train.py[line:136] - INFO: epoch : 85, train loss : 0.3907, train acc: 0.8572, valid loss : 0.3902, valid acc : 0.8697
+2024-07-14 16:33:54 - train.py[line:136] - INFO: epoch : 86, train loss : 0.3897, train acc: 0.8573, valid loss : 0.3873, valid acc : 0.8660
+2024-07-14 16:34:11 - train.py[line:136] - INFO: epoch : 87, train loss : 0.3895, train acc: 0.8575, valid loss : 0.3761, valid acc : 0.8688
+2024-07-14 16:34:29 - train.py[line:136] - INFO: epoch : 88, train loss : 0.3894, train acc: 0.8576, valid loss : 0.3956, valid acc : 0.8641
+2024-07-14 16:34:47 - train.py[line:136] - INFO: epoch : 89, train loss : 0.3886, train acc: 0.8573, valid loss : 0.3884, valid acc : 0.8688
+2024-07-14 16:35:04 - train.py[line:136] - INFO: epoch : 90, train loss : 0.3881, train acc: 0.8580, valid loss : 0.3909, valid acc : 0.8685
+2024-07-14 16:35:21 - train.py[line:136] - INFO: epoch : 91, train loss : 0.3876, train acc: 0.8579, valid loss : 0.3564, valid acc : 0.8762
+2024-07-14 16:35:40 - train.py[line:136] - INFO: epoch : 92, train loss : 0.3866, train acc: 0.8586, valid loss : 0.3699, valid acc : 0.8723
+2024-07-14 16:35:57 - train.py[line:136] - INFO: epoch : 93, train loss : 0.3872, train acc: 0.8584, valid loss : 0.3963, valid acc : 0.8675
+2024-07-14 16:36:15 - train.py[line:136] - INFO: epoch : 94, train loss : 0.3852, train acc: 0.8591, valid loss : 0.3791, valid acc : 0.8682
+2024-07-14 16:36:33 - train.py[line:136] - INFO: epoch : 95, train loss : 0.3856, train acc: 0.8593, valid loss : 0.3722, valid acc : 0.8709
+2024-07-14 16:36:50 - train.py[line:136] - INFO: epoch : 96, train loss : 0.3850, train acc: 0.8590, valid loss : 0.3772, valid acc : 0.8670
+2024-07-14 16:37:07 - train.py[line:136] - INFO: epoch : 97, train loss : 0.3841, train acc: 0.8594, valid loss : 0.3992, valid acc : 0.8689
+2024-07-14 16:37:25 - train.py[line:136] - INFO: epoch : 98, train loss : 0.3836, train acc: 0.8594, valid loss : 0.3833, valid acc : 0.8683
+2024-07-14 16:37:42 - train.py[line:136] - INFO: epoch : 99, train loss : 0.3845, train acc: 0.8597, valid loss : 0.3738, valid acc : 0.8731
+2024-07-14 16:38:00 - train.py[line:136] - INFO: epoch : 100, train loss : 0.3828, train acc: 0.8597, valid loss : 0.3799, valid acc : 0.8703
+2024-07-14 16:38:00 - train.py[line:139] - INFO: Training Time of Neural Network: 29.177835321426393 min.
+2024-07-14 16:38:01 - train.py[line:153] - INFO: {'tp': 0.282, 'fp': 0.044, 'tn': 0.589, 'fn': 0.086}
+2024-07-14 16:38:01 - train.py[line:156] - INFO: Saving Model.
+2024-07-14 16:38:01 - train.py[line:158] - INFO: Model saved in path output/temp/model/dmv.pkl

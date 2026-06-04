@@ -1,0 +1,2004 @@
+2024-06-18 15:59:45 - test.py[line:222] - INFO: Loading model.
+2024-06-19 22:05:15 - test.py[line:222] - INFO: Loading model.
+2024-06-19 22:05:16 - test.py[line:227] - INFO: Loading Data.
+2024-06-19 22:05:16 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-19 22:05:16 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-19 22:05:16 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-19 22:05:16 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-19 22:05:16 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-19 22:05:16 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-19 22:05:16 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-19 22:05:16 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-19 22:05:16 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-19 22:05:16 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-19 22:05:16 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-19 22:05:17 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-19 22:05:17 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-19 22:05:17 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 85, 's0.01': 7}
+2024-06-19 22:05:17 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 81, 's0.01': 11}
+2024-06-19 22:05:17 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2024-06-19 22:05:17 - test.py[line:205] - INFO: {'s0.05': 473, 's0.01': 27}
+2024-06-19 22:05:17 - test.py[line:205] - INFO: {'s0.05': 178, 's0.01': 161, 'standard-sample': 161}
+2024-06-19 22:05:17 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-19 22:05:17 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 73, 's0.01': 19}
+2024-06-19 22:05:17 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-19 22:05:17 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-19 22:05:17 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-19 22:05:17 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-19 22:05:17 - test.py[line:296] - INFO: Avg Sample Time=93.73ms
+2024-06-19 22:05:17 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-19 22:05:17 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=65.0580, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=74.3900, max=27379.0000
+2024-06-19 22:05:17 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=64.15ms
+2024-06-19 22:05:17 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-19 22:05:17 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-19 22:06:25 - test.py[line:222] - INFO: Loading model.
+2024-06-19 22:06:26 - test.py[line:227] - INFO: Loading Data.
+2024-06-19 22:06:26 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-19 22:06:26 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-19 22:06:26 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-19 22:06:26 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.63%
+2024-06-19 22:06:26 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-06-19 22:06:26 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-19 22:06:26 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-06-19 22:06:26 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-06-19 22:06:27 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-06-19 22:06:27 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-06-19 22:06:27 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-06-19 22:06:29 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-19 22:06:29 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-19 22:06:29 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 721, 's0.01': 86}
+2024-06-19 22:06:29 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 659, 's0.01': 148}
+2024-06-19 22:06:29 - test.py[line:205] - INFO: {'s0.05': 1388, 'standard-sample': 2628, 's0.01': 984}
+2024-06-19 22:06:29 - test.py[line:205] - INFO: {'s0.05': 4841, 's0.01': 159}
+2024-06-19 22:06:29 - test.py[line:205] - INFO: {'s0.05': 1691, 's0.01': 1660, 'standard-sample': 1649}
+2024-06-19 22:06:29 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-06-19 22:06:29 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 613, 's0.01': 194}
+2024-06-19 22:06:29 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-19 22:06:29 - test.py[line:167] - INFO: {'merge': 5000}
+2024-06-19 22:06:29 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-19 22:06:29 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-06-19 22:06:29 - test.py[line:296] - INFO: Avg Sample Time=41.24ms
+2024-06-19 22:06:29 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-19 22:06:29 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.5124, 50%=1.0109, 90%=1.4193, 95%=2.6459, 99%=18.0100, max=1093.0000
+2024-06-19 22:06:29 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=38.29ms
+2024-06-19 22:06:29 - test.py[line:302] - INFO: Avg Sample Ratio=0.0915
+2024-06-19 22:06:29 - test.py[line:391] - INFO: opt=0.61, large=0.35, wrong=0.04
+2024-06-19 22:07:10 - test.py[line:222] - INFO: Loading model.
+2024-06-19 22:07:11 - test.py[line:227] - INFO: Loading Data.
+2024-06-19 22:09:29 - test.py[line:222] - INFO: Loading model.
+2024-06-19 22:09:30 - test.py[line:227] - INFO: Loading Data.
+2024-06-19 22:09:30 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-19 22:09:30 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-19 22:09:30 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-19 22:09:31 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2024-06-19 22:09:31 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2024-06-19 22:09:31 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-19 22:09:31 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2024-06-19 22:09:31 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2024-06-19 22:09:31 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2024-06-19 22:09:31 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2024-06-19 22:09:31 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2024-06-19 22:09:32 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-19 22:09:32 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-19 22:09:32 - test.py[line:205] - INFO: {'standard-sample': 61, 's0.05': 9}
+2024-06-19 22:09:32 - test.py[line:205] - INFO: {'standard-sample': 61, 's0.01': 3, 's0.05': 6}
+2024-06-19 22:09:32 - test.py[line:205] - INFO: {'s0.01': 14, 's0.05': 21, 'standard-sample': 35}
+2024-06-19 22:09:32 - test.py[line:205] - INFO: {'s0.05': 66, 's0.01': 4}
+2024-06-19 22:09:32 - test.py[line:205] - INFO: {'s0.01': 24, 's0.05': 21, 'standard-sample': 25}
+2024-06-19 22:09:32 - test.py[line:205] - INFO: {'standard-sample': 70}
+2024-06-19 22:09:32 - test.py[line:205] - INFO: {'standard-sample': 61, 's0.01': 3, 's0.05': 6}
+2024-06-19 22:09:32 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-19 22:09:32 - test.py[line:167] - INFO: {'s0.01': 14, 's0.05': 21, 'standard-sample': 35}
+2024-06-19 22:09:32 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-19 22:09:32 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2024-06-19 22:09:32 - test.py[line:296] - INFO: Avg Sample Time=84.36ms
+2024-06-19 22:09:32 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-19 22:09:32 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.1026, 50%=1.0149, 90%=1.8082, 95%=7.1279, 99%=22.2700, max=34.0000
+2024-06-19 22:09:32 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=65.18ms
+2024-06-19 22:09:32 - test.py[line:302] - INFO: Avg Sample Ratio=0.0670
+2024-06-19 22:09:32 - test.py[line:391] - INFO: opt=0.57, large=0.39, wrong=0.04
+2024-06-20 09:10:51 - test.py[line:222] - INFO: Loading model.
+2024-06-20 09:10:53 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 09:10:53 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 09:10:53 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 09:10:53 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 09:10:53 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2024-06-20 09:10:53 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2024-06-20 09:10:53 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 09:10:53 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2024-06-20 09:10:53 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2024-06-20 09:10:53 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2024-06-20 09:10:53 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2024-06-20 09:10:53 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2024-06-20 09:10:54 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-20 09:10:54 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-20 09:10:54 - test.py[line:205] - INFO: {'standard-sample': 61, 's0.05': 9}
+2024-06-20 09:10:54 - test.py[line:205] - INFO: {'standard-sample': 61, 's0.01': 3, 's0.05': 6}
+2024-06-20 09:10:54 - test.py[line:205] - INFO: {'s0.01': 14, 's0.05': 21, 'standard-sample': 35}
+2024-06-20 09:10:54 - test.py[line:205] - INFO: {'s0.05': 66, 's0.01': 4}
+2024-06-20 09:10:54 - test.py[line:205] - INFO: {'standard-sample': 22, 's0.01': 21, 's0.05': 27}
+2024-06-20 09:10:54 - test.py[line:205] - INFO: {'standard-sample': 70}
+2024-06-20 09:10:54 - test.py[line:205] - INFO: {'standard-sample': 61, 's0.01': 3, 's0.05': 6}
+2024-06-20 09:10:54 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 09:10:54 - test.py[line:167] - INFO: {'s0.01': 14, 's0.05': 21, 'standard-sample': 35}
+2024-06-20 09:10:54 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 09:10:54 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2024-06-20 09:10:54 - test.py[line:296] - INFO: Avg Sample Time=84.36ms
+2024-06-20 09:10:54 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 09:10:54 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.1026, 50%=1.0149, 90%=1.8082, 95%=7.1279, 99%=22.2700, max=34.0000
+2024-06-20 09:10:54 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=65.18ms
+2024-06-20 09:10:54 - test.py[line:302] - INFO: Avg Sample Ratio=0.0670
+2024-06-20 09:10:54 - test.py[line:391] - INFO: opt=0.57, large=0.39, wrong=0.04
+2024-06-20 09:11:45 - test.py[line:222] - INFO: Loading model.
+2024-06-20 09:11:46 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 09:11:46 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 09:11:46 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 09:11:47 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 09:11:47 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.63%
+2024-06-20 09:11:47 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-06-20 09:11:47 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 09:11:47 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-06-20 09:11:47 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-06-20 09:11:47 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-06-20 09:11:47 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-06-20 09:11:48 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-06-20 09:11:49 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-20 09:11:49 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-20 09:11:49 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 721, 's0.01': 86}
+2024-06-20 09:11:49 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 659, 's0.01': 148}
+2024-06-20 09:11:49 - test.py[line:205] - INFO: {'s0.05': 1388, 'standard-sample': 2628, 's0.01': 984}
+2024-06-20 09:11:49 - test.py[line:205] - INFO: {'s0.05': 4841, 's0.01': 159}
+2024-06-20 09:11:49 - test.py[line:205] - INFO: {'s0.01': 1670, 'standard-sample': 1705, 's0.05': 1625}
+2024-06-20 09:11:49 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-06-20 09:11:49 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 613, 's0.01': 194}
+2024-06-20 09:11:49 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 09:11:49 - test.py[line:167] - INFO: {'merge': 5000}
+2024-06-20 09:11:49 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 09:11:49 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-06-20 09:11:49 - test.py[line:296] - INFO: Avg Sample Time=41.24ms
+2024-06-20 09:11:49 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 09:11:49 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.5124, 50%=1.0109, 90%=1.4193, 95%=2.6459, 99%=18.0100, max=1093.0000
+2024-06-20 09:11:49 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=38.29ms
+2024-06-20 09:11:49 - test.py[line:302] - INFO: Avg Sample Ratio=0.0915
+2024-06-20 09:11:49 - test.py[line:391] - INFO: opt=0.61, large=0.35, wrong=0.04
+2024-06-20 09:12:22 - test.py[line:222] - INFO: Loading model.
+2024-06-20 09:12:23 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 09:12:23 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 09:12:23 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 09:12:23 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 09:12:23 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-20 09:12:23 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 09:12:23 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 09:12:23 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 09:12:23 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 09:12:23 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 09:12:23 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 09:12:23 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 09:12:24 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 09:12:24 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 09:12:24 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 85, 's0.01': 7}
+2024-06-20 09:12:24 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 81, 's0.01': 11}
+2024-06-20 09:12:24 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2024-06-20 09:12:24 - test.py[line:205] - INFO: {'s0.05': 473, 's0.01': 27}
+2024-06-20 09:12:24 - test.py[line:205] - INFO: {'standard-sample': 165, 's0.01': 173, 's0.05': 162}
+2024-06-20 09:12:24 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 09:12:24 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 73, 's0.01': 19}
+2024-06-20 09:12:24 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 09:12:24 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-20 09:12:24 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 09:12:24 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 09:12:24 - test.py[line:296] - INFO: Avg Sample Time=93.73ms
+2024-06-20 09:12:24 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 09:12:24 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=65.0580, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=74.3900, max=27379.0000
+2024-06-20 09:12:24 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=64.15ms
+2024-06-20 09:12:24 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-20 09:12:24 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-20 09:50:22 - test.py[line:222] - INFO: Loading model.
+2024-06-20 09:50:24 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 09:50:24 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 09:50:24 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 09:50:24 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 09:50:24 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-20 09:50:24 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 09:50:24 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 09:50:24 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 09:50:25 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 09:50:25 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 09:50:25 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 09:50:25 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 09:51:00 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 09:51:00 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 09:51:00 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 85, 's0.01': 7}
+2024-06-20 09:51:00 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 81, 's0.01': 11}
+2024-06-20 09:51:00 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2024-06-20 09:51:00 - test.py[line:205] - INFO: {'s0.05': 473, 's0.01': 27}
+2024-06-20 09:51:00 - test.py[line:205] - INFO: {'s0.01': 164, 's0.05': 162, 'standard-sample': 174}
+2024-06-20 09:51:00 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 09:51:00 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 73, 's0.01': 19}
+2024-06-20 09:51:00 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 09:51:00 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-20 09:53:23 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 09:53:23 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 09:53:23 - test.py[line:296] - INFO: Avg Sample Time=93.73ms
+2024-06-20 09:53:23 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 10:28:28 - test.py[line:222] - INFO: Loading model.
+2024-06-20 10:28:29 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 10:28:29 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 10:28:29 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 10:28:29 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 10:28:29 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=31.30%
+2024-06-20 10:28:29 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 10:28:29 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 10:28:29 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 10:28:29 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 10:28:29 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 10:28:29 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 10:28:29 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 10:28:30 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 10:28:30 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 10:28:30 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-20 10:28:30 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-20 10:28:30 - test.py[line:205] - INFO: {'standard-sample': 245, 's0.05': 162, 's0.01': 93}
+2024-06-20 10:28:30 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-20 10:28:30 - test.py[line:205] - INFO: {'s0.01': 171, 's0.05': 152, 'standard-sample': 177}
+2024-06-20 10:28:30 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 10:28:30 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-20 10:28:30 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 10:28:30 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-20 10:28:30 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 10:28:30 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 10:28:30 - test.py[line:296] - INFO: Avg Sample Time=117.84ms
+2024-06-20 10:28:30 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 10:28:30 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=2.4493, 50%=1.0146, 90%=1.4098, 95%=2.7737, 99%=22.7615, max=253.5000
+2024-06-20 10:28:30 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=78.79ms
+2024-06-20 10:28:30 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-20 10:28:30 - test.py[line:391] - INFO: opt=0.55, large=0.38, wrong=0.07
+2024-06-20 10:35:25 - test.py[line:222] - INFO: Loading model.
+2024-06-20 10:35:26 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 10:35:26 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 10:35:26 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 10:35:26 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 10:35:26 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-20 10:35:26 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 10:35:26 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 10:35:26 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 10:35:26 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 10:35:26 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 10:35:26 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 10:35:26 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 10:35:27 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 10:35:27 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 10:35:27 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-20 10:35:27 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-20 10:35:27 - test.py[line:205] - INFO: {'standard-sample': 239, 's0.05': 163, 's0.01': 98}
+2024-06-20 10:35:27 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-20 10:35:27 - test.py[line:205] - INFO: {'standard-sample': 141, 's0.01': 184, 's0.05': 175}
+2024-06-20 10:35:27 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 10:35:27 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-20 10:35:27 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 10:35:27 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-20 10:35:27 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 10:35:27 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 10:35:27 - test.py[line:296] - INFO: Avg Sample Time=120.30ms
+2024-06-20 10:35:27 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 10:35:27 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=478.4801, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=212.4150, max=233864.0000
+2024-06-20 10:35:27 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=78.13ms
+2024-06-20 10:35:27 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-20 10:35:27 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-20 10:36:48 - test.py[line:222] - INFO: Loading model.
+2024-06-20 10:36:49 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 10:36:49 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 10:36:49 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 10:36:49 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 10:36:49 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-20 10:36:49 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 10:36:49 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 10:36:49 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 10:36:49 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 10:36:49 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 10:36:49 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 10:36:49 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 10:36:50 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 10:36:50 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 10:36:50 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-20 10:36:50 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-20 10:36:50 - test.py[line:205] - INFO: {'standard-sample': 239, 's0.05': 163, 's0.01': 98}
+2024-06-20 10:36:50 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-20 10:36:50 - test.py[line:205] - INFO: {'s0.01': 171, 'standard-sample': 167, 's0.05': 162}
+2024-06-20 10:36:50 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 10:36:50 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-20 10:36:50 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 10:36:50 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-20 10:36:50 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 10:36:50 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 10:36:50 - test.py[line:296] - INFO: Avg Sample Time=120.30ms
+2024-06-20 10:36:50 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 10:36:50 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=478.4801, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=212.4150, max=233864.0000
+2024-06-20 10:36:50 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=78.13ms
+2024-06-20 10:36:50 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-20 10:36:50 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-20 10:41:59 - test.py[line:222] - INFO: Loading model.
+2024-06-20 10:42:00 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 10:42:00 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 10:42:00 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 10:42:00 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 10:42:00 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-20 10:42:00 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 10:42:00 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 10:42:00 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 10:42:00 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 10:42:00 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 10:42:00 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 10:42:01 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 10:42:02 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 10:42:02 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 10:42:02 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.01': 7, 's0.05': 85}
+2024-06-20 10:42:02 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.01': 11, 's0.05': 81}
+2024-06-20 10:42:02 - test.py[line:205] - INFO: {'s0.01': 98, 'standard-sample': 239, 's0.05': 163}
+2024-06-20 10:42:02 - test.py[line:205] - INFO: {'s0.05': 473, 's0.01': 27}
+2024-06-20 10:42:02 - test.py[line:205] - INFO: {'s0.05': 172, 'standard-sample': 177, 's0.01': 151}
+2024-06-20 10:42:02 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 10:42:02 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.01': 19, 's0.05': 73}
+2024-06-20 10:42:02 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 10:42:02 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-20 10:42:02 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 10:42:02 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 10:42:02 - test.py[line:296] - INFO: Avg Sample Time=138.62ms
+2024-06-20 10:42:02 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 10:42:02 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=65.1845, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=74.3900, max=27379.0000
+2024-06-20 10:42:02 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=80.50ms
+2024-06-20 10:42:02 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-20 10:42:02 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-20 10:58:08 - test.py[line:222] - INFO: Loading model.
+2024-06-20 10:58:09 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 10:58:09 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 10:58:09 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 10:58:09 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 10:58:09 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=31.20%
+2024-06-20 10:58:09 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 10:58:09 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 10:58:09 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 10:58:10 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 10:58:10 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 10:58:10 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 10:58:10 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 10:58:11 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 10:58:11 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 10:58:11 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 85, 's0.01': 7}
+2024-06-20 10:58:11 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 81, 's0.01': 11}
+2024-06-20 10:58:11 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 245, 's0.01': 92}
+2024-06-20 10:58:11 - test.py[line:205] - INFO: {'s0.05': 473, 's0.01': 27}
+2024-06-20 10:58:11 - test.py[line:205] - INFO: {'s0.01': 166, 'standard-sample': 185, 's0.05': 149}
+2024-06-20 10:58:11 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 10:58:11 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 73, 's0.01': 19}
+2024-06-20 10:58:11 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 10:58:11 - test.py[line:167] - INFO: {'s0.05': 163, 'standard-sample': 245, 's0.01': 92}
+2024-06-20 10:58:11 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 10:58:11 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 10:58:11 - test.py[line:296] - INFO: Avg Sample Time=116.74ms
+2024-06-20 10:58:11 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 10:58:11 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=54.8502, 50%=1.0067, 90%=1.2423, 95%=1.9458, 99%=57.2190, max=23386.3000
+2024-06-20 10:58:11 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=71.71ms
+2024-06-20 10:58:11 - test.py[line:302] - INFO: Avg Sample Ratio=0.0671
+2024-06-20 10:58:11 - test.py[line:391] - INFO: opt=0.55, large=0.38, wrong=0.07
+2024-06-20 11:04:11 - test.py[line:222] - INFO: Loading model.
+2024-06-20 11:04:12 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 11:04:12 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 11:04:12 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 11:04:12 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 11:04:13 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=31.30%
+2024-06-20 11:04:13 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 11:04:13 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 11:04:13 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 11:04:13 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 11:04:13 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 11:04:13 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 11:04:13 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 11:04:14 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:04:14 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:04:14 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.01': 7, 's0.05': 85}
+2024-06-20 11:04:14 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.01': 11, 's0.05': 81}
+2024-06-20 11:04:14 - test.py[line:205] - INFO: {'s0.01': 93, 'standard-sample': 244, 's0.05': 163}
+2024-06-20 11:04:14 - test.py[line:205] - INFO: {'s0.05': 473, 's0.01': 27}
+2024-06-20 11:04:14 - test.py[line:205] - INFO: {'s0.01': 161, 's0.05': 170, 'standard-sample': 169}
+2024-06-20 11:04:14 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 11:04:14 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.01': 19, 's0.05': 73}
+2024-06-20 11:04:14 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 11:04:14 - test.py[line:167] - INFO: {'s0.01': 93, 'standard-sample': 244, 's0.05': 163}
+2024-06-20 11:04:14 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 11:04:14 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 11:04:14 - test.py[line:296] - INFO: Avg Sample Time=133.38ms
+2024-06-20 11:04:14 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 11:04:14 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=3.1395, 50%=1.0067, 90%=1.2423, 95%=1.9458, 99%=45.6120, max=287.7000
+2024-06-20 11:04:14 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=85.55ms
+2024-06-20 11:04:14 - test.py[line:302] - INFO: Avg Sample Ratio=0.0670
+2024-06-20 11:04:14 - test.py[line:391] - INFO: opt=0.55, large=0.38, wrong=0.07
+2024-06-20 11:09:48 - test.py[line:222] - INFO: Loading model.
+2024-06-20 11:09:49 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 11:09:49 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 11:09:49 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 11:09:49 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 11:09:49 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-20 11:09:49 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 11:09:49 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 11:09:49 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 11:09:49 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 11:09:49 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 11:09:49 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 11:09:49 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 11:09:51 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:09:51 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:09:51 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-20 11:09:51 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-20 11:09:51 - test.py[line:205] - INFO: {'standard-sample': 239, 's0.05': 163, 's0.01': 98}
+2024-06-20 11:09:51 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-20 11:09:51 - test.py[line:205] - INFO: {'standard-sample': 155, 's0.01': 192, 's0.05': 153}
+2024-06-20 11:09:51 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 11:09:51 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-20 11:09:51 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 11:09:51 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-20 11:09:51 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 11:09:51 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 11:09:51 - test.py[line:296] - INFO: Avg Sample Time=114.58ms
+2024-06-20 11:09:51 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 11:09:51 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=65.1172, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=74.3900, max=27379.0000
+2024-06-20 11:09:51 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=66.45ms
+2024-06-20 11:09:51 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-20 11:09:51 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-20 11:14:58 - test.py[line:222] - INFO: Loading model.
+2024-06-20 11:14:59 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 11:14:59 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 11:14:59 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 11:14:59 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 11:14:59 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-20 11:14:59 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 11:14:59 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 11:14:59 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 11:15:00 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 11:15:00 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 11:15:00 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 11:15:00 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 11:15:01 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:15:01 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:15:01 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-20 11:15:01 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-20 11:15:01 - test.py[line:205] - INFO: {'standard-sample': 239, 's0.05': 163, 's0.01': 98}
+2024-06-20 11:15:01 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-20 11:15:01 - test.py[line:205] - INFO: {'s0.05': 180, 's0.01': 163, 'standard-sample': 157}
+2024-06-20 11:15:01 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 11:15:01 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-20 11:15:01 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 11:15:01 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-20 11:15:01 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 11:15:01 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 11:15:01 - test.py[line:296] - INFO: Avg Sample Time=137.43ms
+2024-06-20 11:15:01 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 11:15:01 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=481.0510, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=214.4400, max=233864.0000
+2024-06-20 11:15:01 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=86.75ms
+2024-06-20 11:15:01 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-20 11:15:01 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-20 11:20:27 - test.py[line:222] - INFO: Loading model.
+2024-06-20 11:20:28 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 11:20:28 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 11:20:28 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 11:20:28 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 11:20:28 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-20 11:20:28 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 11:20:28 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 11:20:28 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 11:20:28 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 11:20:28 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 11:20:28 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 11:20:28 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 11:20:29 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:20:29 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:20:29 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-20 11:20:30 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-20 11:20:30 - test.py[line:205] - INFO: {'standard-sample': 239, 's0.05': 163, 's0.01': 98}
+2024-06-20 11:20:30 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-20 11:20:30 - test.py[line:205] - INFO: {'s0.05': 171, 'standard-sample': 159, 's0.01': 170}
+2024-06-20 11:20:30 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 11:20:30 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-20 11:20:30 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 11:20:30 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-20 11:20:30 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 11:20:30 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 11:20:30 - test.py[line:296] - INFO: Avg Sample Time=143.87ms
+2024-06-20 11:20:30 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 11:20:30 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=478.5701, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=212.4150, max=233864.0000
+2024-06-20 11:20:30 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=101.16ms
+2024-06-20 11:20:30 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-20 11:20:30 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-20 11:26:28 - test.py[line:222] - INFO: Loading model.
+2024-06-20 11:26:29 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 11:26:29 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 11:26:29 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 11:26:29 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 11:26:29 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=31.20%
+2024-06-20 11:26:29 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 11:26:29 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 11:26:29 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 11:26:29 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 11:26:30 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 11:26:30 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 11:26:30 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 11:26:31 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:26:31 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:26:31 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-20 11:26:31 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-20 11:26:31 - test.py[line:205] - INFO: {'standard-sample': 245, 's0.05': 163, 's0.01': 92}
+2024-06-20 11:26:31 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-20 11:26:31 - test.py[line:205] - INFO: {'s0.05': 172, 's0.01': 176, 'standard-sample': 152}
+2024-06-20 11:26:31 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 11:26:31 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-20 11:26:31 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 11:26:31 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-20 11:26:31 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 11:26:31 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 11:26:31 - test.py[line:296] - INFO: Avg Sample Time=121.20ms
+2024-06-20 11:26:31 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 11:26:31 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=2.8813, 50%=1.0146, 90%=1.4173, 95%=2.8292, 99%=23.8648, max=298.6691
+2024-06-20 11:26:31 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=76.07ms
+2024-06-20 11:26:31 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-20 11:26:31 - test.py[line:391] - INFO: opt=0.55, large=0.38, wrong=0.07
+2024-06-20 11:35:18 - test.py[line:222] - INFO: Loading model.
+2024-06-20 11:35:20 - test.py[line:227] - INFO: Loading Data.
+2024-06-20 11:35:20 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-20 11:35:20 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-20 11:35:20 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-20 11:35:20 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=31.40%
+2024-06-20 11:35:20 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-20 11:35:20 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-20 11:35:20 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-20 11:35:20 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-20 11:35:20 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-20 11:35:20 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-20 11:35:20 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-20 11:35:21 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:35:21 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-20 11:35:21 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-20 11:35:21 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-20 11:35:21 - test.py[line:205] - INFO: {'standard-sample': 244, 's0.05': 162, 's0.01': 94}
+2024-06-20 11:35:21 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-20 11:35:21 - test.py[line:205] - INFO: {'s0.01': 191, 'standard-sample': 156, 's0.05': 153}
+2024-06-20 11:35:21 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-20 11:35:21 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-20 11:35:21 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-20 11:35:21 - test.py[line:167] - INFO: {'standard-sample': 244, 's0.05': 162, 's0.01': 94}
+2024-06-20 11:35:21 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-20 11:35:21 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-20 11:35:21 - test.py[line:296] - INFO: Avg Sample Time=127.97ms
+2024-06-20 11:35:21 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-20 11:35:21 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=54.8515, 50%=1.0067, 90%=1.2423, 95%=2.0000, 99%=57.2190, max=23386.3000
+2024-06-20 11:35:21 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=89.84ms
+2024-06-20 11:35:21 - test.py[line:302] - INFO: Avg Sample Ratio=0.0669
+2024-06-20 11:35:21 - test.py[line:391] - INFO: opt=0.55, large=0.38, wrong=0.07
+2024-06-21 09:51:20 - test.py[line:222] - INFO: Loading model.
+2024-06-21 09:51:22 - test.py[line:227] - INFO: Loading Data.
+2024-06-21 09:51:23 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-21 09:51:23 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-21 09:51:23 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-21 09:51:23 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=31.20%
+2024-06-21 09:51:23 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-21 09:51:23 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-21 09:51:23 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-21 09:51:24 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-21 09:51:24 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-21 09:51:24 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-21 09:51:24 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-21 09:51:26 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 09:51:26 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 09:51:26 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-21 09:51:26 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-21 09:51:26 - test.py[line:205] - INFO: {'standard-sample': 245, 's0.05': 163, 's0.01': 92}
+2024-06-21 09:51:26 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-21 09:51:26 - test.py[line:205] - INFO: {'s0.01': 169, 'standard-sample': 166, 's0.05': 165}
+2024-06-21 09:51:26 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-21 09:51:26 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-21 09:51:26 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-21 09:51:26 - test.py[line:167] - INFO: {'standard-sample': 245, 's0.05': 163, 's0.01': 92}
+2024-06-21 09:51:26 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-21 09:51:26 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-21 09:51:26 - test.py[line:296] - INFO: Avg Sample Time=115.54ms
+2024-06-21 09:51:26 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-21 09:51:26 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=54.8502, 50%=1.0067, 90%=1.2423, 95%=1.9458, 99%=57.2190, max=23386.3000
+2024-06-21 09:51:26 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=73.31ms
+2024-06-21 09:51:26 - test.py[line:302] - INFO: Avg Sample Ratio=0.0671
+2024-06-21 09:51:26 - test.py[line:391] - INFO: opt=0.55, large=0.38, wrong=0.07
+2024-06-21 10:47:00 - test.py[line:222] - INFO: Loading model.
+2024-06-21 10:47:03 - test.py[line:227] - INFO: Loading Data.
+2024-06-21 10:47:05 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-21 10:47:05 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-21 10:47:06 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-21 10:47:07 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=31.30%
+2024-06-21 10:47:07 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-21 10:47:07 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-21 10:47:07 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-21 10:47:08 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-21 10:47:08 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-21 10:47:08 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-21 10:47:09 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-21 10:47:10 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 10:47:10 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 10:47:11 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-21 10:47:11 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-21 10:47:11 - test.py[line:205] - INFO: {'standard-sample': 244, 's0.05': 163, 's0.01': 93}
+2024-06-21 10:47:11 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-21 10:47:11 - test.py[line:205] - INFO: {'s0.01': 179, 's0.05': 162, 'standard-sample': 159}
+2024-06-21 10:47:11 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-21 10:47:11 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-21 10:47:11 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-21 10:47:11 - test.py[line:167] - INFO: {'standard-sample': 244, 's0.05': 163, 's0.01': 93}
+2024-06-21 10:47:11 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-21 10:47:11 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-21 10:47:11 - test.py[line:296] - INFO: Avg Sample Time=108.93ms
+2024-06-21 10:47:11 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-21 10:47:11 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=49.8946, 50%=1.0067, 90%=1.2423, 95%=1.9458, 99%=57.2190, max=23386.3000
+2024-06-21 10:47:11 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=68.19ms
+2024-06-21 10:47:11 - test.py[line:302] - INFO: Avg Sample Ratio=0.0670
+2024-06-21 10:47:11 - test.py[line:391] - INFO: opt=0.55, large=0.38, wrong=0.07
+2024-06-21 11:17:59 - test.py[line:222] - INFO: Loading model.
+2024-06-21 11:18:02 - test.py[line:227] - INFO: Loading Data.
+2024-06-21 11:18:07 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-21 11:18:07 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-21 11:18:08 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-21 11:18:08 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-21 11:18:09 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-21 11:18:09 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-21 11:18:09 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-21 11:18:09 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-21 11:18:09 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-21 11:18:09 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-21 11:18:09 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-21 11:18:10 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 11:18:10 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 11:18:10 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-21 11:18:10 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-21 11:18:10 - test.py[line:205] - INFO: {'standard-sample': 239, 's0.05': 163, 's0.01': 98}
+2024-06-21 11:18:10 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-21 11:18:10 - test.py[line:205] - INFO: {'standard-sample': 156, 's0.05': 171, 's0.01': 173}
+2024-06-21 11:18:10 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-21 11:18:10 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-21 11:18:10 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-21 11:18:10 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-21 11:18:10 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-21 11:18:10 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-21 11:18:10 - test.py[line:296] - INFO: Avg Sample Time=79.68ms
+2024-06-21 11:18:10 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-21 11:18:10 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=478.5160, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=212.4150, max=233864.0000
+2024-06-21 11:18:10 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=60.67ms
+2024-06-21 11:18:10 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-21 11:18:10 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-21 11:32:52 - test.py[line:222] - INFO: Loading model.
+2024-06-21 11:32:55 - test.py[line:227] - INFO: Loading Data.
+2024-06-21 11:32:57 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-21 11:32:57 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-21 11:32:58 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-21 11:32:58 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=31.30%
+2024-06-21 11:32:58 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-21 11:32:58 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-21 11:32:58 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-21 11:32:58 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-21 11:32:59 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-21 11:32:59 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-21 11:32:59 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-21 11:33:00 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 11:33:00 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 11:33:00 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-21 11:33:00 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-21 11:33:00 - test.py[line:205] - INFO: {'standard-sample': 244, 's0.05': 163, 's0.01': 93}
+2024-06-21 11:33:00 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-21 11:33:00 - test.py[line:205] - INFO: {'standard-sample': 157, 's0.05': 192, 's0.01': 151}
+2024-06-21 11:33:00 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-21 11:33:00 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-21 11:33:00 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-21 11:33:00 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-21 11:33:00 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-21 11:33:00 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-21 11:33:00 - test.py[line:296] - INFO: Avg Sample Time=123.27ms
+2024-06-21 11:33:00 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-21 11:33:00 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=3.2413, 50%=1.0146, 90%=1.4173, 95%=2.8292, 99%=23.8648, max=298.6691
+2024-06-21 11:33:00 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=81.93ms
+2024-06-21 11:33:00 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-21 11:33:00 - test.py[line:391] - INFO: opt=0.55, large=0.38, wrong=0.07
+2024-06-21 14:59:50 - test.py[line:222] - INFO: Loading model.
+2024-06-21 14:59:51 - test.py[line:227] - INFO: Loading Data.
+2024-06-21 14:59:51 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-21 14:59:51 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-21 14:59:51 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-21 14:59:52 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-21 14:59:52 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-21 14:59:52 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-21 14:59:52 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-21 14:59:52 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-21 14:59:52 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-21 14:59:52 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-21 14:59:52 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-21 14:59:53 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 14:59:53 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 14:59:53 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-21 14:59:53 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-21 14:59:53 - test.py[line:205] - INFO: {'standard-sample': 239, 's0.05': 163, 's0.01': 98}
+2024-06-21 14:59:53 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-21 14:59:53 - test.py[line:205] - INFO: {'s0.05': 170, 's0.01': 163, 'standard-sample': 167}
+2024-06-21 14:59:53 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-21 14:59:53 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-21 14:59:53 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-21 14:59:53 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-21 14:59:53 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-21 14:59:53 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-21 14:59:53 - test.py[line:296] - INFO: Avg Sample Time=129.40ms
+2024-06-21 14:59:53 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-21 14:59:53 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=532.7671, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=214.4400, max=233864.0000
+2024-06-21 14:59:53 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=99.60ms
+2024-06-21 14:59:53 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-21 14:59:53 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-21 20:47:03 - test.py[line:222] - INFO: Loading model.
+2024-06-21 20:47:04 - test.py[line:227] - INFO: Loading Data.
+2024-06-21 20:47:04 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-21 20:47:04 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-21 20:47:04 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-21 20:47:04 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-21 20:47:04 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-21 20:47:04 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-21 20:47:04 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-21 20:47:04 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-21 20:47:05 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-21 20:47:05 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-21 20:47:05 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-21 20:47:06 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 20:47:06 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 20:47:06 - test.py[line:205] - INFO: {'s0.05': 85, 'standard-sample': 408, 's0.01': 7}
+2024-06-21 20:47:06 - test.py[line:205] - INFO: {'s0.05': 81, 'standard-sample': 408, 's0.01': 11}
+2024-06-21 20:47:06 - test.py[line:205] - INFO: {'standard-sample': 239, 's0.05': 163, 's0.01': 98}
+2024-06-21 20:47:06 - test.py[line:205] - INFO: {'s0.01': 27, 's0.05': 473}
+2024-06-21 20:47:06 - test.py[line:205] - INFO: {'s0.01': 183, 'standard-sample': 152, 's0.05': 165}
+2024-06-21 20:47:06 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-21 20:47:06 - test.py[line:205] - INFO: {'s0.01': 19, 'standard-sample': 408, 's0.05': 73}
+2024-06-21 20:47:06 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-21 20:47:06 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-21 20:47:06 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-21 20:47:06 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-21 20:47:06 - test.py[line:296] - INFO: Avg Sample Time=135.68ms
+2024-06-21 20:47:06 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-21 20:47:06 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=65.1307, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=74.3900, max=27379.0000
+2024-06-21 20:47:06 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=91.72ms
+2024-06-21 20:47:06 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-21 20:47:06 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-21 21:00:41 - test.py[line:222] - INFO: Loading model.
+2024-06-21 21:00:42 - test.py[line:227] - INFO: Loading Data.
+2024-06-21 21:00:42 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-21 21:00:42 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-21 21:00:42 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-21 21:00:42 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-21 21:00:42 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-21 21:00:42 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-21 21:00:42 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-21 21:00:43 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-21 21:00:43 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-21 21:00:43 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-21 21:00:43 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-21 21:00:44 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 21:00:44 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-21 21:00:44 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 85, 's0.01': 7}
+2024-06-21 21:00:44 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 81, 's0.01': 11}
+2024-06-21 21:00:44 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2024-06-21 21:00:44 - test.py[line:205] - INFO: {'s0.05': 473, 's0.01': 27}
+2024-06-21 21:00:44 - test.py[line:205] - INFO: {'s0.01': 166, 's0.05': 152, 'standard-sample': 182}
+2024-06-21 21:00:44 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-21 21:00:44 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 73, 's0.01': 19}
+2024-06-21 21:00:44 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-21 21:00:44 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-21 21:00:44 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-21 21:00:44 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-21 21:00:44 - test.py[line:296] - INFO: Avg Sample Time=119.05ms
+2024-06-21 21:00:44 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-21 21:00:44 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=13.5211, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=98.8060, max=2458.0000
+2024-06-21 21:00:44 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=84.37ms
+2024-06-21 21:00:44 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-21 21:00:44 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-22 20:51:44 - test.py[line:222] - INFO: Loading model.
+2024-06-22 20:51:45 - test.py[line:227] - INFO: Loading Data.
+2024-06-22 20:51:46 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-22 20:51:46 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-22 20:51:46 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-22 20:51:46 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-06-22 20:51:46 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-06-22 20:51:46 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-22 20:51:46 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-06-22 20:51:46 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-06-22 20:51:46 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-06-22 20:51:46 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-06-22 20:51:47 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-06-22 20:51:49 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-22 20:51:49 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-22 20:51:49 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 721, 's0.01': 86}
+2024-06-22 20:51:49 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 659, 's0.01': 148}
+2024-06-22 20:51:49 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-06-22 20:51:49 - test.py[line:205] - INFO: {'s0.05': 4841, 's0.01': 159}
+2024-06-22 20:51:49 - test.py[line:205] - INFO: {'s0.05': 1701, 's0.01': 1644, 'standard-sample': 1655}
+2024-06-22 20:51:49 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-06-22 20:51:49 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 613, 's0.01': 194}
+2024-06-22 20:51:49 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-22 20:51:49 - test.py[line:167] - INFO: {'merge': 5000}
+2024-06-22 20:51:49 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-22 20:51:49 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-06-22 20:51:49 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-06-22 20:51:49 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-22 20:51:49 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.5159, 50%=1.0109, 90%=1.4193, 95%=2.6811, 99%=19.0000, max=1093.0000
+2024-06-22 20:51:49 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=54.37ms
+2024-06-22 20:51:49 - test.py[line:302] - INFO: Avg Sample Ratio=0.0915
+2024-06-22 20:51:49 - test.py[line:391] - INFO: opt=0.61, large=0.35, wrong=0.04
+2024-06-22 20:54:35 - test.py[line:222] - INFO: Loading model.
+2024-06-22 20:54:37 - test.py[line:227] - INFO: Loading Data.
+2024-06-22 20:54:37 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-22 20:54:37 - featureNew.py[line:276] - INFO: Start loading pickle of synthetic...
+2024-06-22 20:54:37 - featureNew.py[line:278] - INFO: Pickle of synthetic loaded, filling nan...
+2024-06-22 20:54:37 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-22 20:54:37 - featureNew.py[line:298] - INFO: Dropping label and id, synthetic raw data shape: (1000, 1177)
+2024-06-22 20:54:37 - featureNew.py[line:304] - INFO: synthetic generating wide feats...
+2024-06-22 20:54:37 - featureNew.py[line:319] - INFO: synthetic of data shape: (1000, 51)
+2024-06-22 20:54:38 - featureNew.py[line:351] - INFO: synthetic col_sel data shape: (1000, 25)
+2024-06-22 20:54:38 - featureNew.py[line:367] - INFO: synthetic deep data shape: (1000, 560)
+2024-06-22 20:54:38 - featureNew.py[line:379] - INFO: synthetic sql data shape: (1000, 50)
+2024-06-22 20:54:38 - featureNew.py[line:408] - INFO: synthetic co data shape: (1000, 45)
+2024-06-22 21:02:30 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-22 21:02:30 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-22 21:02:30 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 85, 's0.01': 7}
+2024-06-22 21:02:30 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 81, 's0.01': 11}
+2024-06-22 21:02:30 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2024-06-22 21:02:30 - test.py[line:205] - INFO: {'s0.05': 473, 's0.01': 27}
+2024-06-22 21:02:30 - test.py[line:205] - INFO: {'s0.01': 151, 'standard-sample': 184, 's0.05': 165}
+2024-06-22 21:02:30 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-22 21:02:30 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 73, 's0.01': 19}
+2024-06-22 21:02:32 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-22 21:02:41 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-22 21:02:41 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-22 21:02:41 - log.py[line:46] - INFO: In dataset synthetic, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-22 21:02:46 - test.py[line:296] - INFO: Avg Sample Time=119.05ms
+2024-06-22 21:02:47 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-22 21:02:51 - log.py[line:46] - INFO: In dataset synthetic, Count=   500, Mean=13.5211, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=98.8060, max=2458.0000
+2024-06-22 21:03:07 - test.py[line:301] - INFO: LDSS Avg Recommend Time=10.44ms, Avg Sample Time=84.37ms
+2024-06-22 21:03:07 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-22 21:03:10 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-22 21:03:40 - test.py[line:222] - INFO: Loading model.
+2024-06-22 21:03:41 - test.py[line:227] - INFO: Loading Data.
+2024-06-22 21:03:41 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-22 21:03:41 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-22 21:03:41 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-22 21:03:41 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-06-22 21:03:41 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-06-22 21:03:41 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-22 21:03:42 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-06-22 21:03:42 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-06-22 21:03:42 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-06-22 21:03:42 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-06-22 21:03:43 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-06-22 21:04:31 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-22 21:04:31 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-22 21:04:31 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 721, 's0.01': 86}
+2024-06-22 21:04:31 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 659, 's0.01': 148}
+2024-06-22 21:04:32 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-06-22 21:04:32 - test.py[line:205] - INFO: {'s0.05': 4841, 's0.01': 159}
+2024-06-22 21:04:32 - test.py[line:205] - INFO: {'s0.05': 1648, 'standard-sample': 1709, 's0.01': 1643}
+2024-06-22 21:04:32 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-06-22 21:04:32 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 613, 's0.01': 194}
+2024-06-22 21:04:32 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-22 21:04:32 - test.py[line:167] - INFO: {'merge': 5000}
+2024-06-22 21:04:32 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-22 21:04:32 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-06-22 21:04:45 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-06-22 21:04:45 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-23 19:37:38 - test.py[line:222] - INFO: Loading model.
+2024-06-23 19:37:40 - test.py[line:227] - INFO: Loading Data.
+2024-06-23 19:37:41 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-23 19:37:41 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-23 19:37:41 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-23 19:37:41 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-06-23 19:37:41 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-06-23 19:37:41 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-23 19:37:41 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-06-23 19:37:42 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-06-23 19:37:42 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-06-23 19:37:42 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-06-23 19:37:42 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-06-23 19:37:44 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-23 19:37:44 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-23 19:37:44 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 721, 's0.01': 86}
+2024-06-23 19:37:44 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 659, 's0.01': 148}
+2024-06-23 19:37:44 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-06-23 19:37:44 - test.py[line:205] - INFO: {'s0.05': 4841, 's0.01': 159}
+2024-06-23 19:37:44 - test.py[line:205] - INFO: {'standard-sample': 1678, 's0.01': 1681, 's0.05': 1641}
+2024-06-23 19:37:44 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-06-23 19:37:45 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 613, 's0.01': 194}
+2024-06-23 19:37:45 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-23 19:37:45 - test.py[line:167] - INFO: {'merge': 5000}
+2024-06-23 19:37:45 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-23 19:37:45 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-06-23 19:37:45 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-06-23 19:37:45 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-23 19:37:45 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.5159, 50%=1.0109, 90%=1.4193, 95%=2.6811, 99%=19.0000, max=1093.0000
+2024-06-23 19:37:45 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=54.37ms
+2024-06-23 19:37:45 - test.py[line:302] - INFO: Avg Sample Ratio=0.0915
+2024-06-23 19:37:45 - test.py[line:391] - INFO: opt=0.61, large=0.35, wrong=0.04
+2024-06-23 20:00:15 - test.py[line:222] - INFO: Loading model.
+2024-06-23 20:00:16 - test.py[line:227] - INFO: Loading Data.
+2024-06-23 20:00:16 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-23 20:00:16 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-23 20:00:16 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-23 20:00:16 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-06-23 20:00:16 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-06-23 20:00:16 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-23 20:00:16 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-06-23 20:00:17 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-06-23 20:00:17 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-06-23 20:00:17 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-06-23 20:00:17 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-06-23 20:00:19 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-23 20:00:19 - test.py[line:205] - INFO: {'merge': 5000}
+2024-06-23 20:00:19 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 721, 's0.01': 86}
+2024-06-23 20:00:19 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 659, 's0.01': 148}
+2024-06-23 20:00:19 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-06-23 20:00:19 - test.py[line:205] - INFO: {'s0.05': 4841, 's0.01': 159}
+2024-06-23 20:00:19 - test.py[line:205] - INFO: {'standard-sample': 1668, 's0.01': 1662, 's0.05': 1670}
+2024-06-23 20:00:19 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-06-23 20:00:19 - test.py[line:205] - INFO: {'standard-sample': 4193, 's0.05': 613, 's0.01': 194}
+2024-06-23 20:00:19 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-23 20:00:19 - test.py[line:167] - INFO: {'merge': 5000}
+2024-06-23 20:00:19 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-23 20:00:19 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-06-23 20:00:19 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-06-23 20:00:19 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-23 20:00:19 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.5159, 50%=1.0109, 90%=1.4193, 95%=2.6811, 99%=19.0000, max=1093.0000
+2024-06-23 20:00:19 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=54.37ms
+2024-06-23 20:00:19 - test.py[line:302] - INFO: Avg Sample Ratio=0.0915
+2024-06-23 20:00:19 - test.py[line:391] - INFO: opt=0.61, large=0.35, wrong=0.04
+2024-06-23 20:00:50 - test.py[line:222] - INFO: Loading model.
+2024-06-23 20:00:51 - test.py[line:227] - INFO: Loading Data.
+2024-06-23 20:00:51 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-23 20:00:51 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-23 20:00:51 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-23 20:00:52 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2024-06-23 20:00:52 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2024-06-23 20:00:52 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-23 20:00:52 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2024-06-23 20:00:52 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2024-06-23 20:00:52 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2024-06-23 20:00:52 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2024-06-23 20:00:52 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2024-06-23 20:00:53 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-23 20:00:53 - test.py[line:205] - INFO: {'merge': 500}
+2024-06-23 20:00:53 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 85, 's0.01': 7}
+2024-06-23 20:00:53 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 81, 's0.01': 11}
+2024-06-23 20:00:53 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2024-06-23 20:00:53 - test.py[line:205] - INFO: {'s0.05': 473, 's0.01': 27}
+2024-06-23 20:00:53 - test.py[line:205] - INFO: {'standard-sample': 162, 's0.05': 164, 's0.01': 174}
+2024-06-23 20:00:53 - test.py[line:205] - INFO: {'standard-sample': 500}
+2024-06-23 20:00:53 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 73, 's0.01': 19}
+2024-06-23 20:00:53 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-23 20:00:53 - test.py[line:167] - INFO: {'merge': 500}
+2024-06-23 20:00:53 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-23 20:00:53 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2024-06-23 20:00:53 - test.py[line:296] - INFO: Avg Sample Time=119.05ms
+2024-06-23 20:00:53 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-23 20:00:53 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=13.5211, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=98.8060, max=2458.0000
+2024-06-23 20:00:53 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=84.37ms
+2024-06-23 20:00:53 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2024-06-23 20:00:53 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2024-06-23 20:01:07 - test.py[line:222] - INFO: Loading model.
+2024-06-23 20:01:08 - test.py[line:227] - INFO: Loading Data.
+2024-06-23 20:01:08 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-23 20:01:08 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-23 20:01:08 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-23 20:01:08 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2024-06-23 20:01:08 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2024-06-23 20:01:08 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-23 20:01:08 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2024-06-23 20:01:08 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2024-06-23 20:01:08 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2024-06-23 20:01:09 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2024-06-23 20:01:09 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2024-06-23 20:01:09 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-23 20:01:09 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-23 20:01:09 - test.py[line:205] - INFO: {'standard-sample': 61, 's0.05': 9}
+2024-06-23 20:01:09 - test.py[line:205] - INFO: {'standard-sample': 61, 's0.01': 3, 's0.05': 6}
+2024-06-23 20:01:09 - test.py[line:205] - INFO: {'s0.01': 14, 's0.05': 21, 'standard-sample': 35}
+2024-06-23 20:01:09 - test.py[line:205] - INFO: {'s0.05': 66, 's0.01': 4}
+2024-06-23 20:01:09 - test.py[line:205] - INFO: {'standard-sample': 31, 's0.01': 21, 's0.05': 18}
+2024-06-23 20:01:09 - test.py[line:205] - INFO: {'standard-sample': 70}
+2024-06-23 20:01:09 - test.py[line:205] - INFO: {'standard-sample': 61, 's0.01': 3, 's0.05': 6}
+2024-06-23 20:01:09 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-23 20:01:09 - test.py[line:167] - INFO: {'s0.01': 14, 's0.05': 21, 'standard-sample': 35}
+2024-06-23 20:01:09 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-23 20:01:09 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2024-06-23 20:01:09 - test.py[line:296] - INFO: Avg Sample Time=84.36ms
+2024-06-23 20:01:09 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-23 20:01:09 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.1026, 50%=1.0149, 90%=1.8082, 95%=7.1279, 99%=22.2700, max=34.0000
+2024-06-23 20:01:09 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=65.18ms
+2024-06-23 20:01:09 - test.py[line:302] - INFO: Avg Sample Ratio=0.0670
+2024-06-23 20:01:09 - test.py[line:391] - INFO: opt=0.57, large=0.39, wrong=0.04
+2024-06-23 20:02:01 - test.py[line:222] - INFO: Loading model.
+2024-06-23 20:02:02 - test.py[line:227] - INFO: Loading Data.
+2024-06-23 20:02:02 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-23 20:02:02 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-23 20:02:02 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-23 20:02:02 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2024-06-23 20:02:02 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2024-06-23 20:02:02 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-23 20:02:02 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2024-06-23 20:02:02 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2024-06-23 20:02:02 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2024-06-23 20:02:02 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2024-06-23 20:02:02 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2024-06-23 20:02:03 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-23 20:02:03 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-23 20:02:03 - test.py[line:205] - INFO: {'s0.05': 34, 'standard-sample': 34, 's0.01': 2}
+2024-06-23 20:02:03 - test.py[line:205] - INFO: {'s0.01': 7, 's0.05': 29, 'standard-sample': 34}
+2024-06-23 20:02:03 - test.py[line:205] - INFO: {'s0.01': 14, 's0.05': 21, 'standard-sample': 35}
+2024-06-23 20:02:03 - test.py[line:205] - INFO: {'s0.01': 8, 's0.05': 62}
+2024-06-23 20:02:03 - test.py[line:205] - INFO: {'s0.05': 28, 's0.01': 19, 'standard-sample': 23}
+2024-06-23 20:02:03 - test.py[line:205] - INFO: {'standard-sample': 70}
+2024-06-23 20:02:03 - test.py[line:205] - INFO: {'s0.01': 10, 's0.05': 26, 'standard-sample': 34}
+2024-06-23 20:02:03 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-23 20:02:03 - test.py[line:167] - INFO: {'merge': 70}
+2024-06-23 20:02:03 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-23 20:02:03 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2024-06-23 20:02:03 - test.py[line:296] - INFO: Avg Sample Time=84.36ms
+2024-06-23 20:02:03 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-23 20:02:03 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.0024, 50%=1.0161, 90%=1.7869, 95%=3.6847, 99%=22.2700, max=34.0000
+2024-06-23 20:02:03 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=68.66ms
+2024-06-23 20:02:03 - test.py[line:302] - INFO: Avg Sample Ratio=0.0743
+2024-06-23 20:02:03 - test.py[line:391] - INFO: opt=0.87, large=0.06, wrong=0.07
+2024-06-24 09:24:05 - test.py[line:222] - INFO: Loading model.
+2024-06-24 09:24:06 - test.py[line:227] - INFO: Loading Data.
+2024-06-24 09:24:06 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-24 09:24:06 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-24 09:24:06 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-24 09:24:06 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2024-06-24 09:24:06 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2024-06-24 09:24:06 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-24 09:24:06 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2024-06-24 09:24:06 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2024-06-24 09:24:06 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2024-06-24 09:24:06 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2024-06-24 09:24:06 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2024-06-24 09:24:07 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-24 09:24:07 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-24 09:24:07 - test.py[line:205] - INFO: {'s0.05': 34, 'standard-sample': 34, 's0.01': 2}
+2024-06-24 09:24:07 - test.py[line:205] - INFO: {'s0.05': 29, 'standard-sample': 34, 's0.01': 7}
+2024-06-24 09:24:07 - test.py[line:205] - INFO: {'s0.05': 21, 'standard-sample': 35, 's0.01': 14}
+2024-06-24 09:24:07 - test.py[line:205] - INFO: {'s0.05': 62, 's0.01': 8}
+2024-06-24 09:24:07 - test.py[line:205] - INFO: {'s0.05': 21, 's0.01': 26, 'standard-sample': 23}
+2024-06-24 09:24:07 - test.py[line:205] - INFO: {'standard-sample': 70}
+2024-06-24 09:24:07 - test.py[line:205] - INFO: {'s0.05': 26, 'standard-sample': 34, 's0.01': 10}
+2024-06-24 09:24:07 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-24 09:24:07 - test.py[line:167] - INFO: {'merge': 70}
+2024-06-24 09:24:07 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-24 09:24:07 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2024-06-24 09:24:07 - test.py[line:296] - INFO: Avg Sample Time=220.46ms
+2024-06-24 09:24:07 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-24 09:24:07 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.0022, 50%=1.0161, 90%=1.7869, 95%=3.6847, 99%=22.2700, max=34.0000
+2024-06-24 09:24:07 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=172.23ms
+2024-06-24 09:24:07 - test.py[line:302] - INFO: Avg Sample Ratio=0.0743
+2024-06-24 09:24:07 - test.py[line:391] - INFO: opt=0.87, large=0.06, wrong=0.07
+2024-06-24 09:26:02 - test.py[line:222] - INFO: Loading model.
+2024-06-24 09:26:03 - test.py[line:227] - INFO: Loading Data.
+2024-06-24 09:26:03 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-24 09:26:03 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-24 09:26:03 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-24 09:26:03 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2024-06-24 09:26:03 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2024-06-24 09:26:03 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-24 09:26:04 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2024-06-24 09:26:04 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2024-06-24 09:26:04 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2024-06-24 09:26:04 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2024-06-24 09:26:04 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2024-06-24 10:24:23 - test.py[line:222] - INFO: Loading model.
+2024-06-24 10:24:25 - test.py[line:227] - INFO: Loading Data.
+2024-06-24 10:24:25 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-24 10:24:25 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-24 10:24:25 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-24 10:24:25 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2024-06-24 10:24:25 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2024-06-24 10:24:25 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-24 10:24:25 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2024-06-24 10:24:25 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2024-06-24 10:24:25 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2024-06-24 10:24:25 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2024-06-24 10:24:25 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2024-06-24 10:24:28 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-24 10:24:28 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-24 10:24:28 - test.py[line:205] - INFO: {'s0.05': 34, 'standard-sample': 34, 's0.01': 2}
+2024-06-24 10:24:28 - test.py[line:205] - INFO: {'s0.01': 7, 's0.05': 29, 'standard-sample': 34}
+2024-06-24 10:24:28 - test.py[line:205] - INFO: {'s0.01': 14, 's0.05': 21, 'standard-sample': 35}
+2024-06-24 10:24:28 - test.py[line:205] - INFO: {'s0.01': 8, 's0.05': 62}
+2024-06-24 10:24:28 - test.py[line:205] - INFO: {'s0.05': 21, 's0.01': 19, 'standard-sample': 30}
+2024-06-24 10:24:28 - test.py[line:205] - INFO: {'standard-sample': 70}
+2024-06-24 10:24:28 - test.py[line:205] - INFO: {'s0.01': 10, 's0.05': 26, 'standard-sample': 34}
+2024-06-24 10:24:28 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-24 10:24:28 - test.py[line:167] - INFO: {'merge': 70}
+2024-06-24 10:24:28 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-24 10:24:28 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2024-06-24 10:24:28 - test.py[line:296] - INFO: Avg Sample Time=160.39ms
+2024-06-24 10:24:28 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-24 10:24:28 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.0024, 50%=1.0161, 90%=1.7869, 95%=3.6847, 99%=22.2700, max=34.0000
+2024-06-24 10:24:28 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.01ms, Avg Sample Time=126.93ms
+2024-06-24 10:24:28 - test.py[line:302] - INFO: Avg Sample Ratio=0.0743
+2024-06-24 10:24:28 - test.py[line:391] - INFO: opt=0.87, large=0.06, wrong=0.07
+2024-06-24 10:33:26 - test.py[line:222] - INFO: Loading model.
+2024-06-24 10:33:28 - test.py[line:227] - INFO: Loading Data.
+2024-06-24 10:33:28 - test.py[line:231] - INFO: Calculating Score from model.
+2024-06-24 10:33:28 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-06-24 10:33:28 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-06-24 10:33:28 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2024-06-24 10:33:28 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2024-06-24 10:33:28 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-06-24 10:33:28 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2024-06-24 10:33:28 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2024-06-24 10:33:28 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2024-06-24 10:33:28 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2024-06-24 10:33:28 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2024-06-24 10:33:31 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-24 10:33:31 - test.py[line:205] - INFO: {'merge': 70}
+2024-06-24 10:33:31 - test.py[line:205] - INFO: {'s0.05': 34, 'standard-sample': 34, 's0.01': 2}
+2024-06-24 10:33:31 - test.py[line:205] - INFO: {'s0.01': 7, 'standard-sample': 34, 's0.05': 29}
+2024-06-24 10:33:31 - test.py[line:205] - INFO: {'s0.01': 14, 'standard-sample': 35, 's0.05': 21}
+2024-06-24 10:33:31 - test.py[line:205] - INFO: {'s0.01': 8, 's0.05': 62}
+2024-06-24 10:33:31 - test.py[line:205] - INFO: {'s0.01': 22, 's0.05': 25, 'standard-sample': 23}
+2024-06-24 10:33:31 - test.py[line:205] - INFO: {'standard-sample': 70}
+2024-06-24 10:33:31 - test.py[line:205] - INFO: {'s0.01': 10, 'standard-sample': 34, 's0.05': 26}
+2024-06-24 10:33:31 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-06-24 10:33:31 - test.py[line:167] - INFO: {'merge': 70}
+2024-06-24 10:33:31 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-06-24 10:33:31 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2024-06-24 10:33:31 - test.py[line:296] - INFO: Avg Sample Time=154.59ms
+2024-06-24 10:33:31 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-06-24 10:33:31 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.0024, 50%=1.0161, 90%=1.7869, 95%=3.6847, 99%=22.2700, max=34.0000
+2024-06-24 10:33:31 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=113.63ms
+2024-06-24 10:33:31 - test.py[line:302] - INFO: Avg Sample Ratio=0.0743
+2024-06-24 10:33:31 - test.py[line:391] - INFO: opt=0.87, large=0.06, wrong=0.07
+2024-08-08 16:04:46 - test.py[line:222] - INFO: Loading model.
+2024-08-08 16:04:47 - test.py[line:227] - INFO: Loading Data.
+2024-08-08 16:04:48 - test.py[line:231] - INFO: Calculating Score from model.
+2024-08-08 16:04:48 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-08-08 16:04:48 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-08-08 16:04:48 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-08-08 16:04:48 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-08-08 16:04:48 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-08-08 16:04:48 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-08-08 16:04:48 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-08-08 16:04:48 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-08-08 16:04:49 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-08-08 16:04:49 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-08-08 16:04:51 - test.py[line:205] - INFO: {'merge': 5000}
+2024-08-08 16:04:51 - test.py[line:205] - INFO: {'merge': 5000}
+2024-08-08 16:04:51 - test.py[line:205] - INFO: {'s0.05': 2184, 'standard-sample': 2728, 's0.01': 88}
+2024-08-08 16:04:51 - test.py[line:205] - INFO: {'s0.05': 1865, 'standard-sample': 2728, 's0.01': 407}
+2024-08-08 16:04:51 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-08-08 16:04:51 - test.py[line:205] - INFO: {'s0.05': 3931, 's0.01': 1069}
+2024-08-08 16:04:51 - test.py[line:205] - INFO: {'standard-sample': 1666, 's0.05': 1714, 's0.01': 1620}
+2024-08-08 16:04:51 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-08-08 16:04:51 - test.py[line:205] - INFO: {'s0.05': 1224, 's0.01': 1048, 'standard-sample': 2728}
+2024-08-08 16:04:51 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-08-08 16:04:51 - test.py[line:167] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-08-08 16:04:51 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-08-08 16:04:51 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-08-08 16:04:51 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-08-08 16:04:51 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-08-08 16:04:51 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.3567, 50%=1.0068, 90%=1.2882, 95%=2.0000, 99%=13.0100, max=1093.0000
+2024-08-08 16:04:51 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.02ms, Avg Sample Time=41.14ms
+2024-08-08 16:04:51 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2024-08-08 16:04:51 - test.py[line:391] - INFO: opt=0.44, large=0.25, wrong=0.31
+2024-08-08 16:24:42 - test.py[line:222] - INFO: Loading model.
+2024-08-08 16:24:43 - test.py[line:227] - INFO: Loading Data.
+2024-08-08 16:24:43 - test.py[line:231] - INFO: Calculating Score from model.
+2024-08-08 16:24:43 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-08-08 16:24:43 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-08-08 16:24:44 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-08-08 16:24:44 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-08-08 16:24:44 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-08-08 16:24:44 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-08-08 16:24:44 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-08-08 16:24:44 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-08-08 16:24:44 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-08-08 16:24:44 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-08-08 16:24:46 - test.py[line:205] - INFO: {'merge': 5000}
+2024-08-08 16:24:46 - test.py[line:205] - INFO: {'merge': 5000}
+2024-08-08 16:24:46 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 192, 's0.01': 5}
+2024-08-08 16:24:46 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 176, 's0.01': 21}
+2024-08-08 16:24:46 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-08-08 16:24:46 - test.py[line:205] - INFO: {'s0.05': 4956, 's0.01': 44}
+2024-08-08 16:24:46 - test.py[line:205] - INFO: {'standard-sample': 1655, 's0.01': 1657, 's0.05': 1688}
+2024-08-08 16:24:46 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-08-08 16:24:46 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 163, 's0.01': 34}
+2024-08-08 16:24:46 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-08-08 16:24:46 - test.py[line:167] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-08-08 16:24:46 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-08-08 16:24:46 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-08-08 16:24:46 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-08-08 16:24:46 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-08-08 16:24:46 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.3567, 50%=1.0068, 90%=1.2882, 95%=2.0000, 99%=13.0100, max=1093.0000
+2024-08-08 16:24:46 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=41.14ms
+2024-08-08 16:24:46 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2024-08-08 16:24:46 - test.py[line:391] - INFO: opt=0.54, large=0.45, wrong=0.01
+2024-08-09 18:09:38 - test.py[line:222] - INFO: Loading model.
+2024-08-09 18:09:39 - test.py[line:227] - INFO: Loading Data.
+2024-08-09 18:09:39 - test.py[line:231] - INFO: Calculating Score from model.
+2024-08-09 18:09:39 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-08-09 18:09:39 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-08-09 18:09:39 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-08-09 18:09:39 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-08-09 18:09:39 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-08-09 18:09:39 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-08-09 18:09:39 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-08-09 18:09:40 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-08-09 18:09:40 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-08-09 18:09:40 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-08-09 18:09:42 - test.py[line:205] - INFO: {'merge': 5000}
+2024-08-09 18:09:42 - test.py[line:205] - INFO: {'merge': 5000}
+2024-08-09 18:09:42 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 192, 's0.01': 5}
+2024-08-09 18:09:42 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 176, 's0.01': 21}
+2024-08-09 18:09:42 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-08-09 18:09:42 - test.py[line:205] - INFO: {'s0.05': 4956, 's0.01': 44}
+2024-08-09 18:09:42 - test.py[line:205] - INFO: {'standard-sample': 1682, 's0.01': 1714, 's0.05': 1604}
+2024-08-09 18:09:42 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-08-09 18:09:42 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 163, 's0.01': 34}
+2024-08-09 18:09:42 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-08-09 18:09:42 - test.py[line:167] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-08-09 18:09:42 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-08-09 18:09:42 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-08-09 18:09:42 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-08-09 18:09:42 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-08-09 18:09:42 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.3567, 50%=1.0068, 90%=1.2882, 95%=2.0000, 99%=13.0100, max=1093.0000
+2024-08-09 18:09:42 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=41.14ms
+2024-08-09 18:09:42 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2024-08-09 18:09:42 - test.py[line:391] - INFO: opt=0.54, large=0.45, wrong=0.01
+2024-09-26 09:45:49 - test.py[line:222] - INFO: Loading model.
+2024-09-26 09:45:49 - test.py[line:227] - INFO: Loading Data.
+2024-09-26 09:45:50 - test.py[line:231] - INFO: Calculating Score from model.
+2024-09-26 09:45:50 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-09-26 09:45:50 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-09-26 09:45:50 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-09-26 09:45:50 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-09-26 09:45:50 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-09-26 09:45:50 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-09-26 09:45:50 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-09-26 09:45:50 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-09-26 09:45:55 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-09-26 09:45:57 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-09-26 09:45:58 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 09:45:58 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 09:45:58 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 192, 's0.01': 5}
+2024-09-26 09:45:58 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 176, 's0.01': 21}
+2024-09-26 09:45:58 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-09-26 09:45:58 - test.py[line:205] - INFO: {'s0.05': 4956, 's0.01': 44}
+2024-09-26 09:45:58 - test.py[line:205] - INFO: {'s0.05': 1666, 's0.01': 1689, 'standard-sample': 1645}
+2024-09-26 09:45:58 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-09-26 09:45:58 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 163, 's0.01': 34}
+2024-09-26 09:45:58 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-09-26 09:45:58 - test.py[line:167] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-09-26 09:45:58 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-09-26 09:45:58 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-09-26 09:45:58 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-09-26 09:45:58 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-09-26 09:45:58 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.3567, 50%=1.0068, 90%=1.2882, 95%=2.0000, 99%=13.0100, max=1093.0000
+2024-09-26 09:45:58 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=41.14ms
+2024-09-26 09:45:58 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2024-09-26 09:45:58 - test.py[line:391] - INFO: opt=0.54, large=0.45, wrong=0.01
+2024-09-26 11:11:11 - test.py[line:222] - INFO: Loading model.
+2024-09-26 11:11:11 - test.py[line:227] - INFO: Loading Data.
+2024-09-26 11:11:11 - test.py[line:231] - INFO: Calculating Score from model.
+2024-09-26 11:11:11 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-09-26 11:11:11 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-09-26 11:11:11 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-09-26 11:11:11 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-09-26 11:11:11 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-09-26 11:11:11 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-09-26 11:11:11 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-09-26 11:11:11 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-09-26 11:11:11 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-09-26 11:11:12 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-09-26 11:11:13 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 11:11:13 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 11:11:13 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 192, 's0.01': 5}
+2024-09-26 11:11:13 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 176, 's0.01': 21}
+2024-09-26 11:11:13 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-09-26 11:11:13 - test.py[line:205] - INFO: {'s0.05': 4956, 's0.01': 44}
+2024-09-26 11:11:13 - test.py[line:205] - INFO: {'s0.05': 1667, 'standard-sample': 1736, 's0.01': 1597}
+2024-09-26 11:11:13 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-09-26 11:11:13 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 163, 's0.01': 34}
+2024-09-26 11:11:13 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-09-26 11:11:13 - test.py[line:167] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-09-26 11:11:13 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-09-26 11:11:13 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-09-26 11:11:13 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-09-26 11:11:13 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-09-26 11:11:13 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.3567, 50%=1.0068, 90%=1.2882, 95%=2.0000, 99%=13.0100, max=1093.0000
+2024-09-26 11:11:13 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=41.14ms
+2024-09-26 11:11:13 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2024-09-26 11:11:13 - test.py[line:391] - INFO: opt=0.54, large=0.45, wrong=0.01
+2024-09-26 11:11:32 - test.py[line:222] - INFO: Loading model.
+2024-09-26 11:11:32 - test.py[line:227] - INFO: Loading Data.
+2024-09-26 11:11:32 - test.py[line:231] - INFO: Calculating Score from model.
+2024-09-26 11:11:32 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-09-26 11:11:32 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-09-26 11:11:33 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-09-26 11:11:33 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-09-26 11:11:33 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-09-26 11:11:33 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-09-26 11:11:33 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-09-26 11:11:33 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-09-26 11:11:33 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-09-26 11:11:34 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-09-26 11:11:35 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 11:11:35 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 11:11:35 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 192, 's0.01': 5}
+2024-09-26 11:11:35 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 176, 's0.01': 21}
+2024-09-26 11:11:35 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-09-26 11:11:35 - test.py[line:205] - INFO: {'s0.05': 4956, 's0.01': 44}
+2024-09-26 11:11:35 - test.py[line:205] - INFO: {'s0.01': 1649, 's0.05': 1695, 'standard-sample': 1656}
+2024-09-26 11:11:35 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-09-26 11:11:35 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 163, 's0.01': 34}
+2024-09-26 11:11:35 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-09-26 11:11:35 - test.py[line:167] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-09-26 11:11:35 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-09-26 11:11:35 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-09-26 11:11:35 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-09-26 11:11:35 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-09-26 11:11:35 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.3567, 50%=1.0068, 90%=1.2882, 95%=2.0000, 99%=13.0100, max=1093.0000
+2024-09-26 11:11:35 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=41.14ms
+2024-09-26 11:11:35 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2024-09-26 11:11:35 - test.py[line:391] - INFO: opt=0.54, large=0.45, wrong=0.01
+2024-09-26 11:16:26 - test.py[line:222] - INFO: Loading model.
+2024-09-26 11:16:27 - test.py[line:227] - INFO: Loading Data.
+2024-09-26 11:16:27 - test.py[line:231] - INFO: Calculating Score from model.
+2024-09-26 11:16:27 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-09-26 11:16:27 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-09-26 11:16:27 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-09-26 11:16:27 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-09-26 11:16:27 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-09-26 11:16:27 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-09-26 11:16:27 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-09-26 11:16:27 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-09-26 11:16:28 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-09-26 11:16:28 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-09-26 11:16:29 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 11:16:29 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 11:16:29 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 192, 's0.01': 5}
+2024-09-26 11:16:29 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 176, 's0.01': 21}
+2024-09-26 11:16:29 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-09-26 11:16:29 - test.py[line:205] - INFO: {'s0.05': 4956, 's0.01': 44}
+2024-09-26 11:16:29 - test.py[line:205] - INFO: {'s0.01': 1661, 'standard-sample': 1694, 's0.05': 1645}
+2024-09-26 11:16:29 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-09-26 11:16:29 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 163, 's0.01': 34}
+2024-09-26 11:16:29 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-09-26 11:16:29 - test.py[line:167] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-09-26 11:16:29 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-09-26 11:16:29 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-09-26 11:16:29 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-09-26 11:16:29 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-09-26 11:16:29 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.3567, 50%=1.0068, 90%=1.2882, 95%=2.0000, 99%=13.0100, max=1093.0000
+2024-09-26 11:16:29 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=41.14ms
+2024-09-26 11:16:29 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2024-09-26 11:16:29 - test.py[line:391] - INFO: opt=0.54, large=0.45, wrong=0.01
+2024-09-26 11:16:41 - test.py[line:222] - INFO: Loading model.
+2024-09-26 11:16:41 - test.py[line:227] - INFO: Loading Data.
+2024-09-26 11:16:41 - test.py[line:231] - INFO: Calculating Score from model.
+2024-09-26 11:16:41 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-09-26 11:16:41 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-09-26 11:16:41 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.64%
+2024-09-26 11:16:41 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-09-26 11:16:41 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-09-26 11:16:41 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-09-26 11:16:41 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-09-26 11:16:41 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-09-26 11:16:42 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-09-26 11:16:42 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-09-26 11:16:43 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 11:16:43 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 11:16:43 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 192, 's0.01': 5}
+2024-09-26 11:16:43 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 176, 's0.01': 21}
+2024-09-26 11:16:43 - test.py[line:205] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-09-26 11:16:43 - test.py[line:205] - INFO: {'s0.05': 4956, 's0.01': 44}
+2024-09-26 11:16:43 - test.py[line:205] - INFO: {'standard-sample': 1665, 's0.05': 1662, 's0.01': 1673}
+2024-09-26 11:16:43 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-09-26 11:16:43 - test.py[line:205] - INFO: {'standard-sample': 4803, 's0.05': 163, 's0.01': 34}
+2024-09-26 11:16:43 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-09-26 11:16:43 - test.py[line:167] - INFO: {'s0.05': 1387, 'standard-sample': 2628, 's0.01': 985}
+2024-09-26 11:16:43 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-09-26 11:16:43 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-09-26 11:16:43 - test.py[line:296] - INFO: Avg Sample Time=58.64ms
+2024-09-26 11:16:43 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-09-26 11:16:43 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.3567, 50%=1.0068, 90%=1.2882, 95%=2.0000, 99%=13.0100, max=1093.0000
+2024-09-26 11:16:43 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=41.14ms
+2024-09-26 11:16:43 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2024-09-26 11:16:43 - test.py[line:391] - INFO: opt=0.54, large=0.45, wrong=0.01
+2024-09-26 14:33:21 - test.py[line:222] - INFO: Loading model.
+2024-09-26 14:33:21 - test.py[line:227] - INFO: Loading Data.
+2024-09-26 14:33:21 - test.py[line:231] - INFO: Calculating Score from model.
+2024-09-26 14:33:21 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-09-26 14:33:21 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-09-26 14:33:21 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.62%
+2024-09-26 14:33:21 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-09-26 14:33:21 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-09-26 14:33:21 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-09-26 14:33:21 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-09-26 14:33:21 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-09-26 14:33:22 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-09-26 14:33:22 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-09-26 14:33:23 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 14:33:23 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 14:33:23 - test.py[line:205] - INFO: {'standard-sample': 4806, 's0.05': 190, 's0.01': 4}
+2024-09-26 14:33:23 - test.py[line:205] - INFO: {'standard-sample': 4806, 's0.05': 174, 's0.01': 20}
+2024-09-26 14:33:23 - test.py[line:205] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2024-09-26 14:33:23 - test.py[line:205] - INFO: {'s0.05': 4960, 's0.01': 40}
+2024-09-26 14:33:23 - test.py[line:205] - INFO: {'s0.01': 1704, 'standard-sample': 1658, 's0.05': 1638}
+2024-09-26 14:33:23 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-09-26 14:33:23 - test.py[line:205] - INFO: {'standard-sample': 4806, 's0.05': 163, 's0.01': 31}
+2024-09-26 14:33:23 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-09-26 14:33:23 - test.py[line:167] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2024-09-26 14:33:23 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-09-26 14:33:23 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-09-26 14:33:23 - test.py[line:296] - INFO: Avg Sample Time=36.84ms
+2024-09-26 14:33:23 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-09-26 14:33:23 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.0935, 50%=1.0068, 90%=1.2887, 95%=2.0000, 99%=12.2351, max=1002.0000
+2024-09-26 14:33:23 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=25.12ms
+2024-09-26 14:33:23 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2024-09-26 14:33:23 - test.py[line:391] - INFO: opt=0.54, large=0.45, wrong=0.01
+2024-09-26 14:34:00 - test.py[line:222] - INFO: Loading model.
+2024-09-26 14:34:00 - test.py[line:227] - INFO: Loading Data.
+2024-09-26 14:34:00 - test.py[line:231] - INFO: Calculating Score from model.
+2024-09-26 14:34:00 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2024-09-26 14:34:00 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2024-09-26 14:34:00 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.62%
+2024-09-26 14:34:00 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2024-09-26 14:34:00 - featureNew.py[line:304] - INFO: train generating wide feats...
+2024-09-26 14:34:00 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2024-09-26 14:34:00 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2024-09-26 14:34:00 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2024-09-26 14:34:01 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2024-09-26 14:34:01 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2024-09-26 14:34:02 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 14:34:02 - test.py[line:205] - INFO: {'merge': 5000}
+2024-09-26 14:34:02 - test.py[line:205] - INFO: {'standard-sample': 4806, 's0.05': 190, 's0.01': 4}
+2024-09-26 14:34:02 - test.py[line:205] - INFO: {'standard-sample': 4806, 's0.05': 174, 's0.01': 20}
+2024-09-26 14:34:02 - test.py[line:205] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2024-09-26 14:34:02 - test.py[line:205] - INFO: {'s0.05': 4960, 's0.01': 40}
+2024-09-26 14:34:02 - test.py[line:205] - INFO: {'s0.01': 1695, 'standard-sample': 1654, 's0.05': 1651}
+2024-09-26 14:34:02 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2024-09-26 14:34:02 - test.py[line:205] - INFO: {'standard-sample': 4806, 's0.05': 163, 's0.01': 31}
+2024-09-26 14:34:02 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2024-09-26 14:34:02 - test.py[line:167] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2024-09-26 14:34:02 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2024-09-26 14:34:02 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2024-09-26 14:34:02 - test.py[line:296] - INFO: Avg Sample Time=36.84ms
+2024-09-26 14:34:02 - test.py[line:298] - INFO: Error of CE using LDSS
+2024-09-26 14:34:02 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.0935, 50%=1.0068, 90%=1.2887, 95%=2.0000, 99%=12.2351, max=1002.0000
+2024-09-26 14:34:02 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=25.12ms
+2024-09-26 14:34:02 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2024-09-26 14:34:02 - test.py[line:391] - INFO: opt=0.54, large=0.45, wrong=0.01
+2025-09-08 22:42:50 - test.py[line:222] - INFO: Loading model.
+2025-09-08 22:42:51 - test.py[line:227] - INFO: Loading Data.
+2025-09-08 22:42:51 - test.py[line:231] - INFO: Calculating Score from model.
+2025-09-08 22:42:51 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2025-09-08 22:42:51 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2025-09-08 22:42:51 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2025-09-08 22:42:51 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2025-09-08 22:42:51 - featureNew.py[line:304] - INFO: train generating wide feats...
+2025-09-08 22:42:51 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2025-09-08 22:42:51 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2025-09-08 22:42:51 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2025-09-08 22:42:51 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2025-09-08 22:42:51 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2025-09-08 22:42:51 - test.py[line:205] - INFO: {'merge': 70}
+2025-09-08 22:42:51 - test.py[line:205] - INFO: {'merge': 70}
+2025-09-08 22:42:51 - test.py[line:205] - INFO: {'s0.05': 31, 'standard-sample': 36, 's0.01': 3}
+2025-09-08 22:42:51 - test.py[line:205] - INFO: {'s0.01': 7, 'standard-sample': 36, 's0.05': 27}
+2025-09-08 22:42:51 - test.py[line:205] - INFO: {'s0.01': 14, 'standard-sample': 35, 's0.05': 21}
+2025-09-08 22:42:51 - test.py[line:205] - INFO: {'s0.01': 9, 's0.05': 61}
+2025-09-08 22:42:51 - test.py[line:205] - INFO: {'s0.05': 31, 's0.01': 23, 'standard-sample': 16}
+2025-09-08 22:42:51 - test.py[line:205] - INFO: {'standard-sample': 70}
+2025-09-08 22:42:51 - test.py[line:205] - INFO: {'s0.01': 10, 'standard-sample': 36, 's0.05': 24}
+2025-09-08 22:42:51 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2025-09-08 22:42:51 - test.py[line:167] - INFO: {'merge': 70}
+2025-09-08 22:42:51 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2025-09-08 22:42:51 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2025-09-08 22:42:51 - test.py[line:296] - INFO: Avg Sample Time=154.59ms
+2025-09-08 22:42:51 - test.py[line:298] - INFO: Error of CE using LDSS
+2025-09-08 22:42:51 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.0016, 50%=1.0160, 90%=1.7869, 95%=3.6847, 99%=22.2700, max=34.0000
+2025-09-08 22:42:51 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=114.92ms
+2025-09-08 22:42:51 - test.py[line:302] - INFO: Avg Sample Ratio=0.0750
+2025-09-08 22:42:51 - test.py[line:391] - INFO: opt=0.87, large=0.07, wrong=0.06
+2025-09-10 19:57:46 - test.py[line:222] - INFO: Loading model.
+2025-09-10 19:57:46 - test.py[line:227] - INFO: Loading Data.
+2025-09-10 19:58:48 - test.py[line:222] - INFO: Loading model.
+2025-09-10 19:58:48 - test.py[line:227] - INFO: Loading Data.
+2025-09-10 19:58:48 - test.py[line:231] - INFO: Calculating Score from model.
+2025-09-10 19:58:48 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2025-09-10 19:58:48 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2025-09-10 19:58:48 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.62%
+2025-09-10 19:58:48 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2025-09-10 19:58:48 - featureNew.py[line:304] - INFO: train generating wide feats...
+2025-09-10 19:58:48 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2025-09-10 19:58:49 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2025-09-10 19:58:49 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2025-09-10 19:58:49 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2025-09-10 19:58:49 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2025-09-10 19:58:50 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 19:58:50 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 19:58:50 - test.py[line:205] - INFO: {'s0.05': 1435, 'standard-sample': 3414, 's0.01': 151}
+2025-09-10 19:58:50 - test.py[line:205] - INFO: {'s0.05': 1281, 'standard-sample': 3414, 's0.01': 305}
+2025-09-10 19:58:50 - test.py[line:205] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2025-09-10 19:58:50 - test.py[line:205] - INFO: {'s0.05': 4365, 's0.01': 635}
+2025-09-10 19:58:50 - test.py[line:205] - INFO: {'standard-sample': 1646, 's0.05': 1691, 's0.01': 1663}
+2025-09-10 19:58:50 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2025-09-10 19:58:50 - test.py[line:205] - INFO: {'s0.05': 897, 'standard-sample': 3414, 's0.01': 689}
+2025-09-10 19:58:50 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2025-09-10 19:58:50 - test.py[line:167] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2025-09-10 19:58:50 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2025-09-10 19:58:50 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2025-09-10 19:58:50 - test.py[line:296] - INFO: Avg Sample Time=36.84ms
+2025-09-10 19:58:50 - test.py[line:298] - INFO: Error of CE using LDSS
+2025-09-10 19:58:50 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.0935, 50%=1.0068, 90%=1.2887, 95%=2.0000, 99%=12.2351, max=1002.0000
+2025-09-10 19:58:50 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=25.12ms
+2025-09-10 19:58:50 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2025-09-10 19:58:50 - test.py[line:391] - INFO: opt=0.48, large=0.31, wrong=0.21
+2025-09-10 20:05:24 - test.py[line:222] - INFO: Loading model.
+2025-09-10 20:05:24 - test.py[line:227] - INFO: Loading Data.
+2025-09-10 20:05:24 - test.py[line:231] - INFO: Calculating Score from model.
+2025-09-10 20:05:24 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2025-09-10 20:05:24 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2025-09-10 20:05:24 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.62%
+2025-09-10 20:05:24 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2025-09-10 20:05:24 - featureNew.py[line:304] - INFO: train generating wide feats...
+2025-09-10 20:05:24 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2025-09-10 20:05:25 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2025-09-10 20:05:25 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2025-09-10 20:05:25 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2025-09-10 20:05:26 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2025-09-10 20:05:26 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 20:05:27 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 20:05:27 - test.py[line:205] - INFO: {'s0.05': 1435, 'standard-sample': 3414, 's0.01': 151}
+2025-09-10 20:05:27 - test.py[line:205] - INFO: {'s0.05': 1281, 'standard-sample': 3414, 's0.01': 305}
+2025-09-10 20:05:27 - test.py[line:205] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2025-09-10 20:05:27 - test.py[line:205] - INFO: {'s0.05': 4365, 's0.01': 635}
+2025-09-10 20:05:27 - test.py[line:205] - INFO: {'s0.01': 1703, 's0.05': 1615, 'standard-sample': 1682}
+2025-09-10 20:05:27 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2025-09-10 20:05:27 - test.py[line:205] - INFO: {'s0.05': 897, 'standard-sample': 3414, 's0.01': 689}
+2025-09-10 20:05:27 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2025-09-10 20:05:27 - test.py[line:167] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2025-09-10 20:05:27 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2025-09-10 20:05:27 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2025-09-10 20:05:27 - test.py[line:296] - INFO: Avg Sample Time=36.84ms
+2025-09-10 20:05:27 - test.py[line:298] - INFO: Error of CE using LDSS
+2025-09-10 20:05:27 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.0935, 50%=1.0068, 90%=1.2887, 95%=2.0000, 99%=12.2351, max=1002.0000
+2025-09-10 20:05:27 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=25.12ms
+2025-09-10 20:05:27 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2025-09-10 20:05:27 - test.py[line:391] - INFO: opt=0.48, large=0.31, wrong=0.21
+2025-09-10 20:05:53 - test.py[line:222] - INFO: Loading model.
+2025-09-10 20:05:53 - test.py[line:227] - INFO: Loading Data.
+2025-09-10 20:05:53 - test.py[line:231] - INFO: Calculating Score from model.
+2025-09-10 20:05:53 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2025-09-10 20:05:53 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2025-09-10 20:05:53 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.62%
+2025-09-10 20:05:53 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2025-09-10 20:05:53 - featureNew.py[line:304] - INFO: train generating wide feats...
+2025-09-10 20:05:54 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2025-09-10 20:05:54 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2025-09-10 20:05:54 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2025-09-10 20:05:54 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2025-09-10 20:05:55 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2025-09-10 20:05:55 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 20:05:55 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 20:05:55 - test.py[line:205] - INFO: {'s0.05': 1435, 'standard-sample': 3414, 's0.01': 151}
+2025-09-10 20:05:55 - test.py[line:205] - INFO: {'s0.05': 1281, 'standard-sample': 3414, 's0.01': 305}
+2025-09-10 20:05:55 - test.py[line:205] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2025-09-10 20:05:55 - test.py[line:205] - INFO: {'s0.05': 4365, 's0.01': 635}
+2025-09-10 20:05:55 - test.py[line:205] - INFO: {'s0.05': 1734, 's0.01': 1592, 'standard-sample': 1674}
+2025-09-10 20:05:55 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2025-09-10 20:05:55 - test.py[line:205] - INFO: {'s0.05': 897, 'standard-sample': 3414, 's0.01': 689}
+2025-09-10 20:05:55 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2025-09-10 20:05:56 - test.py[line:167] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2025-09-10 20:05:56 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2025-09-10 20:05:56 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2025-09-10 20:05:56 - test.py[line:296] - INFO: Avg Sample Time=36.84ms
+2025-09-10 20:05:56 - test.py[line:298] - INFO: Error of CE using LDSS
+2025-09-10 20:05:56 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.0935, 50%=1.0068, 90%=1.2887, 95%=2.0000, 99%=12.2351, max=1002.0000
+2025-09-10 20:05:56 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=25.12ms
+2025-09-10 20:05:56 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2025-09-10 20:05:56 - test.py[line:391] - INFO: opt=0.48, large=0.31, wrong=0.21
+2025-09-10 20:06:24 - test.py[line:222] - INFO: Loading model.
+2025-09-10 20:06:25 - test.py[line:227] - INFO: Loading Data.
+2025-09-10 20:06:25 - test.py[line:231] - INFO: Calculating Score from model.
+2025-09-10 20:06:25 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2025-09-10 20:06:25 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2025-09-10 20:06:25 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2025-09-10 20:06:25 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2025-09-10 20:06:25 - featureNew.py[line:304] - INFO: train generating wide feats...
+2025-09-10 20:06:25 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2025-09-10 20:06:25 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2025-09-10 20:06:25 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2025-09-10 20:06:25 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2025-09-10 20:06:25 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2025-09-10 20:06:25 - test.py[line:205] - INFO: {'merge': 500}
+2025-09-10 20:06:25 - test.py[line:205] - INFO: {'merge': 500}
+2025-09-10 20:06:25 - test.py[line:205] - INFO: {'standard-sample': 255, 's0.05': 240, 's0.01': 5}
+2025-09-10 20:06:25 - test.py[line:205] - INFO: {'standard-sample': 255, 's0.05': 222, 's0.01': 23}
+2025-09-10 20:06:25 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2025-09-10 20:06:25 - test.py[line:205] - INFO: {'s0.05': 419, 's0.01': 81}
+2025-09-10 20:06:25 - test.py[line:205] - INFO: {'s0.01': 172, 's0.05': 169, 'standard-sample': 159}
+2025-09-10 20:06:25 - test.py[line:205] - INFO: {'standard-sample': 500}
+2025-09-10 20:06:25 - test.py[line:205] - INFO: {'standard-sample': 255, 's0.05': 165, 's0.01': 80}
+2025-09-10 20:06:25 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2025-09-10 20:06:25 - test.py[line:167] - INFO: {'merge': 500}
+2025-09-10 20:06:25 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2025-09-10 20:06:25 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2025-09-10 20:06:25 - test.py[line:296] - INFO: Avg Sample Time=119.05ms
+2025-09-10 20:06:25 - test.py[line:298] - INFO: Error of CE using LDSS
+2025-09-10 20:06:25 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=13.5211, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=98.8060, max=2458.0000
+2025-09-10 20:06:25 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=84.37ms
+2025-09-10 20:06:25 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2025-09-10 20:06:25 - test.py[line:391] - INFO: opt=0.44, large=0.26, wrong=0.3
+2025-09-10 21:55:22 - test.py[line:222] - INFO: Loading model.
+2025-09-10 21:55:22 - test.py[line:227] - INFO: Loading Data.
+2025-09-10 21:55:22 - test.py[line:231] - INFO: Calculating Score from model.
+2025-09-10 21:55:22 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2025-09-10 21:55:22 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2025-09-10 21:55:22 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2025-09-10 21:55:22 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2025-09-10 21:55:22 - featureNew.py[line:304] - INFO: train generating wide feats...
+2025-09-10 21:55:22 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2025-09-10 21:55:22 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2025-09-10 21:55:22 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2025-09-10 21:55:22 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2025-09-10 21:55:22 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2025-09-10 21:55:23 - test.py[line:205] - INFO: {'merge': 500}
+2025-09-10 21:55:23 - test.py[line:205] - INFO: {'merge': 500}
+2025-09-10 21:55:23 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 85, 's0.01': 7}
+2025-09-10 21:55:23 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 81, 's0.01': 11}
+2025-09-10 21:55:23 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2025-09-10 21:55:23 - test.py[line:205] - INFO: {'s0.05': 473, 's0.01': 27}
+2025-09-10 21:55:23 - test.py[line:205] - INFO: {'s0.01': 172, 's0.05': 164, 'standard-sample': 164}
+2025-09-10 21:55:23 - test.py[line:205] - INFO: {'standard-sample': 500}
+2025-09-10 21:55:23 - test.py[line:205] - INFO: {'standard-sample': 408, 's0.05': 73, 's0.01': 19}
+2025-09-10 21:55:23 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2025-09-10 21:55:23 - test.py[line:167] - INFO: {'merge': 500}
+2025-09-10 21:55:23 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2025-09-10 21:55:23 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2025-09-10 21:55:23 - test.py[line:296] - INFO: Avg Sample Time=119.05ms
+2025-09-10 21:55:23 - test.py[line:298] - INFO: Error of CE using LDSS
+2025-09-10 21:55:23 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=13.5211, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=98.8060, max=2458.0000
+2025-09-10 21:55:23 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=84.37ms
+2025-09-10 21:55:23 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2025-09-10 21:55:23 - test.py[line:391] - INFO: opt=0.54, large=0.39, wrong=0.07
+2025-09-10 21:55:54 - test.py[line:222] - INFO: Loading model.
+2025-09-10 21:55:54 - test.py[line:227] - INFO: Loading Data.
+2025-09-10 21:55:54 - test.py[line:231] - INFO: Calculating Score from model.
+2025-09-10 21:55:54 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2025-09-10 21:55:54 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2025-09-10 21:55:54 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.62%
+2025-09-10 21:55:54 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2025-09-10 21:55:54 - featureNew.py[line:304] - INFO: train generating wide feats...
+2025-09-10 21:55:54 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2025-09-10 21:55:54 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2025-09-10 21:55:54 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2025-09-10 21:55:55 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2025-09-10 21:55:55 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2025-09-10 21:55:56 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 21:55:56 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 21:55:56 - test.py[line:205] - INFO: {'standard-sample': 4191, 's0.05': 721, 's0.01': 88}
+2025-09-10 21:55:56 - test.py[line:205] - INFO: {'standard-sample': 4191, 's0.05': 658, 's0.01': 151}
+2025-09-10 21:55:56 - test.py[line:205] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2025-09-10 21:55:56 - test.py[line:205] - INFO: {'s0.05': 4842, 's0.01': 158}
+2025-09-10 21:55:56 - test.py[line:205] - INFO: {'standard-sample': 1616, 's0.05': 1685, 's0.01': 1699}
+2025-09-10 21:55:56 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2025-09-10 21:55:56 - test.py[line:205] - INFO: {'standard-sample': 4191, 's0.05': 615, 's0.01': 194}
+2025-09-10 21:55:56 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2025-09-10 21:55:56 - test.py[line:167] - INFO: {'merge': 5000}
+2025-09-10 21:55:56 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2025-09-10 21:55:56 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2025-09-10 21:55:56 - test.py[line:296] - INFO: Avg Sample Time=36.84ms
+2025-09-10 21:55:56 - test.py[line:298] - INFO: Error of CE using LDSS
+2025-09-10 21:55:56 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.2716, 50%=1.0109, 90%=1.4218, 95%=2.6811, 99%=17.0100, max=1002.0000
+2025-09-10 21:55:56 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=34.27ms
+2025-09-10 21:55:56 - test.py[line:302] - INFO: Avg Sample Ratio=0.0914
+2025-09-10 21:55:56 - test.py[line:391] - INFO: opt=0.61, large=0.35, wrong=0.04
+2025-09-10 22:16:17 - test.py[line:222] - INFO: Loading model.
+2025-09-10 22:16:17 - test.py[line:227] - INFO: Loading Data.
+2025-09-10 22:16:17 - test.py[line:231] - INFO: Calculating Score from model.
+2025-09-10 22:16:17 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2025-09-10 22:16:17 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2025-09-10 22:16:17 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.62%
+2025-09-10 22:16:17 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2025-09-10 22:16:17 - featureNew.py[line:304] - INFO: train generating wide feats...
+2025-09-10 22:16:17 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2025-09-10 22:16:17 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2025-09-10 22:16:17 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2025-09-10 22:16:18 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2025-09-10 22:16:18 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2025-09-10 22:16:19 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 22:16:19 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 22:16:19 - test.py[line:205] - INFO: {'standard-sample': 4150, 's0.05': 769, 's0.01': 81}
+2025-09-10 22:16:19 - test.py[line:205] - INFO: {'standard-sample': 4150, 's0.05': 721, 's0.01': 129}
+2025-09-10 22:16:19 - test.py[line:205] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2025-09-10 22:16:19 - test.py[line:205] - INFO: {'s0.05': 4861, 's0.01': 139}
+2025-09-10 22:16:19 - test.py[line:205] - INFO: {'standard-sample': 1696, 's0.01': 1643, 's0.05': 1661}
+2025-09-10 22:16:19 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2025-09-10 22:16:19 - test.py[line:205] - INFO: {'standard-sample': 4150, 's0.05': 675, 's0.01': 175}
+2025-09-10 22:16:19 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2025-09-10 22:16:19 - test.py[line:167] - INFO: {'merge': 5000}
+2025-09-10 22:16:19 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2025-09-10 22:16:19 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2025-09-10 22:16:19 - test.py[line:296] - INFO: Avg Sample Time=36.84ms
+2025-09-10 22:16:19 - test.py[line:298] - INFO: Error of CE using LDSS
+2025-09-10 22:16:19 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.2661, 50%=1.0108, 90%=1.4218, 95%=2.6912, 99%=18.0100, max=1002.0000
+2025-09-10 22:16:19 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=34.22ms
+2025-09-10 22:16:19 - test.py[line:302] - INFO: Avg Sample Ratio=0.0910
+2025-09-10 22:16:19 - test.py[line:391] - INFO: opt=0.62, large=0.34, wrong=0.04
+2025-09-10 22:27:24 - test.py[line:222] - INFO: Loading model.
+2025-09-10 22:27:24 - test.py[line:227] - INFO: Loading Data.
+2025-09-10 22:27:24 - test.py[line:231] - INFO: Calculating Score from model.
+2025-09-10 22:27:24 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2025-09-10 22:27:24 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2025-09-10 22:27:25 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.62%
+2025-09-10 22:27:25 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2025-09-10 22:27:25 - featureNew.py[line:304] - INFO: train generating wide feats...
+2025-09-10 22:27:25 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2025-09-10 22:27:25 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2025-09-10 22:27:25 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2025-09-10 22:27:25 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2025-09-10 22:27:26 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2025-09-10 22:27:26 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 22:27:26 - test.py[line:205] - INFO: {'merge': 5000}
+2025-09-10 22:27:27 - test.py[line:205] - INFO: {'standard-sample': 4101, 's0.05': 803, 's0.01': 96}
+2025-09-10 22:27:27 - test.py[line:205] - INFO: {'standard-sample': 4101, 's0.05': 757, 's0.01': 142}
+2025-09-10 22:27:27 - test.py[line:205] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2025-09-10 22:27:27 - test.py[line:205] - INFO: {'s0.05': 4851, 's0.01': 149}
+2025-09-10 22:27:27 - test.py[line:205] - INFO: {'s0.05': 1650, 's0.01': 1634, 'standard-sample': 1716}
+2025-09-10 22:27:27 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2025-09-10 22:27:27 - test.py[line:205] - INFO: {'standard-sample': 4101, 's0.05': 703, 's0.01': 196}
+2025-09-10 22:27:27 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2025-09-10 22:27:27 - test.py[line:167] - INFO: {'merge': 5000}
+2025-09-10 22:27:27 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2025-09-10 22:27:27 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2025-09-10 22:27:27 - test.py[line:296] - INFO: Avg Sample Time=36.84ms
+2025-09-10 22:27:27 - test.py[line:298] - INFO: Error of CE using LDSS
+2025-09-10 22:27:27 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.1948, 50%=1.0104, 90%=1.4140, 95%=2.6385, 99%=17.0200, max=1002.0000
+2025-09-10 22:27:27 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=33.60ms
+2025-09-10 22:27:27 - test.py[line:302] - INFO: Avg Sample Ratio=0.0904
+2025-09-10 22:27:27 - test.py[line:391] - INFO: opt=0.62, large=0.33, wrong=0.05
+2026-05-26 16:59:22 - test.py[line:222] - INFO: Loading model.
+2026-05-26 16:59:23 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 16:59:25 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-26 16:59:25 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2026-05-26 16:59:25 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2026-05-26 16:59:25 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2026-05-26 16:59:25 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2026-05-26 16:59:26 - featureNew.py[line:304] - INFO: train generating wide feats...
+2026-05-26 16:59:26 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2026-05-26 16:59:27 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2026-05-26 16:59:27 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2026-05-26 16:59:27 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2026-05-26 16:59:28 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2026-05-26 16:59:28 - test.py[line:205] - INFO: {'merge': 70}
+2026-05-26 16:59:28 - test.py[line:205] - INFO: {'merge': 70}
+2026-05-26 16:59:29 - test.py[line:205] - INFO: {'standard-sample': 50, 's0.05': 18, 's0.01': 2}
+2026-05-26 16:59:29 - test.py[line:205] - INFO: {'standard-sample': 50, 's0.05': 16, 's0.01': 4}
+2026-05-26 16:59:29 - test.py[line:205] - INFO: {'s0.01': 14, 'standard-sample': 35, 's0.05': 21}
+2026-05-26 16:59:30 - test.py[line:205] - INFO: {'s0.05': 66, 's0.01': 4}
+2026-05-26 16:59:30 - test.py[line:205] - INFO: {'s0.01': 24, 'standard-sample': 23, 's0.05': 23}
+2026-05-26 16:59:30 - test.py[line:205] - INFO: {'standard-sample': 70}
+2026-05-26 16:59:30 - test.py[line:205] - INFO: {'standard-sample': 50, 's0.05': 15, 's0.01': 5}
+2026-05-26 16:59:31 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-26 16:59:31 - test.py[line:167] - INFO: {'s0.01': 14, 'standard-sample': 35, 's0.05': 21}
+2026-05-26 16:59:31 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-26 16:59:31 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2026-05-26 16:59:31 - test.py[line:296] - INFO: Avg Sample Time=154.59ms
+2026-05-26 16:59:32 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-26 16:59:32 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.1362, 50%=1.0149, 90%=1.8082, 95%=8.0079, 99%=22.2700, max=34.0000
+2026-05-26 16:59:32 - test.py[line:301] - INFO: LDSS Avg Recommend Time=3.06ms, Avg Sample Time=112.96ms
+2026-05-26 16:59:32 - test.py[line:302] - INFO: Avg Sample Ratio=0.0670
+2026-05-26 16:59:32 - test.py[line:391] - INFO: opt=0.63, large=0.29, wrong=0.09
+2026-05-26 17:00:27 - test.py[line:222] - INFO: Loading model.
+2026-05-26 17:00:27 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 17:00:55 - test.py[line:222] - INFO: Loading model.
+2026-05-26 17:00:55 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 18:00:14 - test.py[line:222] - INFO: Loading model.
+2026-05-26 18:00:14 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 18:00:14 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-26 18:00:14 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2026-05-26 18:00:14 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2026-05-26 18:00:14 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2026-05-26 18:00:14 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2026-05-26 18:00:14 - featureNew.py[line:304] - INFO: train generating wide feats...
+2026-05-26 18:00:14 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2026-05-26 18:00:15 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2026-05-26 18:00:15 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2026-05-26 18:00:15 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2026-05-26 18:00:15 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2026-05-26 18:00:15 - test.py[line:205] - INFO: {'merge': 500}
+2026-05-26 18:00:15 - test.py[line:205] - INFO: {'merge': 500}
+2026-05-26 18:00:15 - test.py[line:205] - INFO: {'standard-sample': 363, 's0.05': 126, 's0.01': 11}
+2026-05-26 18:00:15 - test.py[line:205] - INFO: {'standard-sample': 363, 's0.05': 107, 's0.01': 30}
+2026-05-26 18:00:15 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2026-05-26 18:00:15 - test.py[line:205] - INFO: {'s0.05': 456, 's0.01': 44}
+2026-05-26 18:00:15 - test.py[line:205] - INFO: {'s0.05': 172, 's0.01': 167, 'standard-sample': 161}
+2026-05-26 18:00:15 - test.py[line:205] - INFO: {'standard-sample': 500}
+2026-05-26 18:00:15 - test.py[line:205] - INFO: {'standard-sample': 363, 's0.05': 92, 's0.01': 45}
+2026-05-26 18:00:15 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-26 18:00:15 - test.py[line:167] - INFO: {'merge': 500}
+2026-05-26 18:00:15 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-26 18:00:15 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2026-05-26 18:00:15 - test.py[line:296] - INFO: Avg Sample Time=119.05ms
+2026-05-26 18:00:15 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-26 18:00:15 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=13.5211, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=98.8060, max=2458.0000
+2026-05-26 18:00:15 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=84.37ms
+2026-05-26 18:00:15 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2026-05-26 18:00:15 - test.py[line:391] - INFO: opt=0.72, large=0.26, wrong=0.02
+2026-05-26 18:00:48 - test.py[line:222] - INFO: Loading model.
+2026-05-26 18:00:48 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 18:01:02 - test.py[line:222] - INFO: Loading model.
+2026-05-26 18:01:02 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 18:02:07 - test.py[line:222] - INFO: Loading model.
+2026-05-26 18:02:07 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 18:02:21 - test.py[line:222] - INFO: Loading model.
+2026-05-26 18:02:21 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 18:02:21 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-26 18:02:21 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2026-05-26 18:02:21 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2026-05-26 18:02:21 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2026-05-26 18:02:21 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2026-05-26 18:02:21 - featureNew.py[line:304] - INFO: train generating wide feats...
+2026-05-26 18:02:21 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2026-05-26 18:02:21 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2026-05-26 18:02:21 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2026-05-26 18:02:21 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2026-05-26 18:02:21 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2026-05-26 18:02:22 - test.py[line:205] - INFO: {'merge': 500}
+2026-05-26 18:02:22 - test.py[line:205] - INFO: {'merge': 500}
+2026-05-26 18:02:22 - test.py[line:205] - INFO: {'standard-sample': 363, 's0.05': 126, 's0.01': 11}
+2026-05-26 18:02:22 - test.py[line:205] - INFO: {'standard-sample': 363, 's0.05': 107, 's0.01': 30}
+2026-05-26 18:02:22 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2026-05-26 18:02:22 - test.py[line:205] - INFO: {'s0.05': 456, 's0.01': 44}
+2026-05-26 18:02:22 - test.py[line:205] - INFO: {'s0.01': 155, 'standard-sample': 160, 's0.05': 185}
+2026-05-26 18:02:22 - test.py[line:205] - INFO: {'standard-sample': 500}
+2026-05-26 18:02:22 - test.py[line:205] - INFO: {'standard-sample': 363, 's0.05': 92, 's0.01': 45}
+2026-05-26 18:02:22 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-26 18:02:22 - test.py[line:167] - INFO: {'merge': 500}
+2026-05-26 18:02:22 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-26 18:02:22 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2026-05-26 18:02:22 - test.py[line:296] - INFO: Avg Sample Time=119.05ms
+2026-05-26 18:02:22 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-26 18:02:22 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=13.5211, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=98.8060, max=2458.0000
+2026-05-26 18:02:22 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.01ms, Avg Sample Time=84.37ms
+2026-05-26 18:02:22 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2026-05-26 18:02:22 - test.py[line:391] - INFO: opt=0.72, large=0.26, wrong=0.02
+2026-05-26 18:02:45 - test.py[line:222] - INFO: Loading model.
+2026-05-26 18:02:45 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 18:02:53 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-26 18:02:53 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2026-05-26 18:02:53 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2026-05-26 18:02:53 - featureNew.py[line:286] - INFO: Data num=10000 label1 num=29.62%
+2026-05-26 18:02:53 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (10000, 1177)
+2026-05-26 18:02:53 - featureNew.py[line:304] - INFO: train generating wide feats...
+2026-05-26 18:02:53 - featureNew.py[line:319] - INFO: train of data shape: (10000, 51)
+2026-05-26 18:02:53 - featureNew.py[line:351] - INFO: train col_sel data shape: (10000, 25)
+2026-05-26 18:02:53 - featureNew.py[line:367] - INFO: train deep data shape: (10000, 560)
+2026-05-26 18:02:54 - featureNew.py[line:379] - INFO: train sql data shape: (10000, 50)
+2026-05-26 18:02:55 - featureNew.py[line:408] - INFO: train co data shape: (10000, 45)
+2026-05-26 18:02:56 - test.py[line:205] - INFO: {'merge': 5000}
+2026-05-26 18:02:56 - test.py[line:205] - INFO: {'merge': 5000}
+2026-05-26 18:02:56 - test.py[line:205] - INFO: {'standard-sample': 4212, 's0.05': 681, 's0.01': 107}
+2026-05-26 18:02:56 - test.py[line:205] - INFO: {'standard-sample': 4212, 's0.05': 619, 's0.01': 169}
+2026-05-26 18:02:56 - test.py[line:205] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2026-05-26 18:02:56 - test.py[line:205] - INFO: {'s0.05': 4792, 's0.01': 208}
+2026-05-26 18:02:56 - test.py[line:205] - INFO: {'s0.01': 1677, 's0.05': 1645, 'standard-sample': 1678}
+2026-05-26 18:02:56 - test.py[line:205] - INFO: {'standard-sample': 5000}
+2026-05-26 18:02:56 - test.py[line:205] - INFO: {'standard-sample': 4212, 's0.05': 551, 's0.01': 237}
+2026-05-26 18:02:56 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-26 18:02:56 - test.py[line:167] - INFO: {'standard-sample': 2629, 's0.05': 1388, 's0.01': 983}
+2026-05-26 18:02:56 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-26 18:02:56 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.9476, 50%=1.0123, 90%=1.4225, 95%=2.6811, 99%=19.0000, max=1608.0000
+2026-05-26 18:02:56 - test.py[line:296] - INFO: Avg Sample Time=36.84ms
+2026-05-26 18:02:56 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-26 18:02:56 - log.py[line:46] - INFO: In dataset train, Count=  5000, Mean=2.0935, 50%=1.0068, 90%=1.2887, 95%=2.0000, 99%=12.2351, max=1002.0000
+2026-05-26 18:02:56 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=25.12ms
+2026-05-26 18:02:56 - test.py[line:302] - INFO: Avg Sample Ratio=0.0684
+2026-05-26 18:02:56 - test.py[line:391] - INFO: opt=0.52, large=0.39, wrong=0.09
+2026-05-26 18:03:26 - test.py[line:222] - INFO: Loading model.
+2026-05-26 18:03:26 - test.py[line:227] - INFO: Loading Data.
+2026-05-26 18:03:26 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-26 18:03:26 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2026-05-26 18:03:26 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2026-05-26 18:03:27 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2026-05-26 18:03:27 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2026-05-26 18:03:27 - featureNew.py[line:304] - INFO: train generating wide feats...
+2026-05-26 18:03:27 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2026-05-26 18:03:27 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2026-05-26 18:03:27 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2026-05-26 18:03:27 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2026-05-26 18:03:27 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2026-05-26 18:03:27 - test.py[line:205] - INFO: {'merge': 70}
+2026-05-26 18:03:27 - test.py[line:205] - INFO: {'merge': 70}
+2026-05-26 18:03:27 - test.py[line:205] - INFO: {'standard-sample': 51, 's0.05': 18, 's0.01': 1}
+2026-05-26 18:03:27 - test.py[line:205] - INFO: {'standard-sample': 51, 's0.05': 13, 's0.01': 6}
+2026-05-26 18:03:27 - test.py[line:205] - INFO: {'s0.01': 14, 'standard-sample': 35, 's0.05': 21}
+2026-05-26 18:03:27 - test.py[line:205] - INFO: {'s0.05': 65, 's0.01': 5}
+2026-05-26 18:03:27 - test.py[line:205] - INFO: {'s0.01': 21, 's0.05': 21, 'standard-sample': 28}
+2026-05-26 18:03:27 - test.py[line:205] - INFO: {'standard-sample': 70}
+2026-05-26 18:03:27 - test.py[line:205] - INFO: {'standard-sample': 51, 's0.05': 13, 's0.01': 6}
+2026-05-26 18:03:27 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-26 18:03:27 - test.py[line:167] - INFO: {'s0.01': 14, 'standard-sample': 35, 's0.05': 21}
+2026-05-26 18:03:27 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-26 18:03:27 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2026-05-26 18:03:27 - test.py[line:296] - INFO: Avg Sample Time=154.59ms
+2026-05-26 18:03:27 - test.py[line:298] - INFO: Error of CE using LDSS
+2026-05-26 18:03:27 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.1362, 50%=1.0149, 90%=1.8082, 95%=8.0079, 99%=22.2700, max=34.0000
+2026-05-26 18:03:27 - test.py[line:301] - INFO: LDSS Avg Recommend Time=0.00ms, Avg Sample Time=112.96ms
+2026-05-26 18:03:27 - test.py[line:302] - INFO: Avg Sample Ratio=0.0670
+2026-05-26 18:03:27 - test.py[line:391] - INFO: opt=0.49, large=0.34, wrong=0.17
+2026-05-27 13:49:57 - test.py[line:222] - INFO: Loading model.
+2026-05-27 13:49:58 - test.py[line:227] - INFO: Loading Data.
+2026-05-27 13:49:58 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-27 13:49:58 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2026-05-27 13:49:58 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2026-05-27 13:49:58 - featureNew.py[line:286] - INFO: Data num=140 label1 num=32.86%
+2026-05-27 13:49:58 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (140, 1177)
+2026-05-27 13:49:58 - featureNew.py[line:304] - INFO: train generating wide feats...
+2026-05-27 13:49:58 - featureNew.py[line:319] - INFO: train of data shape: (140, 51)
+2026-05-27 13:49:58 - featureNew.py[line:351] - INFO: train col_sel data shape: (140, 25)
+2026-05-27 13:49:58 - featureNew.py[line:367] - INFO: train deep data shape: (140, 560)
+2026-05-27 13:49:58 - featureNew.py[line:379] - INFO: train sql data shape: (140, 50)
+2026-05-27 13:49:58 - featureNew.py[line:408] - INFO: train co data shape: (140, 45)
+2026-05-27 13:49:58 - test.py[line:205] - INFO: {'merge': 70}
+2026-05-27 13:49:58 - test.py[line:205] - INFO: {'merge': 70}
+2026-05-27 13:49:58 - test.py[line:205] - INFO: {'standard-sample': 51, 's0.05': 18, 's0.01': 1}
+2026-05-27 13:49:58 - test.py[line:205] - INFO: {'standard-sample': 51, 's0.05': 13, 's0.01': 6}
+2026-05-27 13:49:58 - test.py[line:205] - INFO: {'s0.01': 14, 'standard-sample': 35, 's0.05': 21}
+2026-05-27 13:49:58 - test.py[line:205] - INFO: {'s0.05': 65, 's0.01': 5}
+2026-05-27 13:49:58 - test.py[line:205] - INFO: {'s0.05': 23, 's0.01': 23, 'standard-sample': 24}
+2026-05-27 13:49:58 - test.py[line:205] - INFO: {'standard-sample': 70}
+2026-05-27 13:49:58 - test.py[line:205] - INFO: {'standard-sample': 51, 's0.05': 13, 's0.01': 6}
+2026-05-27 13:49:58 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-27 13:49:58 - test.py[line:167] - INFO: {'s0.01': 14, 'standard-sample': 35, 's0.05': 21}
+2026-05-27 13:49:58 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-27 13:49:58 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=4.1157, 50%=1.0351, 90%=2.1562, 95%=14.3000, 99%=63.9547, max=99.4669
+2026-05-27 13:49:58 - test.py[line:296] - INFO: Avg Sample Time=154.59ms
+2026-05-27 13:49:58 - test.py[line:298] - INFO: PSDSS Result
+2026-05-27 13:49:58 - log.py[line:46] - INFO: In dataset train, Count=    70, Mean=2.1362, 50%=1.0149, 90%=1.8082, 95%=8.0079, 99%=22.2700, max=34.0000
+2026-05-27 13:49:58 - test.py[line:301] - INFO: PSDSS Avg Recommend Time=0.00ms, Avg Sample Time=112.96ms
+2026-05-27 13:49:58 - test.py[line:302] - INFO: Avg Sample Ratio=0.0670
+2026-05-27 13:49:58 - test.py[line:391] - INFO: opt=0.49, large=0.34, wrong=0.17
+2026-05-27 14:38:35 - test.py[line:222] - INFO: Loading model.
+2026-05-27 14:38:35 - test.py[line:227] - INFO: Loading Data.
+2026-05-27 14:38:35 - test.py[line:231] - INFO: Calculating Score from model.
+2026-05-27 14:38:35 - featureNew.py[line:276] - INFO: Start loading pickle of train...
+2026-05-27 14:38:35 - featureNew.py[line:278] - INFO: Pickle of train loaded, filling nan...
+2026-05-27 14:38:35 - featureNew.py[line:286] - INFO: Data num=1000 label1 num=32.40%
+2026-05-27 14:38:35 - featureNew.py[line:298] - INFO: Dropping label and id, train raw data shape: (1000, 1177)
+2026-05-27 14:38:35 - featureNew.py[line:304] - INFO: train generating wide feats...
+2026-05-27 14:38:35 - featureNew.py[line:319] - INFO: train of data shape: (1000, 51)
+2026-05-27 14:38:36 - featureNew.py[line:351] - INFO: train col_sel data shape: (1000, 25)
+2026-05-27 14:38:36 - featureNew.py[line:367] - INFO: train deep data shape: (1000, 560)
+2026-05-27 14:38:36 - featureNew.py[line:379] - INFO: train sql data shape: (1000, 50)
+2026-05-27 14:38:36 - featureNew.py[line:408] - INFO: train co data shape: (1000, 45)
+2026-05-27 14:38:36 - test.py[line:205] - INFO: {'merge': 500}
+2026-05-27 14:38:36 - test.py[line:205] - INFO: {'merge': 500}
+2026-05-27 14:38:36 - test.py[line:205] - INFO: {'standard-sample': 363, 's0.05': 126, 's0.01': 11}
+2026-05-27 14:38:36 - test.py[line:205] - INFO: {'standard-sample': 363, 's0.05': 107, 's0.01': 30}
+2026-05-27 14:38:36 - test.py[line:205] - INFO: {'s0.05': 163, 'standard-sample': 239, 's0.01': 98}
+2026-05-27 14:38:36 - test.py[line:205] - INFO: {'s0.05': 456, 's0.01': 44}
+2026-05-27 14:38:36 - test.py[line:205] - INFO: {'s0.01': 173, 'standard-sample': 176, 's0.05': 151}
+2026-05-27 14:38:36 - test.py[line:205] - INFO: {'standard-sample': 500}
+2026-05-27 14:38:36 - test.py[line:205] - INFO: {'standard-sample': 363, 's0.05': 92, 's0.01': 45}
+2026-05-27 14:38:36 - test.py[line:287] - INFO: Recommending sample from Meta-info.
+2026-05-27 14:38:36 - test.py[line:167] - INFO: {'merge': 500}
+2026-05-27 14:38:36 - test.py[line:293] - INFO: Error of CE using Standard Sample
+2026-05-27 14:38:36 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=539.0429, 50%=1.0138, 90%=1.2978, 95%=2.0265, 99%=573.1900, max=233864.0000
+2026-05-27 14:38:36 - test.py[line:296] - INFO: Avg Sample Time=119.05ms
+2026-05-27 14:38:36 - test.py[line:298] - INFO: PSDSS Result
+2026-05-27 14:38:36 - log.py[line:46] - INFO: In dataset train, Count=   500, Mean=13.5211, 50%=1.0146, 90%=1.4315, 95%=2.9445, 99%=98.8060, max=2458.0000
+2026-05-27 14:38:36 - test.py[line:301] - INFO: PSDSS Avg Recommend Time=0.00ms, Avg Sample Time=84.37ms
+2026-05-27 14:38:36 - test.py[line:302] - INFO: Avg Sample Ratio=0.0600
+2026-05-27 14:38:36 - test.py[line:391] - INFO: opt=0.72, large=0.26, wrong=0.02
