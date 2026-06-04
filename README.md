@@ -1,4 +1,4 @@
-# LDSS
+# PSDSS
 
 PyTorch implementation of Learned Dynamic Sample Selection (LDSS) to estimate the cardinality of queries.
 
